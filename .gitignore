@@ -1,0 +1,10 @@
+*
+
+!.gitignore
+!campaigns/*
+#!characters/*
+#test test test
+
+campaigns/5E Sample Campaign
+campaigns/A Tale of Dinor - 3.5E
+campaigns/A Tale of Dinor - 4E
