@@ -1,0 +1,3099 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3">
+	<background>
+	</background>
+	<battle>
+		<category name="Act 1: Goblin Arrows" baseicon="0" decalicon="0">
+			<id-00001>
+				<exp type="number">225</exp>
+				<locked type="number">1</locked>
+				<name type="string">Kennel</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00004</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Wolf</name>
+						<token type="token">tokens/Medium/w.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00001>
+			<id-00002>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Goblin Ambush</name>
+				<npclist>
+					<id-00001>
+						<count type="number">4</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+						</maplink>
+						<name type="string">Goblin</name>
+						<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00002>
+			<id-00003>
+				<cr type="string">1</cr>
+				<exp type="number">50</exp>
+				<locked type="number">1</locked>
+				<name type="string">Overpass</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Goblin</name>
+						<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00003>
+			<id-00004>
+				<exp type="number">600</exp>
+				<locked type="number">1</locked>
+				<name type="string">Goblin Den</name>
+				<npclist>
+					<id-00001>
+						<count type="number">5</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+							<id-00005>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00005>
+						</maplink>
+						<name type="string">Goblin</name>
+						<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00003</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Yeemik</name>
+						<token type="token">tokens/Medium/y.png@Letter Tokens</token>
+					</id-00002>
+				</npclist>
+			</id-00004>
+			<id-00005>
+				<exp type="number">100</exp>
+				<locked type="number">1</locked>
+				<name type="string">Goblin Blind</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Goblin</name>
+						<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00005>
+			<id-00006>
+				<exp type="number">225</exp>
+				<locked type="number">1</locked>
+				<name type="string">Twin Pools Cave</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Goblin</name>
+						<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00006>
+			<id-00007>
+				<exp type="number">700</exp>
+				<locked type="number">1</locked>
+				<name type="string">Klarg's Cave</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00001</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Klarg</name>
+						<token type="token">tokens/Medium/b.png@Letter Tokens</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00004</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Ripper</name>
+						<token type="token">tokens/Medium/w.png@Letter Tokens</token>
+					</id-00002>
+					<id-00003>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Goblin</name>
+						<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+					</id-00003>
+				</npclist>
+			</id-00007>
+		</category>
+	</battle>
+	<calendar>
+		<public />
+		<base>
+			<public />
+		</base>
+	</calendar>
+	<charsheet>
+		<id-00001>
+			<abilities>
+				<charisma>
+					<bonus type="number">1</bonus>
+					<save type="number">1</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">12</score>
+				</charisma>
+				<constitution>
+					<bonus type="number">2</bonus>
+					<save type="number">2</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">15</score>
+				</constitution>
+				<dexterity>
+					<bonus type="number">-1</bonus>
+					<save type="number">-1</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">8</score>
+				</dexterity>
+				<intelligence>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</intelligence>
+				<strength>
+					<bonus type="number">2</bonus>
+					<save type="number">2</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">14</score>
+				</strength>
+				<wisdom>
+					<bonus type="number">3</bonus>
+					<save type="number">3</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">16</score>
+				</wisdom>
+			</abilities>
+			<adventurelist>
+			</adventurelist>
+			<background type="string">Soldier</background>
+			<backgroundlink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</backgroundlink>
+			<classes>
+				<id-00001>
+					<casterlevelinvmult type="number">1</casterlevelinvmult>
+					<casterpactmagic type="number">0</casterpactmagic>
+					<hddie type="dice">d8</hddie>
+					<hdused type="number">1</hdused>
+					<level type="number">1</level>
+					<name type="string">Cleric</name>
+					<shortcut type="windowreference">
+						<class></class>
+						<recordname></recordname>
+					</shortcut>
+				</id-00001>
+			</classes>
+			<coins>
+				<slot1>
+					<amount type="number">0</amount>
+				</slot1>
+				<slot2>
+					<amount type="number">0</amount>
+				</slot2>
+				<slot3>
+					<amount type="number">0</amount>
+				</slot3>
+				<slot4>
+					<amount type="number">0</amount>
+				</slot4>
+				<slot5>
+					<amount type="number">0</amount>
+				</slot5>
+				<slot6>
+					<amount type="number">0</amount>
+				</slot6>
+			</coins>
+			<defenses>
+				<ac>
+					<armor type="number">6</armor>
+					<dexbonus type="string">no</dexbonus>
+					<disstealth type="number">1</disstealth>
+					<misc type="number">0</misc>
+					<prof type="number">1</prof>
+					<shield type="number">2</shield>
+					<temporary type="number">0</temporary>
+					<total type="number">18</total>
+				</ac>
+			</defenses>
+			<encumbrance>
+				<encumbered type="number">70</encumbered>
+				<encumberedheavy type="number">140</encumberedheavy>
+				<liftpushdrag type="number">420</liftpushdrag>
+				<load type="number">65</load>
+				<max type="number">210</max>
+			</encumbrance>
+			<exp type="number">0</exp>
+			<expneeded type="number">0</expneeded>
+			<featlist>
+			</featlist>
+			<featurelist>
+			</featurelist>
+			<hp>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<hdmod type="number">0</hdmod>
+				<hdstat type="string">dexterity</hdstat>
+				<temporary type="number">0</temporary>
+				<total type="number">11</total>
+				<wounds type="number">0</wounds>
+			</hp>
+			<initiative>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">-1</total>
+			</initiative>
+			<inspiration type="number">0</inspiration>
+			<inventorylist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">2</carried>
+					<cost type="string">15gp</cost>
+					<count type="number">1</count>
+					<damage type="string">1d8 bludgeoning</damage>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Warhammer</name>
+					<properties type="string">Versatile (1d10)</properties>
+					<rarity type="string">Common</rarity>
+					<subtype type="string">Hammer</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">2</carried>
+					<cost type="string">5gp</cost>
+					<count type="number">1</count>
+					<damage type="string">1d6 slashing</damage>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Handaxe</name>
+					<properties type="string">Light\nThrown (20/60)</properties>
+					<rarity type="string">Common</rarity>
+					<subtype type="string">Axe</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00002>
+				<id-00003>
+					<ac type="number">16</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">2</carried>
+					<cost type="string">75gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<dexbonus type="string">0</dexbonus>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Chain Mail</name>
+					<stealth type="string">Disadvantage</stealth>
+					<strength type="string">13</strength>
+					<subtype type="string">Heavy Armor</subtype>
+					<type type="string">Armor</type>
+					<weight type="number">55</weight>
+				</id-00003>
+				<id-00004>
+					<ac type="number">0</ac>
+					<bonus type="number">2</bonus>
+					<carried type="number">2</carried>
+					<cost type="string">10gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Shield</name>
+					<subtype type="string">Shield</subtype>
+					<type type="string">Armor</type>
+					<weight type="number">6</weight>
+				</id-00004>
+			</inventorylist>
+			<languagelist>
+			</languagelist>
+			<level type="number">1</level>
+			<name type="string">Torbera Ironfist</name>
+			<perception type="number">13</perception>
+			<perceptionmodifier type="number">0</perceptionmodifier>
+			<powermeta>
+				<pactmagicslots1>
+					<max type="number">0</max>
+				</pactmagicslots1>
+				<pactmagicslots2>
+					<max type="number">0</max>
+				</pactmagicslots2>
+				<pactmagicslots3>
+					<max type="number">0</max>
+				</pactmagicslots3>
+				<pactmagicslots4>
+					<max type="number">0</max>
+				</pactmagicslots4>
+				<pactmagicslots5>
+					<max type="number">0</max>
+				</pactmagicslots5>
+				<pactmagicslots6>
+					<max type="number">0</max>
+				</pactmagicslots6>
+				<pactmagicslots7>
+					<max type="number">0</max>
+				</pactmagicslots7>
+				<pactmagicslots8>
+					<max type="number">0</max>
+				</pactmagicslots8>
+				<pactmagicslots9>
+					<max type="number">0</max>
+				</pactmagicslots9>
+				<spellslots1>
+					<max type="number">0</max>
+				</spellslots1>
+				<spellslots2>
+					<max type="number">0</max>
+				</spellslots2>
+				<spellslots3>
+					<max type="number">0</max>
+				</spellslots3>
+				<spellslots4>
+					<max type="number">0</max>
+				</spellslots4>
+				<spellslots5>
+					<max type="number">0</max>
+				</spellslots5>
+				<spellslots6>
+					<max type="number">0</max>
+				</spellslots6>
+				<spellslots7>
+					<max type="number">0</max>
+				</spellslots7>
+				<spellslots8>
+					<max type="number">0</max>
+				</spellslots8>
+				<spellslots9>
+					<max type="number">0</max>
+				</spellslots9>
+			</powermeta>
+			<powers>
+			</powers>
+			<profbonus type="number">2</profbonus>
+			<proficiencylist>
+			</proficiencylist>
+			<race type="string">Hill Dwarf</race>
+			<racelink type="windowreference">
+				<class>reference_race</class>
+				<recordname>race.id-00001</recordname>
+			</racelink>
+			<senses type="string">Darkvision 60</senses>
+			<size type="string">Medium</size>
+			<skilllist>
+				<id-00001>
+					<misc type="number">0</misc>
+					<name type="string">Perception</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">3</total>
+				</id-00001>
+				<id-00002>
+					<misc type="number">0</misc>
+					<name type="string">Arcana</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00002>
+				<id-00003>
+					<misc type="number">0</misc>
+					<name type="string">Persuasion</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">1</total>
+				</id-00003>
+				<id-00004>
+					<misc type="number">0</misc>
+					<name type="string">Nature</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00004>
+				<id-00005>
+					<misc type="number">0</misc>
+					<name type="string">Medicine</name>
+					<prof type="number">1</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">5</total>
+				</id-00005>
+				<id-00006>
+					<misc type="number">0</misc>
+					<name type="string">Survival</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">3</total>
+				</id-00006>
+				<id-00007>
+					<misc type="number">0</misc>
+					<name type="string">Performance</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">1</total>
+				</id-00007>
+				<id-00008>
+					<misc type="number">0</misc>
+					<name type="string">Acrobatics</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">-1</total>
+				</id-00008>
+				<id-00009>
+					<misc type="number">0</misc>
+					<name type="string">Religion</name>
+					<prof type="number">1</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">2</total>
+				</id-00009>
+				<id-00010>
+					<misc type="number">0</misc>
+					<name type="string">Athletics</name>
+					<prof type="number">1</prof>
+					<stat type="string">strength</stat>
+					<total type="number">4</total>
+				</id-00010>
+				<id-00011>
+					<misc type="number">0</misc>
+					<name type="string">Sleight of Hand</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">-1</total>
+				</id-00011>
+				<id-00012>
+					<misc type="number">0</misc>
+					<name type="string">Insight</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">3</total>
+				</id-00012>
+				<id-00013>
+					<misc type="number">0</misc>
+					<name type="string">Intimidation</name>
+					<prof type="number">1</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">3</total>
+				</id-00013>
+				<id-00014>
+					<misc type="number">0</misc>
+					<name type="string">Deception</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">1</total>
+				</id-00014>
+				<id-00015>
+					<misc type="number">0</misc>
+					<name type="string">Investigation</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00015>
+				<id-00016>
+					<misc type="number">0</misc>
+					<name type="string">Stealth</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">-1</total>
+				</id-00016>
+				<id-00017>
+					<misc type="number">0</misc>
+					<name type="string">History</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00017>
+				<id-00018>
+					<misc type="number">0</misc>
+					<name type="string">Animal Handling</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">3</total>
+				</id-00018>
+			</skilllist>
+			<speed>
+				<armor type="number">0</armor>
+				<base type="number">25</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">25</total>
+			</speed>
+			<temp>
+			</temp>
+			<token type="token"></token>
+			<traitlist>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Dwarven Combat Training</name>
+					<source type="string">Dwarf</source>
+					<text type="formattedtext">
+						<p>You are proficient with the battleaxe, handaxe, light hammer, and warhammer</p>
+					</text>
+					<type type="string">racial</type>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Dwarven Resilience</name>
+					<source type="string">Dwarf</source>
+					<text type="formattedtext">
+						<p>You have advantage on saving throws agains poison, and have resistance against posion damage</p>
+					</text>
+					<type type="string">racial</type>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Dwarven Toughness</name>
+					<source type="string">Hill Dwarf</source>
+					<text type="formattedtext">
+						<p>Your hit point maximum increased by 1, and it increased by 1 every time you level</p>
+					</text>
+					<type type="string">subracial</type>
+				</id-00003>
+			</traitlist>
+			<weaponlist>
+				<id-00001>
+					<attackbonus type="number">0</attackbonus>
+					<carried type="number">2</carried>
+					<damagelist>
+						<id-00001>
+							<bonus type="number">0</bonus>
+							<dice type="dice">d8</dice>
+							<stat type="string">base</stat>
+							<type type="string">bludgeoning</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<maxammo type="number">0</maxammo>
+					<name type="string">Warhammer</name>
+					<prof type="number">1</prof>
+					<properties type="string">Versatile (1d10)</properties>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00001</recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00001>
+				<id-00002>
+					<attackbonus type="number">0</attackbonus>
+					<carried type="number">2</carried>
+					<damagelist>
+						<id-00001>
+							<bonus type="number">0</bonus>
+							<dice type="dice">d6</dice>
+							<stat type="string">base</stat>
+							<type type="string">slashing</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<maxammo type="number">0</maxammo>
+					<name type="string">Handaxe</name>
+					<prof type="number">1</prof>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00002</recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00002>
+			</weaponlist>
+		</id-00001>
+		<id-00002>
+			<abilities>
+				<charisma>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</charisma>
+				<constitution>
+					<bonus type="number">2</bonus>
+					<save type="number">4</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">1</saveprof>
+					<score type="number">15</score>
+				</constitution>
+				<dexterity>
+					<bonus type="number">1</bonus>
+					<save type="number">1</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">12</score>
+				</dexterity>
+				<intelligence>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">11</score>
+				</intelligence>
+				<strength>
+					<bonus type="number">4</bonus>
+					<save type="number">6</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">1</saveprof>
+					<score type="number">18</score>
+				</strength>
+				<wisdom>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">11</score>
+				</wisdom>
+			</abilities>
+			<backgroundlink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</backgroundlink>
+			<classes>
+				<id-00001>
+					<casterlevelinvmult type="number">0</casterlevelinvmult>
+					<casterpactmagic type="number">0</casterpactmagic>
+					<hddie type="dice">d12</hddie>
+					<hdused type="number">0</hdused>
+					<level type="number">1</level>
+					<name type="string">Barbarian</name>
+					<shortcut type="windowreference">
+						<class></class>
+						<recordname></recordname>
+					</shortcut>
+				</id-00001>
+			</classes>
+			<defenses>
+				<ac>
+					<armor type="number">0</armor>
+					<disstealth type="number">0</disstealth>
+					<misc type="number">0</misc>
+					<prof type="number">1</prof>
+					<shield type="number">0</shield>
+					<stat2 type="string">constitution</stat2>
+					<temporary type="number">0</temporary>
+					<total type="number">13</total>
+				</ac>
+			</defenses>
+			<exp type="number">0</exp>
+			<expneeded type="number">0</expneeded>
+			<hp>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+				<wounds type="number">14</wounds>
+			</hp>
+			<initiative>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">1</total>
+			</initiative>
+			<level type="number">1</level>
+			<name type="string">Charco</name>
+			<perception type="number">12</perception>
+			<perceptionmodifier type="number">0</perceptionmodifier>
+			<profbonus type="number">2</profbonus>
+			<race type="string">Half Orc</race>
+			<racelink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</racelink>
+			<skilllist>
+				<id-00001>
+					<misc type="number">0</misc>
+					<name type="string">Perception</name>
+					<prof type="number">1</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">2</total>
+				</id-00001>
+				<id-00002>
+					<misc type="number">0</misc>
+					<name type="string">Arcana</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00002>
+				<id-00003>
+					<misc type="number">0</misc>
+					<name type="string">Persuasion</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">0</total>
+				</id-00003>
+				<id-00004>
+					<misc type="number">0</misc>
+					<name type="string">Nature</name>
+					<prof type="number">1</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">2</total>
+				</id-00004>
+				<id-00005>
+					<misc type="number">0</misc>
+					<name type="string">Medicine</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00005>
+				<id-00006>
+					<misc type="number">0</misc>
+					<name type="string">Survival</name>
+					<prof type="number">1</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">2</total>
+				</id-00006>
+				<id-00007>
+					<misc type="number">0</misc>
+					<name type="string">Performance</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">0</total>
+				</id-00007>
+				<id-00008>
+					<misc type="number">0</misc>
+					<name type="string">Acrobatics</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">1</total>
+				</id-00008>
+				<id-00009>
+					<misc type="number">0</misc>
+					<name type="string">Religion</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00009>
+				<id-00010>
+					<misc type="number">0</misc>
+					<name type="string">Athletics</name>
+					<prof type="number">1</prof>
+					<stat type="string">strength</stat>
+					<total type="number">6</total>
+				</id-00010>
+				<id-00011>
+					<misc type="number">0</misc>
+					<name type="string">Sleight of Hand</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">1</total>
+				</id-00011>
+				<id-00012>
+					<misc type="number">0</misc>
+					<name type="string">Insight</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00012>
+				<id-00013>
+					<misc type="number">0</misc>
+					<name type="string">Intimidation</name>
+					<prof type="number">1</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">2</total>
+				</id-00013>
+				<id-00014>
+					<misc type="number">0</misc>
+					<name type="string">Deception</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">0</total>
+				</id-00014>
+				<id-00015>
+					<misc type="number">0</misc>
+					<name type="string">Investigation</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00015>
+				<id-00016>
+					<misc type="number">0</misc>
+					<name type="string">Stealth</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">1</total>
+				</id-00016>
+				<id-00017>
+					<misc type="number">0</misc>
+					<name type="string">History</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00017>
+				<id-00018>
+					<misc type="number">0</misc>
+					<name type="string">Animal Handling</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00018>
+			</skilllist>
+			<speed>
+				<armor type="number">0</armor>
+				<base type="number">0</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</speed>
+			<token type="token"></token>
+		</id-00002>
+		<id-00003>
+			<abilities>
+				<charisma>
+					<bonus type="number">3</bonus>
+					<save type="number">5</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">1</saveprof>
+					<score type="number">16</score>
+				</charisma>
+				<constitution>
+					<bonus type="number">2</bonus>
+					<save type="number">2</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">14</score>
+				</constitution>
+				<dexterity>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">11</score>
+				</dexterity>
+				<intelligence>
+					<bonus type="number">-1</bonus>
+					<save type="number">-1</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">9</score>
+				</intelligence>
+				<strength>
+					<bonus type="number">4</bonus>
+					<save type="number">4</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">19</score>
+				</strength>
+				<wisdom>
+					<bonus type="number">2</bonus>
+					<save type="number">4</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">1</saveprof>
+					<score type="number">14</score>
+				</wisdom>
+			</abilities>
+			<backgroundlink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</backgroundlink>
+			<classes>
+			</classes>
+			<defenses>
+				<ac>
+					<armor type="number">0</armor>
+					<disstealth type="number">0</disstealth>
+					<misc type="number">6</misc>
+					<prof type="number">1</prof>
+					<shield type="number">0</shield>
+					<temporary type="number">0</temporary>
+					<total type="number">16</total>
+				</ac>
+			</defenses>
+			<hp>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+				<wounds type="number">12</wounds>
+			</hp>
+			<initiative>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</initiative>
+			<level type="number">0</level>
+			<name type="string">Gotbatuul slash &#60;Shining&#62;</name>
+			<perception type="number">12</perception>
+			<perceptionmodifier type="number">0</perceptionmodifier>
+			<profbonus type="number">2</profbonus>
+			<race type="string">Silver Dragon Born</race>
+			<racelink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</racelink>
+			<skilllist>
+				<id-00001>
+					<misc type="number">0</misc>
+					<name type="string">Perception</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">2</total>
+				</id-00001>
+				<id-00002>
+					<misc type="number">0</misc>
+					<name type="string">Arcana</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">-1</total>
+				</id-00002>
+				<id-00003>
+					<misc type="number">0</misc>
+					<name type="string">Persuasion</name>
+					<prof type="number">1</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">5</total>
+				</id-00003>
+				<id-00004>
+					<misc type="number">0</misc>
+					<name type="string">Nature</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">-1</total>
+				</id-00004>
+				<id-00005>
+					<misc type="number">0</misc>
+					<name type="string">Medicine</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">2</total>
+				</id-00005>
+				<id-00006>
+					<misc type="number">0</misc>
+					<name type="string">Survival</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">2</total>
+				</id-00006>
+				<id-00007>
+					<misc type="number">0</misc>
+					<name type="string">Performance</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">3</total>
+				</id-00007>
+				<id-00008>
+					<misc type="number">0</misc>
+					<name type="string">Acrobatics</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">0</total>
+				</id-00008>
+				<id-00009>
+					<misc type="number">0</misc>
+					<name type="string">Religion</name>
+					<prof type="number">1</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">1</total>
+				</id-00009>
+				<id-00010>
+					<misc type="number">0</misc>
+					<name type="string">Athletics</name>
+					<prof type="number">0</prof>
+					<stat type="string">strength</stat>
+					<total type="number">4</total>
+				</id-00010>
+				<id-00011>
+					<misc type="number">0</misc>
+					<name type="string">Sleight of Hand</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">0</total>
+				</id-00011>
+				<id-00012>
+					<misc type="number">0</misc>
+					<name type="string">Insight</name>
+					<prof type="number">1</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">4</total>
+				</id-00012>
+				<id-00013>
+					<misc type="number">0</misc>
+					<name type="string">Intimidation</name>
+					<prof type="number">1</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">5</total>
+				</id-00013>
+				<id-00014>
+					<misc type="number">0</misc>
+					<name type="string">Deception</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">3</total>
+				</id-00014>
+				<id-00015>
+					<misc type="number">0</misc>
+					<name type="string">Investigation</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">-1</total>
+				</id-00015>
+				<id-00016>
+					<misc type="number">0</misc>
+					<name type="string">Stealth</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">0</total>
+				</id-00016>
+				<id-00017>
+					<misc type="number">0</misc>
+					<name type="string">History</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">-1</total>
+				</id-00017>
+				<id-00018>
+					<misc type="number">0</misc>
+					<name type="string">Animal Handling</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">2</total>
+				</id-00018>
+			</skilllist>
+			<speed>
+				<armor type="number">0</armor>
+				<base type="number">0</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</speed>
+			<token type="token"></token>
+		</id-00003>
+	</charsheet>
+	<class>
+		<id-00001>
+			<abilities>
+			</abilities>
+			<features>
+			</features>
+			<hp>
+				<hitdice>
+					<text type="string">d8</text>
+				</hitdice>
+			</hp>
+			<multiclassproficiencies>
+			</multiclassproficiencies>
+			<name type="string">Cleric</name>
+			<proficiencies>
+			</proficiencies>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+		</id-00001>
+	</class>
+	<combattracker>
+		<public />
+		<list>
+			<public />
+			<id-00001>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">Leather + Shield</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon - Reach 5ft - One Target\nAttack: +4 to hit\nHit: 5 (1d6 + 2) slashing damage</desc>
+						<name type="string">Scimitar</name>
+						<value type="string">Scimitar [ATK: +4] [DMG: 1d6+2 slashing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Melee Weapon - Range 80ft / 120 ft - One Target\nAttack: +4 to hit\nHit: 5 (1d6 + 2) piercing damage</desc>
+						<name type="string">Short Bow</name>
+						<value type="string">Short bow [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00002>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">Nutral Evil</alignment>
+				<cr type="string">1/4</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">2d6</hd>
+				<hp type="number">7</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">7</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">16</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">Common\nGoblin</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Goblin 1</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">Darkvision 60ft\nPerception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth + 6</skills>
+				<space type="number">5</space>
+				<speed type="string">30</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Dying</status>
+				<targets>
+					<public />
+					<id-00001>
+						<public />
+						<noderef type="string">combattracker.list.id-00005</noderef>
+					</id-00001>
+				</targets>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The create can take a Disenguage or Hide action as a bonus action on each of it's turns</desc>
+						<name type="string">Nimble Escape</name>
+						<value type="string">Nimble escape</value>
+					</id-00001>
+				</traits>
+				<type type="string">Humanoid</type>
+				<wounds type="number">21</wounds>
+				<xp type="number">50</xp>
+			</id-00001>
+			<id-00005>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">12</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">15</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">8</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">14</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">16</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">18</ac>
+				<actions>
+					<public />
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">11</hptotal>
+				<init type="number">-1</init>
+				<initresult type="number">15</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00001</recordname>
+				</link>
+				<name type="string">Torbera Ironfist</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<space type="number">5</space>
+				<speed type="string">25</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<token type="token">portrait_id-00001_token</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<wounds type="number">0</wounds>
+			</id-00005>
+			<id-00006>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">16</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">14</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">11</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">9</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">19</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">14</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">16</ac>
+				<actions>
+					<public />
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">0</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">10</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00003</recordname>
+				</link>
+				<name type="string">Gotbatuul slash &#60;Shining&#62;</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<space type="number">5</space>
+				<speed type="string">0</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<token type="token">portrait_id-00003_token</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<wounds type="number">12</wounds>
+			</id-00006>
+			<id-00007>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">15</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">12</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">11</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">18</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">13</ac>
+				<actions>
+					<public />
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">0</hptotal>
+				<init type="number">1</init>
+				<initresult type="number">5</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00002</recordname>
+				</link>
+				<name type="string">Charco</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<space type="number">5</space>
+				<speed type="string">0</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<token type="token">portrait_id-00002_token</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<wounds type="number">14</wounds>
+			</id-00007>
+		</list>
+		<round type="number">15</round>
+	</combattracker>
+	<effects>
+		<public />
+	</effects>
+	<encounter>
+		<category name="Act 1: Goblin Arrows" baseicon="0" decalicon="0">
+			<id-00001>
+				<locked type="number">1</locked>
+				<name type="string">Goblin Ambush</name>
+				<text type="formattedtext">
+					<frame>You've been on the Triboar Trail for about half a day. As you come around a bend, the driver abruplty stops the waggon. you spot two dead horses sprawled about fifty feet ahead of you, blocking the path. Each has several black-feathered arrows sticking out of it. The woods press close to the trail here, with a steep embankment and dense thickets on either side.</frame>
+					<p>If you are using the &#34;Meet Me in Phandalin&#34; adventure hook, then any character who approaches to make a closer investigation can identify the horses as belonging to Gundren Rockseeker and Sildar Hallwinter. They've been dead about a day, and it's clear that arrows killed the horses. When the characters inspect the scene closer, read the following:</p>
+					<frame>The saddlebags have been looted. Nearby lies an empty leather map case.</frame>
+					<linklist>
+						<link class="battle" recordname="battle.id-00002"><b>ENCOUNTER</b></link>
+					</linklist>
+					<p>Four goblins are hlding in the woods, two on each side of the road. They wait until someone approaches the bodies and then attack.</p>
+					<p><b>DEVELOPMENTS</b></p>
+					<p>In the unlikely event that the goblins defeat the adventurers, they leave them unconscious, loot them and the wagon, then head back to the Cragmaw hideout. The characters can continue on to Phandalin, buy new gear at Barthen's Provisions, return to the ambush site, and find the goblins' trail.</p>
+					<p>The characters might capture one or more goblins by knocking them unconscious instead of killing them. A character can use any melee weapon to knock a goblin unconscious, succeeding if the attack deals enough damage to drop the goblin to 0 hit points. Once it regains consciousness after a few minutes, a captured goblin can be convinced to share what it knows (see the &#34;What the Goblins Know&#34; sidebar on page 8). A goblin can also be persuaded to lead the party to the Cragmaw hideout while avoiding traps along the way (see the &#34;Goblin Trail&#34; section).</p>
+					<h>GOBLIN TRAIL</h>
+					<p>After the characters defeat the goblins, any inspection of the area reveals that the creatures have been using this place to stage ambushes for some time. A trail hidden behind thickets on the north side of the road leads northwest. A character who succeeds on a DC 10 Wisdom (Survival) check recognizes that about a dozen goblins have come and gone along the trail, as well as signs of two human-sized bodies being hauled away from the ambush site.</p>
+					<p>The party can easily steer the wagon away from the road and tie off the oxen while the group pursues the goblins.</p>
+					<p>The trail leads five miles northwest and ends at the Cragmaw hideout (see that section). Ask the players todetermine the party's marching order as the characters move down the trail. The order is important, because the goblins have set two traps to thwart pursuers.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00002">Cragmaw Hideout</link>
+					</linklist>
+					<h>Missing The Cave</h>
+					<p>The characters might not find the goblin trail, or they could decide to continue to Phandalin.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00012">Phandalin Early</link>
+					</linklist>
+					<h>AWARDING EXPERIENCE POINTS</h>
+					<p>Defeating the goblin ambushers and finding the Cragrnaw hideout completes a story milestone. When the party arrives at the hideout, award the party 400 XP. Makesure the players record this gain on their character sheets.</p>
+				</text>
+			</id-00001>
+			<id-00002>
+				<locked type="number">1</locked>
+				<name type="string">Cragmaw Hideout</name>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00002"><b>MAP</b></link>
+					</linklist>
+					<p>The Cragmaw tribe of goblins has established a hideout from which it can easily harass and plunder traffic moving along the Triboar Trail or the path to Phandalin. The Cragrnaw tribe is so named because each member of the tribe sharpens its teeth so they appear fierce and jagged.</p>
+					<p>The leader of the Cragmaw bandits lairing here is a bugbear named Klarg, who has orders from the chief of the Cragmaws to plunder any poorly defended caravans or travelers that come this way. A few days ago, a messenger from Cragmaw Castle brought new instructions: Waylay the dwarf Gundren Rockseeker and anyone traveling with him.</p>
+					<h>WHAT THE GOBLINS KNOW</h>
+					<p>If the characters capture or charm any of the goblins here, the</p>
+					<p>goblins can be persuaded to divulge some useful information:</p>
+					<p><b>1) </b>Fewer than twenty goblins currently dwell in the lair.</p>
+					<p><b>2) </b>Their leader is a bugbear named Klarg. He answers to King Grol, chief of the Cragmaw tribe, who dwells in Cragmaw Castle. (The goblins can provide basic directions to Cragmaw Castle. It's about twenty miles northeast of the Cragmaw hideout, in Neverwinter Wood.)</p>
+					<p><b>3) </b>Klarg received a messenger goblin from King Grol a few days ago. The messenger told him that someone named the Black Spider was paying the Cragmaws to watch out for the dwarf Gundren Rockseeker, capture him, and send him and anything he was carrying back to King Grol. Klarg followed his orders. Gundren was ambushed and taken along with his personal effects, including a map.</p>
+					<p><b>4) </b>The dwarf and his map were delivered to King Grol, as instructed. The dwarf's human companion is being held in the &#34;eating cave&#34; (area 6).</p>
+					<p></p>
+					<h>Cave Encounters</h>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00003">1) </link><b>Cave Mouth</b></linklist>
+						<link class="encounter" recordname="encounter.id-00004">2) </link><b>Goblin Blind</b>
+						<link class="encounter" recordname="encounter.id-00005">3) </link><b>Kennel</b>
+						<link class="encounter" recordname="encounter.id-00006">4) </link><b>Steep Passage</b>
+						<link class="encounter" recordname="encounter.id-00007">5) </link><b>Overpass</b>
+						<link class="encounter" recordname="encounter.id-00008">6) </link><b>Goblin Den</b>
+						<link class="encounter" recordname="encounter.id-00009">7) </link><b>Twin Pools Cave</b>
+						<link class="encounter" recordname="encounter.id-00010">8) </link><b>Klarg's Cave</b>
+					<p></p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00011"><b>Phandalin</b></link>
+					</linklist>
+				</text>
+			</id-00002>
+			<id-00003>
+				<locked type="number">1</locked>
+				<name type="string">Cave Mouth</name>
+				<text type="formattedtext">
+					<p>The trail from the goblin ambush site leads to the entrance of the Cragmaw hideout.</p>
+					<frame>Following the goblins' trail, you come across a large cave in a hillside five miles from the scene of the ambush. A shallow stream flows out of the cave mouth, which is screened by dense briar thickets. A narrow dry path leads into the cave on the right-hand side of the stream.</frame>
+					<p>The thicket in area 2 is impenetrable from the west side of the stream.</p>
+					<h>DEVELOPMENTS</h>
+					<p>The goblins in area 2 are supposed to be keeping watch on this area, but they are not paying attention. (Goblins can be lazy that way.) However, if the characters make a lot of noise here-for example, loudly arguing about what to do next, setting up a camp, cutting down brush, and so on-the goblins in area 2 notice and attack them through the thicket, which provides the goblins with three-quarters cover (see the rule book for rules on cover).</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00004">Goblin Blind</link>
+					</linklist>
+				</text>
+			</id-00003>
+			<id-00004>
+				<locked type="number">1</locked>
+				<name type="string">Goblin Blind</name>
+				<text type="formattedtext">
+					<p>When the characters cross to the east side of the stream, they can see around the screening thickets to area 2. This is a goblin guard post, though the goblins here are bored and inattentive.</p>
+					<frame>On the east side of the stream flowing from the cave mouth, a small area in the briar thickets has been hollowed out to form a lookout post or blind. Wooden planks flatten out the briars and provide room for guards to lie hidden and watch the area-including a pair of goblins lurking there right now!</frame>
+					<linklist>
+						<link class="battle" recordname="battle.id-00005"><b>ENCOUNTER</b></link>
+					</linklist>
+					<p>Two goblins are stationed here. If the goblins notice intruders in area 1, they open fire with their bows, shooting through the thickets and probably catching the characters by surprise. If the goblins don't notice the adventurers in area 1, they spot them when they splash across the stream, and neither side is surprised.</p>
+					<p>Characters moving carefully or scouting ahead might be able to surprise the goblin lookouts. Have each character who moves ahead make a Dexterity (Stealth) check contested by the goblins' passive Wisdom (Perception) score to avoid being surprised. See the rulebook for more information on ability check contests.</p>
+					<p><b>Thickets. </b>The thickets around the clearing are difficult terrain, but they aren't dangerous-just annoying. They provide half cover to creatures attacking through them. (See &#34;Difficult Terrain&#34; and &#34;Cover&#34; in the rulebook for more information.)</p>
+				</text>
+			</id-00004>
+			<id-00005>
+				<locked type="number">1</locked>
+				<name type="string">Kennel</name>
+				<text type="formattedtext">
+					<p>The Cragmaws keep a kennel of foul-tempered wolves that they are training for battle.</p>
+					<frame>Just inside the cave mouth, a few uneven stone steps lead up to a small, dank chamber on the east side of the passage. The cave narrows to a steep fissure at the far end, and is filled with the stench of animals. Savage snarls and the sounds of rattling chains greet your ears where two wolves are chained up just inside the opening. Each wolf's chain leads to an iron rod driven into the base of a stalagmite.</frame>
+					<linklist>
+						<link class="battle" recordname="battle.id-00001"><b>ENCOUNTER</b></link>
+					</linklist>
+					<p>Three wolves are confined here. They can't reach targets standing on the steps, but all three attack any creature except a goblin that moves into the room (see the &#34;Developments&#34; section). Goblins in nearby caves ignore the sounds of fighting wolves, since they constantly snap and snarl at each other.</p>
+					<p>A character who tries-to calm the animals can attempt a DC 15 Wisdom (Animal Handling) check. On a success, the wolves allow the character to move throughout the room. If the wolves are given food, the DC drops to 10.</p>
+					<p><b>Fissure. </b>A narrow opening in the east wall leads to a natural chimney that climbs 30 feet to area 8. At the base of the fissure is rubbish that's been discarded throughthe opening above. A character attempting to ascend or descend the chimney shaft must make a DC 10 Strength (Athletics) check. If the check succeeds, the character moves at half speed up or down the shaft, as desired. On a check result of 6-9, the character neither gains nor loses ground; on a result of 5 or less, the character falls and takes Id6 bludgeoning damage per 10 feet fallen, landing prone at the base of the shaft.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00010"><b>Klarg' Cave</b></link>
+					</linklist>
+					<h>DEVELOPMENTS</h>
+					<p>If the wolves are goaded by enemies beyond their reach, they are driven into a frenzy that allows them to yank the iron rod securing their chains out of the floor. Each round that any character remains in sight, the wolves attempt a single DC 15 Strength check. On the first success, they loosen the rod and the DC drops to 10. On a second success, they yank the rod loose, bending it so that their chains are freed.</p>
+					<p>A goblin or bugbear can use its action to release one wolf from its chain.</p>
+				</text>
+			</id-00005>
+			<id-00006>
+				<locked type="number">1</locked>
+				<name type="string">Steep Passage</name>
+				<text type="formattedtext">
+					<p>From this point on, characters without darkvision will need light to see their surroundings.</p>
+					<frame>The main passage from the cave mouth climbs steeply upward, the stream plunging and splashing down its west side. In the shadows, a side passage leads west across the other side of the stream.</frame>
+					<p>Characters using light or darkvision to look farther up the passage spot the bridge at area 5. Add:</p>
+					<frame>In the shadows of the ceiling to the north, you can just make out the dim shape of a rickety bridge of wood and rope crossing over the passage ahead of you. Another passage intersects this one, twenty feet above the floor.</frame>
+					<p></p>
+					<p>Any character who can see the bridge in area 5 might also notice the goblin guarding the bridge. Doing so requires a Wisdom (Perception) check contested by the goblin's Dexterity (Stealth) check result.</p>
+					<p>The goblin notices the characters if they carry any light or don't use stealth as they approach the bridge. The goblin does not attack. Instead, it attempts to sneak away to the east to inform its companions in area 7 to release a flood (see the &#34;Flood!&#34; section of area 5). The goblin moves undetected if its Dexterity (Stealth) check exceeds the passive Wisdom (Perception) score of any character who might notice its movements.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00009"><b>Twin Pools Cave</b></link>
+					</linklist>
+					<p><b>Western Passage. </b>This passage is choked with rubble and has steep escarpments. Treat the area as difficult terrain (see &#34;Difficult Terrain&#34; in the rulebook).</p>
+					<p>The ledge between the two escarpments is fragile. Any weight in excess of 100 pounds loosens the whole mass and sends it tumbling down to the east. Any creature on the ledge when it falls must make a DC 10 Dexterity saving throw, taking 2d6 bludgeoning damage on a failure, or half as much damage on a success. The creature also falls prone on a failed save (see &#34;Being Prone&#34; in the rulebook).</p>
+				</text>
+			</id-00006>
+			<id-00007>
+				<locked type="number">1</locked>
+				<name type="string">Overpass</name>
+				<text type="formattedtext">
+					<p>Where a high tunnel passes through the larger tunnel cavern below, the goblins have set up a bridge guard post.</p>
+					<frame>The stream passage continues up beyond another set of I uneven steps ahead, bending eastward as it goes. A waterfall sounds out from a larger cavern somewhere ahead of you.</frame>
+					<p>If the characters didn't spot the bridge while navigating area 4, they spot it now. Add:</p>
+					<frame>A rickety bridge spans the passage, connecting two tunnels that are 20 feet above the stream.</frame>
+					<linklist>
+						<link class="battle" recordname="battle.id-00003"><b>ENCOUNTER</b></link>
+					</linklist>
+					<p>One goblin stands watch on the bridge. It is hiding, and characters can spot it by succeeding on a Wisdom (Perception) check contested by the goblin's Dexterity (Stealth) check. This guard is lazy and inattentive. If no characters are using light sources, each character can attempt a Dexterity (Stealth) check against the goblin's passive Wisdom (Perception) score to creep by without being noticed.</p>
+					<p>If the goblin spots the adventurers, it signals the goblins in area 7 to release a flood (see the &#34;Flood!&#34; section), then throws javelins down at the characters.</p>
+					<p><b>Bridge. </b>This bridge spans the passage 20 feet above the stream. It's possible to climb up the cavern walls from the lower passage to the bridge. The 20-foot-high walls are rough but slick with spray, requiring a successful DC 15 Strength (Athletics) check to climb.</p>
+					<p>The bridge has an Armor Class (AC) of 5 and 10 hit points. If the bridge is reduced to 0 hit points, it collapses. Creatures on the collapsing bridge must succeed on a DC 10 Dexterity saving throw or fall, taking 2d6 bludgeoning damage and landing prone (see &#34;Being Prone&#34; in the rulebook). Those who succeed hold onto the bridge and must climb it to safety.</p>
+					<h>FLOOD!</h>
+					<p>The large pools in area 7 have collapsible walls that can be yanked out of place to release a surge of water down the main passage of the lair. In the round after the goblins in area 7 are signaled by the lookout in area 5, they start knocking away the supports. In the following round on the goblins' initiative count, a water surge pours from area 7 down to area 1.</p>
+					<frame>The passage is suddenly filled with a mighty roar, as a huge surge of rushing water pours down from above!</frame>
+					<p>The flood threatens all creatures in the tunnel. (Creatures on the bridge at area 5 are out of danger, as are any characters successfully climbing the cavern walls.) Any creature within 10 feet of the disused passage at area 4 or the steps leading up to area 3 can attempt a DC 10 Dexterity saving throw to avoid being swept away. A creature that fails to get out of the way can attempt a DC 15 Strength saving throw to hold on. On a failed save, the character is knocked prone and washed down to area 1, taking Id6 bludgeoning damage along the way.</p>
+					<p>The goblins in area 7 can release a second flood by opening the second pool, but they don't do this unless the goblin on the bridge tells them to. The goblin on the bridge waits to see if the first flood got rid of all the intruders before calling for the second to be released.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00009"><b>Twin Pools Cave</b></link>
+					</linklist>
+				</text>
+			</id-00007>
+			<id-00008>
+				<locked type="number">1</locked>
+				<name type="string">Goblin Den</name>
+				<text type="formattedtext">
+					<p>The Cragmaw raiders stationed in the hideout use thisarea as a common room and barracks.</p>
+					<p>This large cave is divided in half by a ten-foot-highescarpment. A steep natural staircase leads from the lower portion to the upper ledge. The air is hazy with the smoke of a cooking fire, and pungent from the smell of poorly cured hides and unwashed goblins.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00004"><b>ENCOUNTER</b></link>
+					</linklist>
+					<p>Six goblins inhabit this den, and one of them is a leader with 12 hit points. The five ordinary goblins tend the cooking fire in the lower (northern) part of the cave near the entrance passage, while the leader rests in the upper (southern) part of the cave.</p>
+					<p>Sildar Hallwinter, a human warrior, is held prisoner in this chamber. He is securely bound on the southern ledge of the cavern. The goblins have been beating and tormenting him, so he is weak and at 1 hit point. The goblin leader, Yeemik, is second-in-command of the whole hideout. If he sees that the characters are getting the upper hand, he grabs Sildar and drags him over to the edge of the upper level. &#34;Truce, or this human dies!&#34; he shouts.</p>
+					<p>Yeemik wants to oust Klarg and become the new boss. If the adventurers agree to parley, Y~e.mik tries to(co~vince them to kill Klarg in area 8, prormsing to release Sildar when they bring back the bugbear's head. Sildar groggily warns the characters that they shouldn't trust the goblin, and he's right. If the characters take the deal, Yeemik tries to force them to pay a rich ransom for Sildar even after they complete their part of the bargain.</p>
+					<p>If the characters refuse to parley, Yeemik shoves Sildar over the edge and continues with the fight. Sildar takes Id6 bludgeoning damage from the fall, which is enough to drop him to 0 hit points. Quick-acting characters can try to stabilize him before he dies (see &#34;Damage, Healing, and Dying&#34; in the rulebook).</p>
+					<linklist>
+						<link class="note" recordname="notes.id-00001"><b>Rollplaying Slidar</b></link>
+					</linklist>
+					<h>DEVELOPMENTS</h>
+					<p>If he is rescued and healed, Sildar Hallwinter remains with the party but is anxious to reach Phandalin as quickly as possible. He doesn't have any weapons or armor, but he can take a shortsword from a defeated goblin or use a weapon loaned to him by a character.</p>
+					<p>If Sildar joins the party, see the &#34;NPC Party Members&#34; sidebar for tips on how to run him.</p>
+					<h>TREASURE</h>
+					<p>Yeemik carries a pouch containing three gold teeth (1 gp each) and 15 sp. Sildar's gear, along with Gundren Rockseeker, was taken to Cragmaw Castle.</p>
+				</text>
+			</id-00008>
+			<id-00009>
+				<locked type="number">1</locked>
+				<name type="string">Twin Pools Cave</name>
+				<text type="formattedtext">
+					<p>If the goblins have drained either pool to flood the passage, adjust the following boxed text accordingly.</p>
+					<frame>This cavern is half filled with two large pools of water. A narrow waterfall high in the eastern wall feeds the pool, which drains out the western end of the chamber to form the stream that flows out of the cave mouth below. Low fieldstone walls serve as dams holding the water in. A wide exit stands to the south, while two smaller passages lead west. The sound of the waterfall echoes through the cavern, making it difficult to hear.</frame>
+					<linklist>
+						<link class="battle" recordname="battle.id-00006"><b>ENCOUNTER</b></link>
+					</linklist>
+					<p>Three goblins guard this cave. If the goblin in area 5 spotted the characters and warned the goblins here, they are ready for trouble. The noise of the waterfall means that the creatures in area 8 can't hear any fighting that takes place here, and vice versa. Therefore, as soon as a fight breaks out here, one goblin flees to area 8 to warn Klarg.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00010"><b>Klarg's Cave</b></link>
+					</linklist>
+					<p><b>Rock Dams </b>. The goblins built simple dams to control the flow of water through the heart of the complex. If the goblin sentry in area 5 has called for the goblins here to release a flood, one or both of the pools are mostly empty and the stream is flowing unimpeded.</p>
+				</text>
+			</id-00009>
+			<id-00010>
+				<locked type="number">1</locked>
+				<name type="string">Klarg's Cave</name>
+				<text type="formattedtext">
+					<p>The leader of the goblinoids insists on keeping the bulk of the raiders' stolen goods in his den. The Cragmaws' plunder from the last month of raiding and ambushing caravans is here.</p>
+					<frame>Sacks and crates of looted provisions are piled up in the south end of this large cave. To the west, the floor slopes toward a narrow opening that descends into darkness. A larger opening leads north down a set of natural stone steps, the roar of falling water echoing from beyond. In the middle of the cavern, the coals ofa large fire smolder.</frame>
+					<linklist>
+						<link class="battle" recordname="battle.id-00007"><b>ENCOUNTER</b></link>
+					</linklist>
+					<p>Klarg the bugbear shares this cave with his mangy pet wolf, Ripper, and two goblins. The bugbear is filled with delusions of grandeur and views himself as a mighty warlord just beginning his career of conquest. He is not entirely sane, referring to himself in the third person (&#34;Who dares defy Klarg?&#34; or &#34;Klarg will build a throne from your bones, puny ones!&#34;). The goblins under his command resent his bullying.</p>
+					<p>Fire Pit. The hot coals in the central fire pit deal 1 fire damage to any creature that enters the fire pit, or 1d6 fire damage to any creature that falls prone there. A creature can take each type of damage only once per round.</p>
+					<p><b>Natural Chimney. </b>A niche in the western wall forms the top of a shaft that descends 30 feet to area 3. See that area for information on climbing the natural chimney.</p>
+					<p><b>Supplies. </b>The piles of sacks and crates can provide half cover to any creature fighting or hiding behind them. Most are marked with the image of a blue lion--the symbol of the Lionshield Coster, a merchant company with a warehouse and trading post in Phandalin.</p>
+					<p>Hidden among the supplies is an unlocked treasure chest belonging to Klarg (see the &#34;Treasure&#34; section). Any character who searches the supplies finds the chest.</p>
+					<h>DEVELOPMENTS</h>
+					<p>If Klarg is warned by the goblins in area 7 that the hideout is under attack, he and his wolf hide behind stalagmites while the goblins take cover behind the piles of supplies, hoping to ambush the characters when they enter the cave.</p>
+					<p>If Klarg and company are not warned about possible attackers, the characters have a good chance to surprise them. The easiest way for the characters to achieve this is to climb the chimney from area 3, since Klarg does not expect an attack from that direction.</p>
+					<p>If the wolf is killed, the bugbear attempts to climb down the chimney to area 3 and flee the cave complex.</p>
+					<h>TREASURE</h>
+					<p>The captured stores are bulky, and the characters will need a wagon to transport them. If they return the supplies to the Lionshield Coster in Phandalin (see part 2, &#34;Phandalin''), they earn a reward of 50 gp and the friendship of Linene and her company.</p>
+					<p>In addition to the stolen provisions, Klarg has a treasure chest that contains 600 cp, 110 sp, two potions of healing, and ajade statuette of a frog with tiny golden orbs for eyes (40 gp). The frog statuette is small enough to fit in a pocket or pouch.</p>
+				</text>
+			</id-00010>
+			<id-00012>
+				<locked type="number">1</locked>
+				<name type="string">Phandlin Early</name>
+				<text type="formattedtext">
+					<p>Elmar Barthen (the owner of Barthen's Provisions) seeks out the characters and informs them that Gundren Rockseeker never arrived. He recounts the goblin troubles and suggests that the characters return to the ambush site to investigate further (after they rest). Barthen also tells the party that Linene Graywind of the Lionshield Coster (see page 16) can provide more information on the goblin attacks.</p>
+				</text>
+			</id-00012>
+		</category>
+		<category name="Act 2: Phandalin" baseicon="0" decalicon="0">
+			<id-00011>
+				<name type="string">Phandalin</name>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+			</id-00011>
+		</category>
+		<category name="Lost Mine of Phandelver - Start" baseicon="0" decalicon="0">
+			<id-00013>
+				<locked type="number">1</locked>
+				<name type="string">Lost Mine of Phandelver</name>
+				<text type="formattedtext">
+					<h>Background</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00003"><b>MAP</b></link>
+					</linklist>
+					<p>More than five hundred years ago, clans of dwarves and gnomes made an agreement known as the Phandelver's Pact, by which they would share a rich mine in a wondrous cavern known as Wave Echo Cave. In addition to its mineral wealth, the mine contained great magical power. Human spellcasters allied themselves with the dwarves and gnomes to channel and bind that energy into a great forge (called the Forge of Spells), where magic items could be crafted. Times were good, and the nearby human town of Phandalin (pronounced fan-duh-lin) prospered as well. But then disaster struck when ores swept through the North and laid waste to all in their path.</p>
+					<p>A powerful force of ores reinforced by evil mercenary wizards attacked Wave Echo Cave to seize its riches and magic treasures. Human wizards fought alongside their dwarf and gnome allies to defend the Forge of Spells, and the ensuing spell battle destroyed much of the cavern. Few survived the cave-ins and tremors, and the location of Wave Echo Cave was lost.</p>
+					<p>For centuries, rumors of buried riches have attracted treasure seekers and opportunists to the area around Phandalin, but no one has ever succeeded in locating the lost mine. In recent years, people have resettled the area. Phandalin is now a rough-and-tumble frontier town. More important, the Rockseeker brothers-a trio of dwarveshave discovered the entrance to Wave Echo Cave, and they intend to reopen the mines.</p>
+					<p>Unfortunately for the Rockseekers, they are not the only ones interested in Wave Echo Cave. A mysterious villain known as the Black Spider controls a network of bandit gangs and goblin tribes in the area, and his agents have followed the Rockseekers to their prize. Now the Black Spider wants Wave Echo Cave for himself, and he is taking steps to make sure no one else knows where it is.</p>
+					<h>The Adventure Starts</h>
+					<frame>You have been hiered by a dwarf, Gundren Rockseeker, to escort a waggon to the town of Phandalin. He didn't provide many details and when on a head to Phandalin to get his effects in order. You reciently set out from the town of Neverwinter down The High Road to deliver the Gundren's supplies to Phandalin. The journey will take about a week.</frame>
+					<p>Go around and have everyone introduce them selves with a brief background and an explanitation as to why they are on this adventure.</p>
+					<p>A couple days pass uneventful while traveling down The High Road. Things start to get more interesting when you take the turnoff down the Triboar trail. The High Road is a highly traved road. Many merchants and adventures travel it all the time to get between major cities but Triboar Trail is bearly a dirt path.</p>
+					<p>You can feel everyone get more tense because bandits are known to patrol this region.</p>
+					<p>The atmosphere gets more eerie when the forest starts to close, it gets darker, and the sounds of wild animals becomes more apparent through odd noises and rustling in trees and bushes.</p>
+					<p>About 1/2 a day on the trail the driver stops to wagon and shouts &#34;Oi what that down there&#34;. What you see is something large slumped in the road.</p>
+					<p>If the players try and investigate the horses goblins will jump out and attack.</p>
+					<h>First Encounter</h>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00001">Goblin Ambush</link>
+					</linklist>
+				</text>
+			</id-00013>
+		</category>
+	</encounter>
+	<export>
+		<readonly type="number">0</readonly>
+	</export>
+	<feat>
+	</feat>
+	<forge>
+		<magicitem>
+			<baseitems>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">3gp</cost>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<istemplate type="number">1</istemplate>
+					<name type="string">Short Sword</name>
+					<rarity type="string">Common</rarity>
+					<subtype type="string">Sword</subtype>
+					<type type="string">Sword</type>
+					<weight type="number">2</weight>
+				</id-00001>
+			</baseitems>
+			<statusicon type="string">error</statusicon>
+			<templates>
+			</templates>
+		</magicitem>
+	</forge>
+	<image>
+		<id-00002>
+			<image type="image">
+				<bitmap>images/CragmawHideout.jpg</bitmap>
+				<pointers>
+					<pointer>
+						<id>1</id>
+						<type>3</type>
+						<startx>345</startx>
+						<starty>359</starty>
+						<endx>374</endx>
+						<endy>311</endy>
+						<owner></owner>
+						<color>2a0070</color>
+					</pointer>
+				</pointers>
+			</image>
+			<isidentified type="number">0</isidentified>
+			<name type="string">CragmawHideout</name>
+		</id-00002>
+		<id-00003>
+			<image type="image">
+				<bitmap>images/Phandelver</bitmap>
+			</image>
+			<isidentified type="number">0</isidentified>
+			<name type="string">Phandelver</name>
+		</id-00003>
+	</image>
+	<item>
+		<category name="Armor" baseicon="0" decalicon="0">
+			<id-00006>
+				<ac type="number">16</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">75gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">0</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Chain Mail</name>
+				<stealth type="string">Disadvantage</stealth>
+				<strength type="string">13</strength>
+				<subtype type="string">Heavy Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">55</weight>
+			</id-00006>
+			<id-00007>
+				<ac type="number">0</ac>
+				<bonus type="number">2</bonus>
+				<cost type="string">10gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Shield</name>
+				<subtype type="string">Shield</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">6</weight>
+			</id-00007>
+			<id-00008>
+				<ac type="number">11</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">5gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex modifier</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Padded</name>
+				<stealth type="string">Disadvantage</stealth>
+				<subtype type="string">Light Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">8</weight>
+			</id-00008>
+			<id-00009>
+				<ac type="number">11</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">10gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex modifier</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Leather</name>
+				<subtype type="string">Light Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">10</weight>
+			</id-00009>
+			<id-00010>
+				<ac type="number">12</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">45gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex Modifer</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Studded Leather</name>
+				<subtype type="string">Light Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">13</weight>
+			</id-00010>
+			<id-00011>
+				<ac type="number">12</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">10gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex modifer(max 2)</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Hide</name>
+				<subtype type="string">Medium Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">12</weight>
+			</id-00011>
+			<id-00012>
+				<ac type="number">13</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex Modifer (max 2)</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Chain Shirt</name>
+				<subtype type="string">Medium Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">20</weight>
+			</id-00012>
+			<id-00013>
+				<ac type="number">14</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex Modifer (max 2)</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Scale Mail</name>
+				<stealth type="string">Disadvantage</stealth>
+				<subtype type="string">Medium Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">45</weight>
+			</id-00013>
+			<id-00014>
+				<ac type="number">14</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">400gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex Modifer (max 2)</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Breastplate</name>
+				<subtype type="string">Medium Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">20</weight>
+			</id-00014>
+			<id-00015>
+				<ac type="number">15</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">750gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<dexbonus type="string">Dex Modifer (max 2)</dexbonus>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Half Plate</name>
+				<stealth type="string">Disadvantage</stealth>
+				<subtype type="string">Medium Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">40</weight>
+			</id-00015>
+			<id-00016>
+				<ac type="number">14</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">30gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Ring Mail</name>
+				<stealth type="string">Disadvantage</stealth>
+				<subtype type="string">Heavy Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">40</weight>
+			</id-00016>
+			<id-00017>
+				<ac type="number">17</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">200gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Splint</name>
+				<stealth type="string">Disadvantage</stealth>
+				<strength type="string">15</strength>
+				<subtype type="string">Heavy Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">60</weight>
+			</id-00017>
+			<id-00018>
+				<ac type="number">18</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">1500gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Plate</name>
+				<stealth type="string">Disadvantage</stealth>
+				<strength type="string">15</strength>
+				<subtype type="string">Heavy Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">65</weight>
+			</id-00018>
+		</category>
+		<category name="Weapons" baseicon="0" decalicon="0">
+			<id-00001>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">10gp</cost>
+				<damage type="string">1d6 piercing</damage>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<name type="string">Shortsword</name>
+				<properties type="string">Finesse\nLight</properties>
+				<rarity type="string">Common</rarity>
+				<subtype type="string">Sword</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00001>
+			<id-00002>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">25gp</cost>
+				<damage type="string">1d6 piercing</damage>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<name type="string">Shortbow</name>
+				<properties type="string">Range 80/320\nTwo-Handed</properties>
+				<rarity type="string">Common</rarity>
+				<subtype type="string">Bow</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00002>
+			<id-00003>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">30gp</cost>
+				<damage type="string">1d12 slashing</damage>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<name type="string">Greataxe</name>
+				<properties type="string">Heavy\nTwo-Handed</properties>
+				<rarity type="string">Common</rarity>
+				<subtype type="string">Axe</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">7</weight>
+			</id-00003>
+			<id-00004>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">15gp</cost>
+				<damage type="string">1d8 bludgeoning</damage>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<name type="string">Warhammer</name>
+				<properties type="string">Versatile (1d10)</properties>
+				<rarity type="string">Common</rarity>
+				<subtype type="string">Hammer</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00004>
+			<id-00005>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">5gp</cost>
+				<damage type="string">1d6 slashing</damage>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<istemplate type="number">0</istemplate>
+				<locked type="number">1</locked>
+				<name type="string">Handaxe</name>
+				<properties type="string">Light\nThrown (20/60)</properties>
+				<rarity type="string">Common</rarity>
+				<subtype type="string">Axe</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00005>
+		</category>
+	</item>
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Primordial</font>
+			<name type="string">Primordial</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Aquan</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elvish</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnomish</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<name type="string">Common</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Terran</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Ignan</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<name type="string">Deep Speech</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Auran</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00016>
+		<id-00017>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00017>
+		<id-00018>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00018>
+		<id-00019>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarvish</name>
+		</id-00019>
+		<id-00020>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00020>
+	</languages>
+	<library>
+	</library>
+	<modifiers>
+		<public />
+	</modifiers>
+	<notes>
+		<id-00001>
+			<locked type="number">1</locked>
+			<name type="string">Rollplaying Slidar</name>
+			<text type="formattedtext">
+				<p>Sildar ~nter is a kindhearted human male of nearly fifty years who holds a place of honor in the famous griffon cavalry of the great city of Water deep. He is an agent of the Lords' Alliance, a group of allied political powers concerned with mutual security and prosperity. Members of the order ensure the safety of cities and other settlements by proactively eliminating threats by any means, while bringing honor and glory to their leaders and homelafds.</p>
+				<p>Sildar met Gundren Rockseeker in Neverwinter and agreed to accpmpany him back to Phandalin. Sildar wants to investigate the fate of larno Albrek, a human wizard and fellow membe~of the Lords' Alliance who disappearedshortly after arriving in Phandalin. Sildar hopes to learn what happened to larno, assist Gundren in reopening theold mine, and help restore Phandalin to a civilized center of wealth and prosperity.</p>
+				<p>Sildar provides the characters with four pieces of useful information:</p>
+				<p>1) The three Rockseeker brothers (Gundren, Tharden, and Nundro) recently located an entrance to the long-lost Wave Echo Cave, site of the mines of the Phandelver's Pact. (Share the information in the first two paragraphs of the &#34;Background&#34; section to the players at this time.)</p>
+				<p>2) Klarg, the bugbear who leads this goblin band, had orders to waylay Gundren. Sildar heard from the goblins that the Black Spider sent word that the dwarf was to be brought to him. Sildar doesn't know who or what the Black Spider is.</p>
+				<p>3) Gundren had a map showing the secret location of Wave Echo Cave, but the goblins took it when they captured him. Sildar believes that Klarg sent the map and the dwarf to the chief of the Cragmaws at a place called Cragmaw Castle. Sildar doesn't know where that might be, but he suggests someone in Phandalin might know. (It doesn't occur to Sildar immediately, but a captured goblin might also be persuaded to divulge the castle's location. See the &#34;What the Goblins Know&#34; sidebar on page 8.)</p>
+				<p>4) Sildar's contact in Phandalin is a human wizard named Iarno Albrek. The wizard traveled to the town two months ago to establish order there. After the Lords' Alliance received no word from Iarno, Sildar decided to investigate.</p>
+				<p>Sildar tells the characters that he intends to continue on to Phandalin, since it's the nearest settlement. He offers to pay the party 50 gp to provide escort. Although he has no money on him, Sildar can secure a loan to pay the characters within a day after arriving in Phandalin. First, he hopes they'll put a stop to the goblin raids by clearing out the caves.</p>
+			</text>
+		</id-00001>
+	</notes>
+	<npc>
+		<category name="Monsters" baseicon="0" decalicon="0">
+			<id-00001>
+				<abilities>
+					<charisma>
+						<bonus type="number">-1</bonus>
+						<score type="number">9</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">16</ac>
+				<actext type="string">Hide + Shield</actext>
+				<actions>
+				</actions>
+				<alignment type="string">Chotic Evil</alignment>
+				<cr type="string">1</cr>
+				<hd type="string">5d8+5</hd>
+				<hp type="number">27</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">Common\nGoblin</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<name type="string">Bugbear</name>
+				<reactions>
+				</reactions>
+				<senses type="string">Darkvision 60ft\nPerception 10</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Stealth +6\nSurvival +2</skills>
+				<speed type="string">30</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+				</traits>
+				<type type="string">Humonid</type>
+				<xp type="number">200</xp>
+			</id-00001>
+			<id-00002>
+				<abilities>
+					<charisma>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">Leather + Shield</actext>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon - Reach 5ft - One Target\nAttack: +4 to hit\nHit: 5 (1d6 + 2) slashing damage</desc>
+						<name type="string">Scimitar</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">Melee Weapon - Range 80ft / 120 ft - One Target\nAttack: +4 to hit\nHit: 5 (1d6 + 2) piercing damage</desc>
+						<name type="string">Short Bow</name>
+					</id-00002>
+				</actions>
+				<alignment type="string">Nutral Evil</alignment>
+				<cr type="string">1/4</cr>
+				<hd type="string">2d6</hd>
+				<hp type="number">7</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">Common\nGoblin</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Goblin</name>
+				<reactions>
+				</reactions>
+				<senses type="string">Darkvision 60ft\nPerception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth + 6</skills>
+				<speed type="string">30</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+					<id-00001>
+						<desc type="string">The create can take a Disenguage or Hide action as a bonus action on each of it's turns</desc>
+						<name type="string">Nimble Escape</name>
+					</id-00001>
+				</traits>
+				<type type="string">Humanoid</type>
+				<xp type="number">50</xp>
+			</id-00002>
+			<id-00003>
+				<abilities>
+					<charisma>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">Leather + Shield</actext>
+				<actions>
+				</actions>
+				<alignment type="string">Choitic Evil</alignment>
+				<cr type="string">1/4</cr>
+				<hd type="string">3d6</hd>
+				<hp type="number">12</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">Common\nGoblin</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<name type="string">Yeemik</name>
+				<reactions>
+				</reactions>
+				<senses type="string">Darkvision 60ft\nPerception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth + 6</skills>
+				<speed type="string">30</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+				</traits>
+				<type type="string">Humanoid</type>
+				<xp type="number">50</xp>
+			</id-00003>
+			<id-00004>
+				<abilities>
+					<charisma>
+						<bonus type="number">-2</bonus>
+						<score type="number">6</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">13</ac>
+				<actext type="string">Natural Armor</actext>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5ft. Hit: 7(2d4+2) piercing damage. If the target is a creature, it must succedd on a DC 11 Strength saving throw or be knocked pront.</desc>
+						<name type="string">Bite</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">Unaligned</alignment>
+				<cr type="string">1/4</cr>
+				<hd type="string">2d8 + 2</hd>
+				<hp type="number">11</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Wolf</name>
+				<reactions>
+				</reactions>
+				<senses type="string">Passive Perception 13</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Perception +3\nStealth +4</skills>
+				<speed type="string">40 ft</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+					<id-00001>
+						<desc type="string">The creature has advantage on Perception checks that rely on hearing or smell.</desc>
+						<name type="string">Keen Hearing and Smell</name>
+					</id-00001>
+					<id-00005>
+						<desc type="string">The creature has advantage on an attack roll against a creature if at least one allies is within 5ft of the creature and the ally isn't incapaciated</desc>
+						<name type="string">Pack Tactics</name>
+					</id-00005>
+				</traits>
+				<type type="string">beast</type>
+				<xp type="number">50</xp>
+			</id-00004>
+		</category>
+	</npc>
+	<options>
+		<public />
+	</options>
+	<partysheet>
+		<public />
+		<bonus type="number">0</bonus>
+		<checkdc type="number">0</checkdc>
+		<checkselected type="string">Strength</checkselected>
+		<hiderollresults type="number">0</hiderollresults>
+		<partyinformation>
+			<public />
+		</partyinformation>
+		<savedc type="number">0</savedc>
+		<saveselected type="string">Strength</saveselected>
+		<skilldc type="number">0</skilldc>
+	</partysheet>
+	<quest>
+	</quest>
+	<race>
+		<id-00001>
+			<name type="string">Dwarf</name>
+			<subraces>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Hill Dwarf</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Ability Score Increase</name>
+							<text type="formattedtext">
+								<p>Your Wisdom score inscreased by 1</p>
+							</text>
+						</id-00002>
+						<id-00003>
+							<locked type="number">1</locked>
+							<name type="string">Dwarven Toughness</name>
+							<text type="formattedtext">
+								<p>Your hit point maximum increased by 1, and it increased by 1 every time you level</p>
+							</text>
+						</id-00003>
+					</traits>
+				</id-00001>
+				<id-00002>
+					<name type="string">Mountian Dwarf</name>
+				</id-00002>
+			</subraces>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Ability Score Increase</name>
+					<text type="formattedtext">
+						<p>Your Constitution score increased by 2</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Dwarves mature at the same rate as humans but are still considered young until they reach the age of 50. on average, they live about 350 years.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend tward good as well, which a strong sense of fair play and a belief that everyone deserves to share in benefits of a just order.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Dwarves stand between 4 and 5 feet tall and weigh around 150 lbs. Your size is Medium</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Darkvision</name>
+					<text type="formattedtext">
+						<p>You can see in dim light within 60 feet as if it were bright light, and darkness as if it were dim light. You can't see color in darkness just shades of grey.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Dwarven Resilience</name>
+					<text type="formattedtext">
+						<p>You have advantage on saving throws agains poison, and have resistance against posion damage</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Dwarven Combat Training</name>
+					<text type="formattedtext">
+						<p>You are proficient with the battleaxe, handaxe, light hammer, and warhammer</p>
+					</text>
+				</id-00008>
+			</traits>
+		</id-00001>
+	</race>
+	<skill>
+		<id-00001>
+			<locked type="number">1</locked>
+			<name type="string">Pack Tactics</name>
+			<text type="formattedtext">
+				<p>The creature has advantage on an attack roll against a creature if at least one allies is within 5ft of the creature and the ally isn't incapaciated</p>
+			</text>
+		</id-00001>
+		<id-00002>
+			<locked type="number">1</locked>
+			<name type="string">Keen Hearing and Smell</name>
+			<text type="formattedtext">
+				<p>The creature has advantage on Perception checks that rely on hearing or smell.</p>
+			</text>
+		</id-00002>
+	</skill>
+	<spell>
+	</spell>
+	<storytemplate>
+	</storytemplate>
+	<tables>
+		<id-00001>
+			<dice type="dice">d6</dice>
+			<hiderollresults type="number">0</hiderollresults>
+			<locked type="number">0</locked>
+			<mod type="number">0</mod>
+			<notes type="formattedtext">
+				<p></p>
+			</notes>
+			<output type="string">parcel</output>
+			<resultscols type="number">1</resultscols>
+			<table_positionoffset type="number">0</table_positionoffset>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">1</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">option 1</result>
+							<resultlink type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">3</torange>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">4</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">option 2</result>
+							<resultlink type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">6</torange>
+				</id-00002>
+			</tablerows>
+		</id-00001>
+	</tables>
+	<temp>
+	</temp>
+	<treasureparcels>
+		<id-00001>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">option 2</name>
+				</id-00001>
+			</itemlist>
+			<name type="string">[RESULT] </name>
+			<temp>
+			</temp>
+		</id-00001>
+		<id-00002>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">option 1</name>
+				</id-00001>
+			</itemlist>
+			<name type="string">[RESULT] </name>
+			<temp>
+			</temp>
+		</id-00002>
+		<id-00003>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">option 2</name>
+				</id-00001>
+			</itemlist>
+			<name type="string">[RESULT] </name>
+			<temp>
+			</temp>
+		</id-00003>
+		<id-00004>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">option 1</name>
+				</id-00001>
+			</itemlist>
+			<name type="string">[RESULT] </name>
+			<temp>
+			</temp>
+		</id-00004>
+		<id-00005>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">option 1</name>
+				</id-00001>
+			</itemlist>
+			<name type="string">[RESULT] </name>
+			<temp>
+			</temp>
+		</id-00005>
+		<id-00006>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">EP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00004>
+				<id-00005>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00005>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">option 2</name>
+				</id-00001>
+			</itemlist>
+			<name type="string">[RESULT] </name>
+			<temp>
+			</temp>
+		</id-00006>
+	</treasureparcels>
+</root>

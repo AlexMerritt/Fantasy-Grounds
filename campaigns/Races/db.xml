@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3">
+	<calendar>
+		<public />
+	</calendar>
+	<charsheet>
+	</charsheet>
+	<class>
+	</class>
+	<combattracker>
+		<public />
+	</combattracker>
+	<effects>
+		<public />
+	</effects>
+	<export>
+		<file type="string">Races</file>
+		<name type="string">Races</name>
+		<readonly type="number">0</readonly>
+	</export>
+	<image>
+	</image>
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Primordial</font>
+			<name type="string">Primordial</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Aquan</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elvish</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnomish</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<name type="string">Common</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Terran</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Ignan</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<name type="string">Deep Speech</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Auran</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00016>
+		<id-00017>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00017>
+		<id-00018>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00018>
+		<id-00019>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarvish</name>
+		</id-00019>
+		<id-00020>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00020>
+	</languages>
+	<library>
+	</library>
+	<modifiers>
+		<public />
+	</modifiers>
+	<notes>
+	</notes>
+	<options>
+		<public />
+	</options>
+	<partysheet>
+		<public />
+	</partysheet>
+	<race>
+		<id-00001>
+			<locked type="number">1</locked>
+			<name type="string">Dwarf</name>
+			<subraces>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Hill Dwarf</name>
+					<text type="formattedtext">
+						<p>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.</p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Wisdom Increased</name>
+							<text type="formattedtext">
+								<p>+1 Wisdom</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Dwarven Toughness</name>
+							<text type="formattedtext">
+								<p>Your max hit points increase by 1 for each level</p>
+							</text>
+						</id-00002>
+					</traits>
+				</id-00002>
+				<id-00003>
+					<name type="string">Mountian Dwarf</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Stregth Increase</name>
+							<text type="formattedtext">
+								<p>+ Strength</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Dwarven Armor Training</name>
+							<text type="formattedtext">
+								<p>You have proficiency with light and medium armor.</p>
+							</text>
+						</id-00002>
+					</traits>
+				</id-00003>
+			</subraces>
+			<text type="formattedtext">
+				<p>Dwarves are a stoic but stern race, ensconced in cities carved from the hearts of mountains and fiercely determined to repel the depredations of savage races like orcs and goblins. More than any other race, dwarves have acquired a reputation as dour and humorless artisans of the earth. It could be said that their history shapes the dark disposition of many dwarves, for they reside in high mountains and dangerous realms below the earth, constantly at war with giants, goblins, and other such horrors.</p>
+				<p>Dwarves are lovers of history and tradition, and their long lifespan leads to far less in the way of generational shifts in attitudes, styles, fashions, and trends than shorter-lived races exhibit. If a thing is not broken, they do not fix it or change it; and if it is broken, they fix it rather than replace it. Thrifty as a rule, dwarves are loath to discard anything unless it is truly ruined and unable to be fixed. At the same time, dwarves' meticulous, near-obsessive attention to detail and durability in their craftsmanship makes that a rare occurrence, as the things they make are built to last. As a result, buildings, artwork, tools, housewares, garments, weapons, and virtually everything else made by dwarves still sees regular use at an age when such items would be relegated to museum pieces, dusty antique shelves, or junkyard fodder by other races. Taken together, these traits create the impression that dwarves are a race frozen in time.</p>
+				<p>Nothing could be further from the truth, however, as dwarves are both thoughtful and imaginative, willing to experiment, if always keen to refine and perfect a new technique or product before moving on to the next one. Dwarves have achieved feats of metallurgy, stonework, and engineering that have consistently outpaced the technological advances of other races, though some non-dwarven races have used magic to supplement and perfect their own creations to achieve the same ends through mystical rather than mundane means. They are also a race typified by stubborn courage and dedication to seeing tasks through to completion, whatever the risks. These traits have led dwarves to explore and settle in extreme environments that would cause other races to quail and retreat. From the darkest depths of the underworld to the highest mountain peaks, from rusting iron citadels along desolate rocky coasts to squat jungle ziggurats, dwarves have established their enclaves and redoubts, holding them against all comers or perishing to the last and leaving only their enduring monuments to stand as their legacy. While it is said that dwarves are not venturesome or inventive, it would be more accurate to say that they maintain a focus on and dedication to each task they undertake and every change they adopt, vetting such changes thoroughly before adopting them wholeheartedly. When faced with new circumstances and new needs, they react by applying tried and true tools and techniques systematically, using existing methods whenever possible rather than trying to invent novel solutions for every situation. If necessity requires, however, they throw themselves with equal vigor into developing the next perfect procedure for demolishing the obstacles that get in their way. Once their desired goal is obtained, they focus on consolidating each new piece of territory or conceptual advance. Dwarves thus rarely overextend themselves, but they also may miss opportunities to seize the initiative and maximize the advantages they create.</p>
+				<h>Physical Description</h>
+				<p>Dwarves are a short and stocky race, and stand about a foot shorter than most humans, with wide, compact bodies that account for their burly appearance. Male and female dwarves pride themselves on the long length of their hair, and men often decorate their beards with a variety of clasps and intricate braids. Clean-shavenness on a male dwarf is a sure sign of madness, or worse&#226;&#128;&#148;no one familiar with their race trusts a beardless dwarven man.</p>
+				<h>Society</h>
+				<p>The great distances between dwarves' mountain citadels account for many of the cultural differences that exist within their society. Despite these schisms, dwarves throughout the world are characterized by their love of stonework, their passion for stone- and metal-based craftsmanship and architecture, and their fierce hatred of giants, orcs, and goblinoids. In some remote enclaves, such as those areas where these races are uncommon or unheard of, dwarves&#226;&#128;&#153; fixation on security and safety combined with their rather pugnacious nature leads them to find enemies or at least rivals wherever they settle. While they are not precisely militaristic, they learned long ago that those without axes can be hewn apart by them, and thus dwarves everywhere are schooled to be ready to enforce their rights and claims by force of arms. When their patience with diplomacy is exhausted, dwarves do not hesitate to adopt what they call &#226;&#128;&#156;aggressive negotiations.</p>
+				<h>Relations</h>
+				<p>Dwarves and orcs have long dwelt in proximity to one another, and share a history of violence as old as both races. Dwarves generally distrust and shun half-orcs. They find elves, gnomes, and halflings to be too frail, flighty, or &#34;pretty&#34;&#157; to be worthy of proper respect. It is with humans that dwarves share the strongest link, for humans industrious nature and hearty appetites come closest to matching those of the dwarven ideal.</p>
+				<h>Alignment and Religion</h>
+				<p>Dwarves are driven by honor and tradition. While they are often stereotyped as standoffish, they have a strong sense of friendship and justice, and those who win their trust understand that while they work hard, they play even harder-especially when good ale is involved. Most dwarves are lawful good.</p>
+				<h>Adventurers</h>
+				<p>Although dwarven adventurers are rare compared to humans, they can be found in most regions of the world. Dwarves often leave the confines of their redoubts to seek glory for their clans, to find wealth with which to enrich the fortress-homes of their birth, or to reclaim fallen dwarven citadels from racial enemies. Dwarven warfare is often characterized by tunnel fighting and melee combat, and as such most dwarves tend toward classes such as fighters and barbarians.</p>
+				<p><b>Male Names </b>: Dolgrin, Grunyar, Harsk, Kazmuk, Morgrym, Rogar.</p>
+				<p><b>Female Names </b>: Agna, Bodill, Ingra, Kotri, Rusilka, Yangrit.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Consitiution Increase</name>
+					<text type="formattedtext">
+						<p>+2 Consitution</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Dwarves mature at the same rate as humans, but they are considered young until they reach the age of 50. On average, they live about 350 years.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Darkvision</name>
+					<text type="formattedtext">
+						<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Dwarven Resilience</name>
+					<text type="formattedtext">
+						<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Dwarven Combat Training</name>
+					<text type="formattedtext">
+						<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>
+					</text>
+				</id-00008>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Tool Proficiency</name>
+					<text type="formattedtext">
+						<p>You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.</p>
+					</text>
+				</id-00009>
+				<id-00010>
+					<locked type="number">1</locked>
+					<name type="string">Stone Cutting</name>
+					<text type="formattedtext">
+						<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+					</text>
+				</id-00010>
+				<id-00011>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.</p>
+					</text>
+				</id-00011>
+			</traits>
+		</id-00001>
+		<id-00002>
+			<locked type="number">1</locked>
+			<name type="string">Elf</name>
+			<subraces>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">High Elf</name>
+					<text type="formattedtext">
+						<p>As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.</p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Intelligence Increase</name>
+							<text type="formattedtext">
+								<p>+1 Intelligence</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Elf Weapon Training</name>
+							<text type="formattedtext">
+								<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+							</text>
+						</id-00002>
+						<id-00003>
+							<locked type="number">1</locked>
+							<name type="string">Cantrip</name>
+							<text type="formattedtext">
+								<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
+							</text>
+						</id-00003>
+						<id-00004>
+							<locked type="number">1</locked>
+							<name type="string">Extra Language</name>
+							<text type="formattedtext">
+								<p>You can speak, read, and write one extra language of your choice.</p>
+							</text>
+						</id-00004>
+					</traits>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Wood Elf</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Wisdom Increase</name>
+							<text type="formattedtext">
+								<p>+1 Wisdom</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Fleet of Foot</name>
+							<text type="formattedtext">
+								<p>Your base walking speed is 35 feet.</p>
+							</text>
+						</id-00002>
+						<id-00003>
+							<locked type="number">1</locked>
+							<name type="string">Mask of the Wild</name>
+							<text type="formattedtext">
+								<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+							</text>
+						</id-00003>
+						<id-00004>
+							<locked type="number">1</locked>
+							<name type="string">Elf Weapon Trainging</name>
+							<text type="formattedtext">
+								<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+							</text>
+						</id-00004>
+					</traits>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Drow</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Charisma Increase</name>
+							<text type="formattedtext">
+								<p>+1 Charisma</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Superior Darkvision</name>
+							<text type="formattedtext">
+								<p>Your darkvision has a radius of 120 feet.</p>
+							</text>
+						</id-00002>
+						<id-00003>
+							<locked type="number">1</locked>
+							<name type="string">Sunlight Sensitivity</name>
+							<text type="formattedtext">
+								<p>You have disadvantage on attack rolls and on Wisdom (perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to percieve is in direct sunlight.</p>
+							</text>
+						</id-00003>
+						<id-00004>
+							<locked type="number">1</locked>
+							<name type="string">Drow Weapon Training</name>
+							<text type="formattedtext">
+								<p>You have proficiency with rapiers, shortswords, and hand crossbows.</p>
+							</text>
+						</id-00004>
+						<id-00005>
+							<locked type="number">1</locked>
+							<name type="string">Drow Magic</name>
+							<text type="formattedtext">
+								<p>You know dancing lights cantrip.</p>
+								<p>When you reach 3rd level, you can cast the faerie fire spell one with this trait and regain the ability to do so when you finish a long rest.</p>
+								<p>When you reach 5th level you can cast darkness spell once with this trait and regain the ability to do so when you finish a long rest.</p>
+								<p>Charisma is your spellcasting ability for these spells.</p>
+							</text>
+						</id-00005>
+					</traits>
+				</id-00003>
+			</subraces>
+			<text type="formattedtext">
+				<p>The long-lived elves are children of the natural world, similar in many superficial ways to fey creatures, though with key differences. While fey are truly linked to the flora and fauna of their homes, existing as the nearly immortal voices and guardians of the wilderness, elves are instead mortals who are in tune with the natural world around them. Elves seek to live in balance with the wild and understand it better than most other mortals. Some of this understanding is mystical, but an equal part comes from the elves' long lifespans, which in turn gives them long-ranging outlooks. Elves can expect to remain active in the same locale for centuries. By necessity, they must learn to maintain sustainable lifestyles, and this is most easily done when they work with nature, rather than attempting to bend it to their will. However, their links to nature are not entirely driven by pragmatism. Elves' bodies slowly change over time, taking on a physical representation of their mental and spiritual states, and those who dwell in a region for a long period of time find themselves physically adapting to match their surroundings, most noticeably taking on coloration that reflects the local environment.</p>
+				<p>Elves value their privacy and traditions, and while they are often slow to make friends at both the personal and national levels, once an outsider is accepted as a comrade, the resulting alliances can last for generations. Elves take great joy in forging alliances with races that share or exceed their long lifetimes, and often work to befriend dragons, outsiders, and fey. Those elves who spend their lives among the short-lived races, on the other hand, often develop a skewed perception of mortality and become morose, the result of watching wave after wave of companions age and die before their eyes.</p>
+				<h>Physical Description</h>
+				<p>Generally taller than humans, elves possess a graceful, slender physique that is accentuated by their long, pointed ears. It is a mistake, however, to consider them weak or feeble, as the thin limbs of an elf can contain surprising power. Their eyes are wide and almond-shaped, and filled with large, vibrantly colored pupils. The coloration of elves as a whole varies wildly, and is much more diverse than that of human populations. However, as their coloration often matches their surroundings, the elves of a single community may appear quite similar. Forest-dwelling elves often have variations of green, brown, and tan in their hair, eye, and even skin tones.</p>
+				<p>While elven clothing often plays off the beauty of the natural world, those elves who live in cities tend to bedeck themselves in the latest fashions. Where city-dwelling elves encounter other urbanites, the elves are often fashion trendsetters.</p>
+				<h>Society</h>
+				<p>Many elves feel a bond with nature and strive to live in harmony with the natural world. Although, like most, elves prefer bountiful lands where resources are plentiful, when driven to live in harsher climates, they work hard to protect and shepherd the region's bounty, and learn how to maximize the benefit they receive from what little can be harvested. When they can carve out a sustainable, reliable life in deserts and wastelands, they take pride as a society in the accomplishment. While this can make them excellent guides to outsiders they befriend who must travel through such lands, their disdain of those who have not learned to live off the scant land as they have makes such friends rare.</p>
+				<p>Elves have an innate gift for craftsmanship and artistry, especially when working in wood, bone, ivory, or leather. Most, however, find manipulating earth and stone to be distasteful, and prefer to avoid forging, stonework, and pottery. When such work must be done within a community, a few elves may find themselves drawn to it, but regardless of their craftsmanship, such &#34;dirt-wrights&#34;&#157; are generally seen by other elves as being a bit off. In the most insular of elven societies, they may even be treated as lower class.</p>
+				<p>Elves also have an appreciation for the written word, magic, and painstaking research. Their naturally keen minds and senses, combined with their inborn patience, make them particularly suited to wizardry. Arcane research and accomplishment are seen as both practical goals, in line with being a soldier or architect, and artistic endeavors as great as poetry or sculpture. Within elven society, wizards are held in extremely high regard as masters of an art both powerful and aesthetically valued. Other spellcasters are not disdained, but do not gain the praise lavished upon elven wizards.</p>
+				<h>Relations</h>
+				<p>Elves are prone to dismissing other races, writing them off as rash and impulsive, yet on an individual level, they are excellent judges of character. In many cases an elf will come to value a specific member of another race, seeing that individual as deserving and respectable, while still dismissing the race as a whole. If called on this behavior, the elf often doesn't understand why his &#34;special friend&#34;&#157; is upset the elf has noticed the friend is &#34;so&#34; much better than the rest of his kind.&#226;&#128;&#157; Even elves who see such prejudice for what it is must constantly watch themselves to prevent such views from coloring their thinking.</p>
+				<p>Elves are not foolish enough, however, to dismiss all aspects of other races and cultures. An elf might not want a dwarf neighbor, but would be the first to acknowledge dwarves' skill at smithing and their tenacity in facing orc threats. Elves regard gnomes as strange (and sometimes dangerous) curiosities, but regard their magical talent as being worthy of praise and respect. Halflings are often viewed with a measure of pity, for these small folk seem to the elves to be adrift, without a traditional home. Elves are fascinated with humans, who seem to live in a few short years as full a life as an elf manages in centuries. In fact, many elves become infatuated with humans, as evidenced by the number of half-elves in the world. Elves have difficulty accepting crossbreeds of any sort, however, and usually disown such offspring. They similarly regard half-orcs with distrust and suspicion, assuming they possess the worst aspects of orc and human personalities.</p>
+				<h>Alignment and Religion</h>
+				<p>Elves are emotional and capricious, yet value kindness and beauty. Most elves are chaotic good, wishing all creatures to be safe and happy, but unwilling to sacrifice personal freedom or choice to accomplish such goals. They prefer deities who share their love of the mystic qualities of the world.</p>
+				<h>Adventurers</h>
+				<p>Many elves embark on adventures out of a desire to explore the world, leaving their secluded realms to reclaim forgotten elven magic or search out lost kingdoms established millennia ago by their ancestors. This need to see a wider world is accepted by their societies as a natural part of becoming mature and experienced individuals. Such elves are expected to return in some few decades and take up lives in their homelands once more, enriched both in treasure and in worldview. For those elves raised among humans, however, life within their homes-watching friends and family swiftly age and die-is often stifling, and the ephemeral and unfettered life of an adventurer holds a natural appeal. Elves generally eschew melee because of their relative frailty, preferring instead to engage enemies at range. Most see combat as unpleasant even when needful, and prefer it be done as quickly as possible, preferably without getting close enough to smell their foes. This preference for making war at a distance, coupled with their natural accuracy and grasp of the arcane, encourages elves to pursue classes such as wizards and rangers.</p>
+				<p><b>Male Names </b>: Caladrel, Heldalel, Lanliss, Meirdrarel, Seldlon, Talathel, Variel, Zordlon.</p>
+				<p><b>Female Names </b>: Amrunelara, Dardlara, Faunra, Jathal, Merisiel, Oparal, Soumral, Tessara, Yalandlara.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Dexterity Increase</name>
+					<text type="formattedtext">
+						<p>+2 Dexterity</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Elves love freedom, variety, and self- expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not. The drow are an exception; their exile has made them vicious and dangerous. Drow are more often evil than not.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 30 feet.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Darkvision</name>
+					<text type="formattedtext">
+						<p>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Keen Sences</name>
+					<text type="formattedtext">
+						<p>You have proficiency in the Perception skill.</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Fey Ancestry</name>
+					<text type="formattedtext">
+						<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
+					</text>
+				</id-00008>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Trance</name>
+					<text type="formattedtext">
+						<p>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is &#34;trance&#34;&#157;) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+					</text>
+				</id-00009>
+				<id-00011>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</p>
+					</text>
+				</id-00011>
+			</traits>
+		</id-00002>
+		<id-00003>
+			<locked type="number">1</locked>
+			<name type="string">Halfling</name>
+			<subraces>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Lightfoot</name>
+					<text type="formattedtext">
+						<p>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.</p>
+						<p>Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.</p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Charisma Increase</name>
+							<text type="formattedtext">
+								<p>+1 Charisma</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Naturally Stealthy</name>
+							<text type="formattedtext">
+								<p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>
+							</text>
+						</id-00002>
+					</traits>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Stout</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Constitution Increase</name>
+							<text type="formattedtext">
+								<p>+1 Constitution</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Stout Resilience</name>
+							<text type="formattedtext">
+								<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+							</text>
+						</id-00002>
+					</traits>
+				</id-00002>
+			</subraces>
+			<text type="formattedtext">
+				<p>Optimistic and cheerful by nature, blessed with uncanny luck, and driven by a powerful wanderlust, halflings make up for their short stature with an abundance of bravado and curiosity. At once excitable and easy-going, halflings like to keep an even temper and a steady eye on opportunity, and are not as prone to violent or emotional outbursts as some of the more volatile races. Even in the jaws of catastrophe, halflings almost never lose their sense of humor. Their ability to find humor in the absurd, no matter how dire the situation, often allows halflings to distance themselves ever so slightly from the dangers that surround them. This sense of detachment can also help shield them from terrors that might immobilize their allies.</p>
+				<p>Halflings are inveterate opportunists. They firmly believe they can turn any situation to their advantage, and sometimes gleefully leap into trouble without any solid plan to extricate themselves if things go awry. Often unable to physically defend themselves from the rigors of the world, they know when to bend with the wind and when to hide away. Yet halflings' curiosity often overwhelms their good sense, leading to poor decisions and narrow escapes. While harsh experience sometimes teaches halflings a measure of caution, it rarely makes them completely lose faith in their luck or stop believing that the universe, in some strange way, exists for their entertainment and would never really allow them to come to harm. Though their curiosity drives them to seek out new places and experiences, halflings possess a strong sense of hearth and home, often spending above their means to enhance the comforts of domestic life. Without a doubt, halflings enjoy luxury and comfort, but they have equally strong reasons to make their homes a showcase. Halflings consider this urge to devote time, money, and energy toward improving their dwellings a sign of both respect for strangers and affection for their loved ones. Whether for their own blood kin, cherished friends, or honored guests, halflings make their homes beautiful in order to express their feelings toward those they welcome inside. Even traveling halflings typically decorate their wagons or carry a few cherished keepsakes to adorn their campsites.</p>
+				<h>Physical Description</h>
+				<p>Halflings rise to a humble height of 3 feet. They prefer to walk barefoot, leading the bottoms of their feet to become roughly calloused. Tufts of thick, curly hair warm the tops of their broad, tanned feet.</p>
+				<p>Their skin tends toward a rich cinnamon color and their hair toward light shades of brown. A halfling's ears are pointed, but proportionately not much larger than those of a human.</p>
+				<p>Halflings prefer simple and modest clothing. Though willing and able to dress up if the situation demands it, their racial urge to remain quietly in the background makes them rather conservative dressers in most situations. Halfling entertainers, on the other hand, make their livings by drawing attention, and tend to go overboard with gaudy and flashy costumes.</p>
+				<h>Society</h>
+				<p>Rather than place their faith in empires or great causes, many halflings prefer to focus on the simpler and humbler virtues of their families and local communities. Halflings claim no cultural homeland and control no settlements larger than rural assemblies of free towns. Most often, they dwell at the knees of their human cousins in human cities, eking out livings as they can from the scraps of larger societies. Many halflings lead perfectly fulfilling lives in the shadow of their larger neighbors, while some prefer more nomadic lives, traveling the world and experiencing all it has to offer.</p>
+				<p>Halflings rely on customs and traditions to maintain their own culture. They have an extensive oral history filled with important stories about folk heroes who exemplify particular halfling virtues, but otherwise see little purpose in studying history in and of itself. Given a choice between a pointless truth and a useful fable, halflings almost always opt for the fable. This tendency helps to explain at least something of the famous halfling adaptability. Halflings look to the future and find it very easy to cast off the weight of ancient grudges or obligations that drag down so many other races.</p>
+				<h>Relations</h>
+				<p>A typical halfling prides himself on his ability to go unnoticed by other races-a trait that allows many halflings to excel at thievery and trickery. Most halflings know full well the stereotypical view other races take of them as a result, and go out of their way to be forthcoming and friendly to the bigger races when they're not trying to go unnoticed. They get along fairly well with gnomes, although most halflings regard these eccentric creatures with a hefty dose of caution. Halflings respect elves and dwarves, but these races often live in remote regions far from the comforts of civilization that halflings enjoy, thus limiting opportunities for interaction. By and large, only half-orcs are shunned by halflings, for their great size and violent natures are a bit too intimidating for most halflings to cope with. Halflings coexist well with humans as a general rule, but since some of the more aggressive human societies value halflings as slaves, they try not to grow too complacent. Halflings strongly value their freedom, especially the ability to travel in search of new experiences and the autonomy this requires. However, practical and flexible as always, enslaved halflings seldom fight back directly against their masters. When possible, they wait for the perfect opportunity and then simply slip away. Sometimes, if enslaved for long enough, halflings even come to adopt their owners as their new families. Though they still dream of escape and liberty, these halflings also make the best of their lives.</p>
+				<h>Alignment and Religion</h>
+				<p>Halflings are loyal to their friends and families, but since they dwell in a world dominated by races twice as large as themselves, they have come to grips with the fact that sometimes they need to scrape and scrounge for survival. Most halflings are neutral as a result. Though they usually make a show of respecting the laws and endorsing the prejudices of their communities, halflings place an even greater emphasis on the innate common sense of the individual. When a halfling disagrees with society at large, he will do what he thinks is best. Always practical, halflings frequently worship the deity most favored by their larger and more powerful neighbors. They also usually cover their bets, however. The goddess of both luck and travel seems a natural fit for most halflings and offering her a quick prayer every now and then is only common sense.</p>
+				<h>Adventurers</h>
+				<p>Their inherent luck coupled with their insatiable wanderlust makes halflings ideal candidates for lives of adventure. Though perfectly willing to pocket any valuables they come across, halflings often care more for the new experiences adventuring brings them than for any material reward. Halflings tend to view money as a means of making their lives easier and more comfortable, not as an end in and of itself. Other such vagabonds often put up with this curious race in hopes that some of their mystical luck will rub off. Halflings see nothing wrong with encouraging this belief, not just in their traveling companions, but also in the larger world. Many try to use their reputation for luck to haggle for reduced fare when traveling by ship or caravan, or even for an overnight stay at an inn. They meet with mixed success, but there are just enough stories circulating about the good fortune that befalls people traveling with halflings to give even the most skeptical pause. Of course, some suspect that halflings deliberately spread these reports for just that reason.</p>
+				<p><b>Male Names </b>: Antal, Boram, Hyrgan, Jamir, Lem, Miro, Sumak, Tribin, Uldar, Vraxim.</p>
+				<p><b>Female Names </b>: Anafa, Bellis, Etune, Filiu, Irlana, Marra, Pressi, Rilka, Sistra, Wyssal, Yamyra.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Dexterity Increase</name>
+					<text type="formattedtext">
+						<p>+2 Dexterity</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 25 feet.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Lucky</name>
+					<text type="formattedtext">
+						<p>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Brave</name>
+					<text type="formattedtext">
+						<p>You have advantage on saving throws against being frightened.</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Halfling Nimbleness</name>
+					<text type="formattedtext">
+						<p>You can move through the space of any creature that is of a size larger than yours.</p>
+					</text>
+				</id-00008>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</p>
+					</text>
+				</id-00009>
+			</traits>
+		</id-00003>
+		<id-00004>
+			<name type="string">Human</name>
+			<subraces>
+			</subraces>
+			<text type="formattedtext">
+				<p>Humans possess exceptional drive and a great capacity to endure and expand, and as such are currently the dominant race in the world. Their empires and nations are vast, sprawling things, and the citizens of these societies carve names for themselves with the strength of their sword arms and the power of their spells. Humanity is best characterized by its tumultuousness and diversity, and human cultures run the gamut from savage but honorable tribes to decadent, devil-worshiping noble families in the most cosmopolitan cities. Humans' curiosity and ambition often triumph over their predilection for a sedentary lifestyle, and many leave their homes to explore the innumerable forgotten corners of the world or lead mighty armies to conquer their neighbors, simply because they can.</p>
+				<p>Human society is a strange amalgam of nostalgia and futurism, being enamored of past glories and wistfully remembered &#34;golden ages,&#34;&#157; yet at the same time quick to discard tradition and history and strike off into new ventures. Relics of the past are kept as prized antiques and museum pieces, as humans love to collect things&#226;&#128;&#148;not only inanimate relics but also living creatures-to display for their amusement or to serve by their side. Other races suggest this behavior is due to a deep-rooted urge to dominate and assert power in the human psyche, an urge to take, till, or tame the wild things and places of the world. Those with a more charitable view believe humans are simply collectors of experiences, and the things they take and keep, whether living, dead, or never alive, are just tokens to remind themselves of the places they have gone, the things they have seen, and the deeds they have accomplished. Their present and future value is just a bonus; their real value is as an ongoing reminder of the inevitable progress of humanity.</p>
+				<p>Humans in many places are fascinated by older races and cultures, though at times they grow frustrated or even contemptuous of ancient and (to their mind) outmoded traditions. Their attitudes toward other races are thus a curious mix of exoticism and even fetishism, though usually with a very superficial level of understanding and appreciation of those cultures, alongside a deeply rooted arrogance that means most humans have a hard time regarding themselves as anything other than the default standard of society. Human scholars engaged in the study of other races-who might be assumed to be the most cosmopolitan and well versed in their nature and culture-have often proved no better than the less-learned members of their race when it comes to genuine closing of the social distance. Humans are gregarious, often friendly, and willing to mix and interact with others, but their sheer obliviousness to their off handed marginalization of others is what so chagrins other races when dealing with them.</p>
+				<p>Of course, well-meaning, blundering ignorance and numerical superiority are not the only things that make other races suspicious of humans. Entirely too many examples can be found throughout history wherein human xenophobia and intolerance has led to social isolationism, civil oppression, bloody purges, inquisitions, mob violence, and open war. Humans are not the only race to hate what is different among them, but they seem to have a susceptibility to fear-mongering and suspicion, whether about race, language, religion, class, gender, or another difference. More moderate human citizens often sit idly by while their more extreme compatriots dominate the political and cultural conversation, yet there are also many who stand in opposition to extremists and embody a spirit of unity across the bounds of difference, transcending barriers and forming alliances and relationships both large and small across every color, creed, country, or species.</p>
+				<h>Physical Description</h>
+				<p>The physical characteristics of humans are as varied as the world's climes. From the dark-skinned tribesmen of the southern continents to the pale and barbaric raiders of the northern lands, humans possess a wide variety of skin colors, body types, and facial features. Generally speaking, humans' skin color assumes a darker hue the closer to the equator they live. At the same time, bone structure, hair color and texture, eye color, and a host of facial and bodily phenotypic characteristics vary immensely from one locale to another. Cheekbones may be high or broad, noses aquiline or flat, and lips full or thin; eyes range wildly in hue, some deep set in their sockets, and others with full epicanthic folds. Appearance is hardly random, of course, and familial, tribal, or national commonalities often allow the knowledgeable to identify a human's place of origin on sight, or at least to hazard a good guess. Humans' origins are also indicated through their traditional styles of bodily decoration, not only in the clothing or jewelry worn, but also in elaborate hairstyles, piercing, tattooing, and even scarification.</p>
+				<h>Society</h>
+				<p>Human society comprises a multitude of governments, attitudes, and lifestyles. Though the oldest human cultures trace their histories thousands of years into the past, when compared to the societies of other races like elves and dwarves, human society seems to be in a state of constant flux as empires fragment and new kingdoms subsume the old. In general, humans are known for their flexibility, ingenuity, and ambition. Other races sometimes envy humans their seemingly limitless adaptability, not so much biologically speaking but in their willingness to step beyond the known and press on to whatever might await them. While many or even most humans as individuals are content to stay within their comfortable routine, there is a dauntless spirit of discovery endemic to humans as a species that drives them in striving toward possibilities beyond every horizon.</p>
+				<h>Relations</h>
+				<p>Humans are fecund, and their drive and numbers often spur them into contact with other races during bouts of territorial expansion and colonization. In many cases, this tendency leads to violence and war, yet humans are also swift to forgive and forge alliances with races who do not try to match or exceed them in violence. Proud, sometimes to the point of arrogance, humans might look upon dwarves as miserly drunkards, elves as flighty fops, halflings as craven thieves, gnomes as twisted maniacs, and half-elves and half-orcs as embarrassments-but the race's diversity among its own members also makes many humans quite adept at accepting others for what they are. Humans may become so absorbed in their own affairs that they remain ignorant of the language and culture of others, and some take this ignorance to a hateful extreme of intolerance, oppression, and rarely even extermination of others they perceive as dangerous, strange, or &#34;impure.&#34;&#157; Thankfully, while such incidents and movements may taint all of humanity in the eyes of some, they are more often the exception than the rule.</p>
+				<h>Alignment and Religion</h>
+				<p>Humanity is perhaps the most diverse of all the common races, with a capacity for both great evil and boundless good. Some humans assemble into vast barbaric hordes, while others build sprawling cities that cover miles. Taken as a whole, most humans are neutral, yet they generally tend to congregate in nations and civilizations with specific alignments. Humans also have the widest range of gods and religions, lacking other races' ties to tradition and eager to turn to anyone offering them glory or protection.</p>
+				<h>Adventurers</h>
+				<p>Ambition alone drives countless humans, and for many, adventuring serves as a means to an end, whether it be wealth, acclaim, social status, or arcane knowledge. A few pursue adventuring careers simply for the thrill of danger. Humans hail from myriad regions and backgrounds, and as such can fill any role within an adventuring party.</p>
+				<p><b>Female Names </b>: Alerdene, Alinza, Aula, Bach Hien, Belka, Beshkee, Chammady, Chao, Do Quyen, Eshe, Eudomia, Gerda, Hiriko, Ilinica, Indah, Ingirt, Izora, Jalket, Jayazi, Kaede, Kalizama, Kamshi, Lestari, Leyli, Marisan, Me&#226;&#128;&#153;amesa, Meilin, Mirelinda, Mpaandi, Nalmida, Nanya, Narantuyaa, Ntisi, Pasara, Pontia, Que Xuan, Revhi, Runa, Sahba, Shirin, Shivkah, Sinkitah, Surenchinua, Udara, Umie, Valki, Waajida, Xemne, Xue, Zalika, Zova.</p>
+				<p><b>Male Names </b>: Aakif, Andrezi, Arasmes, Bahram, Baolo, Barid, Batsaikhan, Belor, Budi, Darvan, Dolok, Eilif, Garidan, Gellius, Hadzi, Hamengku, Harisko, Iacobus, Jaali, Jianguo, Kjell, Kousei, Kronug, Menas, Mitabu, Narsius, Nonek, Pateba, Pratavh, Qorchi, Ragnar, Rubani, Seckor, Shokamb, Shuo, Sunaki, Suryo, Tabansi, Teruawa, Thanh Liem, Toan Hao, Tomorbataar, Tuong Kinh, Ursion, Vachedi, Viorec, Yekskya, Zaiho, Zhen.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Ability Score Increase</name>
+					<text type="formattedtext">
+						<p>+1 to all ability scores</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Humans reach adulthood in their late teens and live less than a century.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Humans tend toward no particular alignment. The best and the worst are found among them.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 30 feet.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</p>
+					</text>
+				</id-00006>
+			</traits>
+		</id-00004>
+		<id-00006>
+			<locked type="number">1</locked>
+			<name type="string">Dragonborn</name>
+			<subraces>
+				<id-00001>
+					<name type="string">Black</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a black dragon.</p>
+								<p><b>Damage type </b>: Acid</p>
+								<p><b>Breath Weapon </b>: 5ft by 30ft line (Dex. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Blue</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a blue dragon.</p>
+								<p><b>Damage Type </b>: Lightning</p>
+								<p><b>Breath Weapon </b>: 5ft by 30ft line (Dex. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Brass</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a brass dragon.</p>
+								<p><b>Damage Type </b>: Fire</p>
+								<p><b>Breath Weapon </b>: 5ft by 30ft line (Dex. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Bronze</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a bronze dragon.</p>
+								<p><b>Damage Type </b>: Lightning</p>
+								<p><b>Breath Weapon </b>: 5ft by 30ft line (Dex. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Copper</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a copper dragon.</p>
+								<p><b>Damage Type </b>: Acid</p>
+								<p><b>Breath Weapon </b>: 5ft by 30ft line (Dex. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Gold</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a gold dragon.</p>
+								<p><b>Damage Type </b>: Fire</p>
+								<p><b>Breath Weapon </b>: 15ft cone (Dex. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Green</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a green dragon.</p>
+								<p><b>Damage Type </b>: Poison</p>
+								<p><b>Breath Weapon </b>: 15ft cone (Con. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Red</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a red dragon.</p>
+								<p><b>Damage Type </b>: Fire</p>
+								<p><b>Breath Weapon </b>: 15ft cone (Dex. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00008>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Silver</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a silver dragon.</p>
+								<p><b>Damage Type </b>: Cold</p>
+								<p><b>Breath Weapon </b>: 15ft cone (Con. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00009>
+				<id-00010>
+					<locked type="number">1</locked>
+					<name type="string">White</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dragon Ancestry</name>
+							<text type="formattedtext">
+								<p>You have a dragonic ancestry from a white dragon.</p>
+								<p><b>Damage Type </b>: Cold</p>
+								<p><b>Breath Weapon </b>: 15ft cone (Con. save)</p>
+							</text>
+						</id-00001>
+					</traits>
+				</id-00010>
+			</subraces>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Ability Score Increase</name>
+					<text type="formattedtext">
+						<p>+2 Strength</p>
+						<p>+1 Charisma</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 30 feet.</p>
+					</text>
+				</id-00005>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Breath Weapon</name>
+					<text type="formattedtext">
+						<p>Breath Weapon: You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
+						<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
+						<p>After you use your breath weapon, you can&#226;&#128;&#153;t use it again until you complete a short or long rest.</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Damage Resistance</name>
+					<text type="formattedtext">
+						<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+					</text>
+				</id-00008>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</p>
+					</text>
+				</id-00009>
+			</traits>
+		</id-00006>
+		<id-00007>
+			<locked type="number">1</locked>
+			<name type="string">Gnome</name>
+			<subraces>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Forest Gnome</name>
+					<text type="formattedtext">
+						<p></p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Dexterity Increase</name>
+							<text type="formattedtext">
+								<p>+1 Dexterity</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Natural Illusionist</name>
+							<text type="formattedtext">
+								<p>You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.</p>
+							</text>
+						</id-00002>
+						<id-00003>
+							<locked type="number">1</locked>
+							<name type="string">Speak with Small Beasts</name>
+							<text type="formattedtext">
+								<p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forst gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</p>
+							</text>
+						</id-00003>
+					</traits>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Rock Gnome</name>
+					<text type="formattedtext">
+						<p>As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.</p>
+					</text>
+					<traits>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Constitution Increase</name>
+							<text type="formattedtext">
+								<p>+1 Constitution</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<locked type="number">1</locked>
+							<name type="string">Artificer's Lore</name>
+							<text type="formattedtext">
+								<p>Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</p>
+							</text>
+						</id-00002>
+						<id-00003>
+							<locked type="number">1</locked>
+							<name type="string">Tinker</name>
+							<text type="formattedtext">
+								<p>You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:</p>
+								<p><b>Clockwork Toy </b>: This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</p>
+								<p><b>Fire Starter </b>: The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</p>
+								<p><b>Music Box </b>: When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</p>
+							</text>
+						</id-00003>
+					</traits>
+				</id-00002>
+			</subraces>
+			<text type="formattedtext">
+				<p>Gnomes are distant relatives of the fey, and their history tells of a time when they lived in the fey's mysterious realm, a place where colors are brighter, the wildlands wilder, and emotions more primal. Unknown forces drove the ancient gnomes from that realm long ago, forcing them to seek refuge in this world; despite this, the gnomes have never completely abandoned their fey roots or adapted to mortal culture. Though gnomes are no longer truly fey, their fey heritage can be seen in their innate magic powers, their oft-capricious natures, and their outlooks on life and the world.</p>
+				<p>Gnomes can have the same concerns and motivations as members of other races, but just as often they are driven by passions and desires that non-gnomes see as eccentric at best, and nonsensical at worst. A gnome may risk his life to taste the food at a giant's table, to reach the bottom of a pit just because it would be the lowest place he's ever been, or to tell jokes to a dragon-and to the gnome those goals are as worthy as researching a new spell, gaining vast wealth, or putting down a powerful evil force. While such apparently fickle and impulsive acts are not universal among gnomes, they are common enough for the race as a whole to have earned a reputation for being impetuous and at least a little mad.</p>
+				<p>Combined with their diminutive sizes, vibrant coloration, and lack of concern for the opinions of others, these attitudes have caused gnomes to be widely regarded by the other races as alien and strange. Gnomes, in turn, are often amazed how alike other common, civilized races are. It seems stranger to a gnome that humans and elves share so many similarities than that the gnomes do not. Indeed, gnomes often confound their allies by treating everyone who is not a gnome as part of a single, vast non-gnome collective race.</p>
+				<h>Physical Description</h>
+				<p>Gnomes are one of the smallest of the common races, generally standing just over 3 feet in height. Despite their small frames, however, gnomes are extremely resilient, and not as weak as many of their foes assume. Though their diminutive stature reduces their ability to move quickly, gnomes often train to take advantage of their size, especially when fighting foes much larger than themselves.</p>
+				<p>The coloration of gnomes varies so wildly that many outsiders assume gnomes commonly use dyes and illusions to change their skin and hair tones. While gnomes are certainly not above cosmetic enhancement (and may wish to change their appearance just to see how outlandish they can look), their natural hues truly range over a rainbow of coloration. Their hair tends toward vibrant colors such as the fiery orange of autumn leaves, the verdant green of forests at springtime, or the deep reds and purples of wildflowers in bloom. Similarly, their flesh tones range from earthy browns to floral pinks, and gnomes with black, pastel blue, or even green skin are not unknown. Gnomes' coloration has little regard for heredity, with the color of a gnome&#226;&#128;&#153;s parents and other kin having no apparent bearing on the gnome's appearance. Gnomes possess highly mutable facial characteristics, and their proportions often don't match the norm of other humanoid races. Many have overly large mouths and eyes, an effect which can be both disturbing and stunning, depending on the individual. Others may have extremely small features spread over an otherwise blank expanse of face, or may mix shockingly large eyes with a tiny, pursed mouth and a pert button of a nose. Gnomes rarely take pride in or show embarrassment about their features, but members of other races often fixate on a gnome's most prominent feature and attempt to use it as the focus of insults or endearments.</p>
+				<h>Society</h>
+				<p>Unlike most races, gnomes do not generally organize themselves within classic societal structures. Gnome cities are unusual and gnome kingdoms almost unknown. Further, gnomes have no particular tendency to gather in specific neighborhoods even when a large number of them live among other races. While specific laws meant to contain the potential impact of gnomes on a society may require a &#34;gnome quarter,&#34;&#157; and societal pressure sometimes causes all non-gnomes to move away from areas with high gnome populations, left to their own devices, gnomes tend to spread evenly throughout communities that allow them.</p>
+				<p>However, even when gnomes are common within a community as a group, individual gnomes tend to be always on the move. Whimsical creatures at heart, they typically travel alone or with temporary companions, ever seeking new and more exciting experiences. They rarely form enduring relationships among themselves or with members of other races, instead pursuing crafts, professions, or collections with a passion that borders on zealotry. If a gnome does settle in an area or stay with a group for a longer period, it is almost always the result of some benefit that area gives to a vocation or obsession to which the gnome had dedicated himself.</p>
+				<p>Despite their extremely varied backgrounds and lack of a unifying homeland, gnomes do possess some common cultural traits. Male gnomes have a strange fondness for unusual hats and headgear, often wearing the most expensive and ostentatious head-covering they can afford (and that their chosen careers will allow them to wear without causing problems). Females rarely cover their heads, but proudly wear elaborate and eccentric hairstyles that often include intricate jeweled combs and headpieces.</p>
+				<h>Relations</h>
+				<p>Gnomes have difficulty interacting with the other races, on both emotional and physical levels. In many ways the very fact other races see gnomes as odd is itself the thing gnomes find most odd about other races, and this leads to a strong lack of common ground upon which understanding and relationships can be built. When two gnomes encounter one another, they generally assume some mutually beneficial arrangement can be reached, no matter how different their beliefs and traditions may be. Even if this turns out not to be the case, the gnomes continue to look for commonalities in their dealings with each other. The inability or unwillingness of members of other races to make the same effort when dealing with gnomes is both frustrating and confusing to most gnomes.</p>
+				<p>In many ways, it is gnomes' strong connection to a wide range of apparently unconnected ideas that makes it difficult for other races to build relationships with them. Gnome humor, for example, is often focused on physical pranks, nonsensical rhyming nicknames, and efforts to convince others of outrageous lies that strain all credibility. Gnomes find such efforts hysterically funny, but their pranks often come across as malicious or senseless to other races, while gnomes in turn tend to think of the taller races as dull and lumbering giants. Gnomes get along reasonably well with halflings and humans, who at least have some traditions of bizarre, gnome-like humor. Gnomes generally feel dwarves and half-orcs need to lighten up, and attempt to bring levity into their lives with tricks, jokes, and outrageous tales the more dour races simply cannot see the sense of. Gnomes respect elves, but often grow frustrated with the slow pace at which members of the long-lived race make decisions. To gnomes, action is always better than inaction, and many gnomes carry several highly involved projects with them at all times to keep themselves entertained during rest periods.</p>
+				<h>Alignment and Religion</h>
+				<p>Although gnomes are impulsive tricksters, with sometimes inscrutable motives and equally confusing methods, their hearts are generally in the right place. What may seem a malicious act to a non-gnome is more likely an effort to introduce new acquaintances to new experiences, however unpleasant the experiences may be. Gnomes are prone to powerful fits of emotion, and find themselves most at peace within the natural world. They are usually neutral good, and prefer to worship deities who value individuality and nature.</p>
+				<h>Adventurers</h>
+				<p>Gnomes' propensity for wanderlust, deep curiosity, and desire to master odd or esoteric skills and languages make them natural adventurers. They often become wanderers to experience new aspects of life, for nothing is as novel as the uncounted dangers facing adventurers. Many gnomes see adventuring as the only worthwhile purpose in life, and seek out adventures for no other motive than to experience them. Other gnomes desire to find some lost lore or material that has ties to their chosen vocation and believe only dragon hoards and ancient ruins can contain the lore they need, which can result in gnomes who think of themselves as bakers or weavers being just as accomplished adventurers as those who declare themselves to be mages or scouts.</p>
+				<p>Gnomes are physically weak compared to many races, and see this as a simple fact of life to be planned for accordingly. Most adventuring gnomes make up for their weakness with a proclivity for sorcery or bardic music, while others turn to alchemy or exotic weapons to grant them an edge in conflicts.</p>
+				<p><b>Male Names </b>: Abroshtor, Bastargre, Halungalom, Krolmnite, Poshment, Zarzuket, Zatqualmie.</p>
+				<p><b>Female Names </b>: Besh, Fijit, Lini, Majet, Neji, Pai, Queck, Trig.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Intelligence Increase</name>
+					<text type="formattedtext">
+						<p>+2 Intelligence</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 25 feet.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Darkvision</name>
+					<text type="formattedtext">
+						<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Gnome Cunning</name>
+					<text type="formattedtext">
+						<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.</p>
+					</text>
+				</id-00008>
+			</traits>
+		</id-00007>
+		<id-00008>
+			<locked type="number">1</locked>
+			<name type="string">Half-Orc</name>
+			<subraces>
+			</subraces>
+			<text type="formattedtext">
+				<p>As seen by civilized races, half-orcs are monstrosities, the result of perversion and violence-whether or not this is actually true. Half-orcs are rarely the result of loving unions, and as such are usually forced to grow up hard and fast, constantly fighting for protection or to make names for themselves. Half-orcs as a whole resent this treatment, and rather than play the part of the victim, they tend to lash out, unknowingly confirming the biases of those around them. A few feared, distrusted, and spat-upon half-orcs manage to surprise their detractors with great deeds and unexpected wisdom-though sometimes it's easier just to crack a few skulls. Some half-orcs spend their entire lives proving to full-blooded orcs that they are just as fierce. Others opt for trying to blend into human society, constantly demonstrating that they aren't monsters. Their need to always prove themselves worthy encourages half-orcs to strive for power and greatness within the society around them.</p>
+				<h>Physical Description</h>
+				<p>Half-orcs average around 6 feet tall, with powerful builds and greenish or grayish skin. Their canine teeth often grow long enough to protrude from their mouths, and these &#34;tusks,&#34;&#157; combined with heavy brows and slightly pointed ears, give them their notoriously bestial appearance. While half-orcs may be impressive, few ever describe them as beautiful. Despite these obvious orc traits, half-orcs are as varied as their human parents.</p>
+				<h>Society</h>
+				<p>Unlike half-elves, where at least part of society's discrimination is born out of jealousy or attraction, half-orcs get the worst of both worlds: physically weaker than their orc kin, they also tend to be feared or attacked outright by humans who don't bother making the distinction between full orcs and half bloods. Even on the best of terms, half-orcs in civilized societies are not exactly accepted, and tend to be valued only for their physical abilities. On the other hand, orc leaders have been known to deliberately spawn half-orcs, as the half breeds make up for their lack of physical strength with increased cunning and aggression, making them natural leaders and strategic advisors. Within orc tribes, half-orcs find themselves constantly striving to prove their worth in battle and with feats of strength. Half-orcs raised within orc tribes are more likely to file their tusks and cover themselves in tribal tattoos. Tribal leaders quietly recognize that half-orcs are often more clever than their orc cousins and often apprentice them to the tribe's shaman, where their cunning might eventually strengthen the tribe. Apprenticeship to a shaman is a brutal and often short-lived distinction, however, and those half-orcs who survive it either become influential in the tribe or are eventually driven to leave. Half-orcs have a much more mixed experience in human society, where many cultures view them as little more than monsters. They often are unable even to get normal work, and are pressed into service in the military or sold into slavery. In these cultures, half-orcs often lead furtive lives, hiding their nature whenever possible. The dark underworld of society is often the most welcoming place, and many half-orcs wind up serving as enforcers for thieves guilds or other types of organized crime. Less commonly, human cities may allow half-orcs a more normal existence, even enabling them to develop small communities of their own. These communities are usually centered around the arena districts, the military, or mercenary organizations where their brute strength is valued and their appearance is more likely to be overlooked. Even surrounded by their own kind, half-orc life isn't easy. Bullying and physical confrontation comes easy to a people who have been raised with few other examples of behavior. It is, however, one of the best places for young half-orcs to grow up without prejudice, and these small enclaves are one of the few places where half-orc marriages and children are truly accepted and sometimes cherished. Even more rarely, certain human cultures come to embrace half-orcs for their strength. There are stories of places where people see half-orc children as a blessing and seek out half-orc or orc lovers. In these cultures, half-orcs lead lives not much different from full-blooded humans.</p>
+				<h>Relations</h>
+				<p>Elves and dwarves tend to be the least accepting of half-orcs, seeing in them too great a resemblance to their racial enemies, and other races aren't much more understanding. A lifetime of persecution leaves the average half-orc wary and quick to anger, yet people who break through his savage exterior might find a well-hidden core of empathy. Human societies with few orc problems tend to be the most accommodating, and half-orcs dwelling there can often find work as mercenaries and enforcers. Even in places where there is a general tolerance for half-orcs, however, many humans mistreat them when they can get away with it. Half-orcs are envious of the measure of acceptance half-elves have within human and elven society and resent their physical beauty, which contrasts starkly to the half-orcs' brutish appearance. While half-orcs avoid antagonizing their half-breed cousins directly, they won't hesitate to undermine them if the opportunity presents itself. Of all the other races, half-orcs are most sympathetic with halflings, who often have an equally rough lot in life. Half-orcs respect the halfling's ability to blend in and disappear and admire their perpetually cheerful outlook on life in spite of hardships. Halflings fail to appreciate this fact because they usually are too busy avoiding the large, intimidating half-orcs.</p>
+				<h>Alignment and Religion</h>
+				<p>Forced to live either among brutish orcs or as lonely outcasts in civilized lands, most half-orcs are bitter, violent, and reclusive. Evil comes easily to them, but they are not evil by nature-rather, most half-orcs are chaotic neutral, having been taught by long experience that there's no point doing anything but that which directly benefits themselves. Half-orcs worship the human or orc gods venerated in the area where they were raised. Those who live alongside humans most often worship human gods of war, freedom, or destruction. Half-orcs raised in orc tribes find themselves most drawn to the gods of blood, fire, and iron-depending more on what god the tribe worships rather than the half-orcs' personal preference. Many half-orcs are contrary about religion, either ignoring it entirely, or getting deeply involved in it and trying to find meaning in a life filled with hate and misunderstanding; even a half-orc divine spellcaster may wrestle with doubt and anger about religion and faith.</p>
+				<h>Adventurers</h>
+				<p>Staunchly independent, many half-orcs take to lives of adventure out of necessity, seeking to escape their painful pasts or improve their lot through force of arms. Others, more optimistic or desperate for acceptance, take up the mantle of crusaders in order to prove their worth to the world. Half-orcs raised in orc societies often take up the brutish ways of those around them, becoming fighters, barbarians, or rangers. Half-orcs who survive their shaman training may eventually succeed their masters as tribal shamans, or flee the tribe and practice their magic as outcasts or explorers. Half-orcs are just as likely to have children that possess an innate talent for sorcery as any other race, with the abyssal, destined, and elemental (fire) bloodlines being the most common types of sorcerers. Half-orcs are fascinated by alchemy, and its destructive capabilities make its usefulness obvious in any orc tribe. Half-orc alchemists treat themselves as living experiments, even to the point of trying to separate their orc and human halves through alchemy. Other alchemists use their powers to enhance their physical abilities and thus increase their status within orc communities. In human societies, half-orcs have a few more options. Many find it easy to take advantage of the brute strength and work as mercenaries or caravan guards. Crime is another easy route for half-orcs, as there are plenty of criminals looking for a strong arm. Half-orc clerics in human communities are fairly rare; the more religious half-orcs more often turn to (or get pushed to) the martial aspects of religious service and become paladins or inquisitors. Half-orcs usually lack the patience and money required to become a wizard.</p>
+				<p><b>Male Names </b>: Ausk, Davor, Hakak, Kizziar, Makoa, Nesteruk, Tsadok.</p>
+				<p><b>Female Names </b>: Canan, Drogheda, Goruza, Mazon, Shirish, Tevaga, Zeljka.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Ability Score Increase</name>
+					<text type="formattedtext">
+						<p>+2 Strength</p>
+						<p>+1 Constitution</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 30 feet.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Darkvision</name>
+					<text type="formattedtext">
+						<p>Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Menacing</name>
+					<text type="formattedtext">
+						<p>You gain proficiency in the Intimidation skill.</p>
+					</text>
+				</id-00007>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Relentless Endurance</name>
+					<text type="formattedtext">
+						<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>
+					</text>
+				</id-00009>
+				<id-00010>
+					<locked type="number">1</locked>
+					<name type="string">Savage Attacks</name>
+					<text type="formattedtext">
+						<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
+					</text>
+				</id-00010>
+				<id-00011>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.</p>
+					</text>
+				</id-00011>
+			</traits>
+		</id-00008>
+		<id-00009>
+			<locked type="number">1</locked>
+			<name type="string">Half-Elf</name>
+			<subraces>
+			</subraces>
+			<text type="formattedtext">
+				<p>Elves have long drawn the covetous gazes of other races. Their generous lifespans, magical affinity, and inherent grace each contribute to the admiration or bitter envy of their neighbors. Of all their traits, however, none so entrance their human associates as their beauty. Since the two races first came into contact with each other, humans have held up elves as models of physical perfection, seeing in these fair folk idealized versions of themselves. For their part, many elves find humans attractive despite their comparatively barbaric ways, and are drawn to the passion and impetuosity with which members of the younger race play out their brief lives.</p>
+				<p>Sometimes this mutual infatuation leads to romantic relationships. Though usually short-lived, even by human standards, such trysts may lead to the birth of half-elves, a race descended from two cultures yet inheritor of neither. Half-elves can breed with one another, but even these &#226;&#128;&#156;pureblood&#226;&#128;&#157; half-elves tend to be viewed as bastards by humans and elves alike. Caught between destiny and derision, half-elves often view themselves as the middle children of the world.</p>
+				<h>Physical Description</h>
+				<p>Half-elves stand taller than humans but shorter than elves. They inherit the lean build and comely features of their elven lineage, but their skin color is normally dictated by their human side. While half-elves retain the pointed ears of elves, theirs are more rounded and less pronounced. Their eyes tend to be human-like in shape, but feature an exotic range of colors from amber or violet to emerald green and deep blue. This pattern changes for half-elves of drow descent, however. Such elves are almost unfailingly marked with the white or silver hair of the drow parent, and more often than not have dusky gray skin that takes on a purplish or bluish tinge in the right light, while their eye color usually favors that of the human parent.</p>
+				<h>Society</h>
+				<p>Their lack of a unified homeland and culture forces half-elves to remain versatile, able to conform to nearly any environment. While often considered attractive to both races for the same reasons as their parents, half-elves rarely fit in with either humans or elves, as both races see too much evidence of the other in them. This lack of acceptance weighs heavily on many half-elves, yet others are bolstered by their unique status, seeing in their lack of a formalized culture the ultimate freedom. As a result, half-elves are incredibly adaptable, capable of adjusting their mind-sets and talents to whatever societies they find themselves in. Even half-elves welcomed by one side of their heritage often find themselves caught between cultures, as they are encouraged, cajoled, or even forced into taking on diplomatic responsibilities between human and elven kind. Many half-elves rise to the occasion of such service, seeing it as a chance to prove their worth to both races. Others, however, come to resent the pressures and presumptions foisted upon them by both races and turn any opportunity to broker power, make peace, or advance trade between humans and elves into an exercise in personal profit.</p>
+				<h>Relations</h>
+				<p>Half-elves understand loneliness, and know that character is often less a product of race than of life experience. As such, they are often open to friendships and alliances with other races, and less likely than most to rely on first impressions when forming opinions of new acquaintances. While many races join together to produce mixed offspring of notable power, such as half-orcs, half-dragons, and half-fiends, half-elves seem to have a unique position in the eyes of their progenitors and the rest of the world. Those humans who admire elvenkind see half-elves as a living link or bridge between the two races. But this attitude often foists unfair expectations and elevated standards upon half-elves, and quickly turns to derision when they do not live up to the grand destinies that others set for them. Additionally, those half-elves raised by or in the company of elves often have the human half of their parentage dubbed a mere obstacle, something to be overcome with proper immersion and schooling in the elven ways, and even the most well-meaning elven mentors often push their half-elven charges to reject a full half of themselves in order to &#34;better&#34;&#157; themselves. The exception is those few half-elves born of humans and drow. Not unlike most half-orcs, such unions are commonly born out of violence and savagery that leaves the child unwanted by its mother if not killed outright. Moreover, as the physical features of half-drow clearly mark their parentage, crafting a reputation founded on deeds and character instead of heritage is more challenging for them. Even the most empathetic of other half-elves balk at the sight of a half-drow. Among other races, half-elves form unique and often unexpected bonds. Dwarves, despite their traditional mistrust of elves, see a half-elf's human parentage as something hopeful, and treat them as half-humans rather than half-elves. Additionally, while dwarves are long-lived, the lifespan of the stout folk is closer to a half-elf's own than that of either of her parents. As a result, half-elves and dwarves often form lasting bonds, be they ones of friendship, business, or even competitive rivalry.</p>
+				<p>Gnomes and halflings often see half-elves as a curiosity. Those half-elves who have seen themselves pushed to the edges of society, truly without a home, typically find gnomes and halflings frivolous and worthy of disdain, but secretly envy their seemingly carefree ways. Clever and enterprising gnomes and halflings sometimes partner with a half-elf for adventures or even business ventures, using the half-elf's participation to lend their own endeavors an air of legitimacy that they cannot acquire on their own.</p>
+				<p>Perhaps the most peculiar and dichotomous relations exist between half-elves and half-orcs. Those half-orcs and half-elves who were raised among their non-human kin normally see one another as hated and ancient foes. However, half-elves who have been marginalized by society feel a deep, almost instant kinship with half-orcs, knowing their burdens are often that much harder because of their appearance and somewhat brutish nature. Not all half-orcs are inclined or able to understand such empathy, but those who do often find themselves with a dedicated diplomat, liaison, and apologist. For their own part, half-orcs usually return the favor by acting as bodyguards or intimidators, and take on other roles uniquely suited to their brawny forms.</p>
+				<h>Alignment and Religion</h>
+				<p>Half-elves' isolation strongly influences their characters and philosophies. Cruelty does not come naturally to them, nor does blending in or bending to societal convention-as a result, most half-elves are chaotic good. Half-elves' lack of a unified culture makes them less likely to turn to religion, but those who do generally follow the common faiths of their homeland. Others come to religion and worship later in their lives, especially if they have been made to feel part of a community through faith or the work of clerical figures. Some half-elves feel the pull of the divine but live beyond the formal religious instruction of society. Such individuals often worship ideas and concepts like freedom, harmony, or balance, or the primal forces of the world. Still others gravitate toward long-forgotten gods, finding comfort and kinship in the idea that even deities can be overlooked.</p>
+				<h>Adventurers</h>
+				<p>Half-elves tend to be itinerants, wandering the lands in search of a place they might finally call home. The desire to prove themselves to the community and establish a personal identity-or even a legacy-drives many half-elf adventurers to lives of bravery. Some half-elves claim that despite their longevity, they perceive the passage of time more like humans than elves, and are driven to amass wealth, power, or fame early on in life so they may spend the rest of their years enjoying it.</p>
+				<p><b>Male Names </b>: Calathes, Encinal, Iradli, Kyras, Narciso, Quinray, Seltyiel, Zirul.</p>
+				<p><b>Female Names </b>: Cathran, Elsbeth, Iandoli, Kieyanna, Lialda, Maddela, Reda, Tamarie.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Ability Score Increase</name>
+					<text type="formattedtext">
+						<p>+2 Charisma</p>
+						<p>+1 Ability score of your choice</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 30 feet.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Darkvision</name>
+					<text type="formattedtext">
+						<p>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Fey Ancestry</name>
+					<text type="formattedtext">
+						<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Skill Versatility</name>
+					<text type="formattedtext">
+						<p>You gain proficiency in two skills of your choice.</p>
+					</text>
+				</id-00008>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Languages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common, Elvish, and one extra language of your choice.</p>
+					</text>
+				</id-00009>
+			</traits>
+		</id-00009>
+		<id-00010>
+			<locked type="number">1</locked>
+			<name type="string">Tiefling</name>
+			<subraces>
+			</subraces>
+			<text type="formattedtext">
+				<p>Simultaneously more and less than mortal, tieflings are the offspring of humans and fiends. With otherworldly blood and traits to match, tieflings are often shunned and despised out of reactionary fear. Most tieflings never know their fiendish sire, as the coupling that produced their curse occurred generations earlier. The taint is long-lasting and persistent, often manifesting at birth or sometimes later in life, as a powerful, though often unwanted, boon. Despite their fiendish appearance and netherworld origins, tieflings have a human's capacity of choosing their fate, and while many embrace their dark heritage and side with fiendish powers, others reject their darker predilections. Though the power of their blood calls nearly every tiefling to fury, destruction, and wrath, even the spawn of a succubus can become a saint and the grandchild of a pit fiend an unsuspecting hero.</p>
+				<p>Physical Description</p>
+				<p>No two tieflings look alike; the fiendish blood running through their veins manifests inconsistently, granting them an array of fiendish traits. One tiefling might appear as a human with small horns, a barbed tail, and oddly colored eyes, while another might manifest a mouth of fangs, tiny wings, and claws, and yet another might possess the perpetual smell of blood, foul incenses, and brimstone. Typically, these qualities hearken back in some way to the manner of fiend that spawned the tiefling&#226;&#128;&#153;s bloodline, but even then the admixture of human and fiendish blood is rarely ruled by sane, mortal laws, and the vast flexibility it produces in tieflings is a thing of wonder, running the gamut from oddly beautiful to utterly terrible.</p>
+				<h>Society</h>
+				<p>Tieflings on the Material Plane rarely create their own settlements and holdings. Instead, they live on the fringes of the land where they were born or choose to settle. Most societies view tieflings as aberrations or curses, but in cultures where there are frequent interactions with summoned fiends, and especially where the worship of demons, devils, or other evil outsiders is legal or obligatory, tieflings might be much more populous and accepted, even cherished as blessings of their fiendish overlords. Tieflings seldom see another of their own kind, and thus they usually simply adopt the culture and mannerisms of their human parents. On other planes, tieflings form enclaves of their own kind. But often such enclaves are less than harmonious-the diversity of tiefling forms and philosophies is an inherent source of conflict between members of the race, and cliques and factions constantly form in an ever-shifting hierarchy where only the most opportunistic or devious gain advantage. Only those of common bloodlines or those who manage to divorce their worldview from the inherently selfish, devious, and evil nature of their birth manage to find true acceptance, camaraderie, and common ground among others of their kind.</p>
+				<h>Relations</h>
+				<p>Tieflings face a significant amount of prejudice from most other races, who view them as fiend-spawn, seeds of evil, monsters, and lingering curses placed upon the world. Far too often, civilized races shun or marginalize them, while more monstrous ones simply fear and reject them unless forced or cowed into acceptance. But half-elves, half-orcs, fetchlings and-most oddly-aasimars tend to view them as kindred spirits who are too often rejected or who don't fit into most societies by virtue of their birth. The widespread assumption that tieflings are innately evil-ill-founded though it may be-prevents many from easily fitting into most cultures on the Material Plane except in exceedingly cosmopolitan or planar-influenced nations.</p>
+				<h>Alignment and Religion</h>
+				<p>Despite their fiendish heritage and the insidious influence of prejudice, tieflings can be of any alignment. Many of them fall prey to the dark desires that haunt their psyches, and give in to the seduction of the whispering evil within, yet others steadfastly reject their origins and actively fight against evil lures and the negative assumptions they face from others by performing acts of good. Most, however, strive to simply find their own way in the world, though they tend to adopt a very amoral, neutral view when they do. Though many creatures just assume that tieflings worship devils and demons, their religious views are as varied as their physical forms. Individual tieflings worship all manner of deities, but they are just as likely to shun religion all together. Those who give in to the dark whispers that haunt the psyche of all tieflings serve all manner of powerful fiends.</p>
+				<h>Adventurers</h>
+				<p>Tieflings rarely integrate into the mortal societies they call home. Drawn to the adventuring life as a method of escape, they hope to make a better life for themselves, to prove their freedom from their blood's taint, or to punish a world that fears and rejects them. Tieflings make skilled rogues, powerful wizards and magi, and especially puissant sorcerers as their potent blood empowers them. Those who succumb to the evil within often become powerful clerics of fiendish powers.</p>
+				<p><b>Male Names </b>: Baru, Dellisar, Maldrek, Molos, Sarvin, Shoremoth, Temerith, Voren, Zoren.</p>
+				<p><b>Female Names </b>: Allizsah, Indranna, Kasidra, Kilarra, Mellisan, Mordren, Nisha.</p>
+			</text>
+			<traits>
+				<id-00001>
+					<locked type="number">1</locked>
+					<name type="string">Ability Score Increase</name>
+					<text type="formattedtext">
+						<p>+2 Charisma</p>
+						<p>+1 Intelligence</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<locked type="number">1</locked>
+					<name type="string">Age</name>
+					<text type="formattedtext">
+						<p>Tieflings mature at the same rate as humans but live a few years longer.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<locked type="number">1</locked>
+					<name type="string">Alignment</name>
+					<text type="formattedtext">
+						<p>Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Size</name>
+					<text type="formattedtext">
+						<p>Tieflings are about the same size and build as humans. Your size is Medium.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<locked type="number">1</locked>
+					<name type="string">Speed</name>
+					<text type="formattedtext">
+						<p>Your base walking speed is 30 feet.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<locked type="number">1</locked>
+					<name type="string">Darkvision</name>
+					<text type="formattedtext">
+						<p>Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+					</text>
+				</id-00006>
+				<id-00007>
+					<locked type="number">1</locked>
+					<name type="string">Hellish Resistance</name>
+					<text type="formattedtext">
+						<p>You have resistance to fire damage.</p>
+					</text>
+				</id-00007>
+				<id-00008>
+					<locked type="number">1</locked>
+					<name type="string">Infernal Legacy</name>
+					<text type="formattedtext">
+						<p>You know the thaumaturgy cantrip.</p>
+						<p>When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest.</p>
+						<p>When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest.</p>
+						<p>Charisma is your spellcasting ability for these spells.</p>
+					</text>
+				</id-00008>
+				<id-00009>
+					<locked type="number">1</locked>
+					<name type="string">Lenguages</name>
+					<text type="formattedtext">
+						<p>You can speak, read, and write Common and Infernal.</p>
+					</text>
+				</id-00009>
+			</traits>
+		</id-00010>
+	</race>
+</root>

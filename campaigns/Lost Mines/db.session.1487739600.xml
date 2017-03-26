@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3">
+	<background>
+	</background>
+	<battle>
+		<id-00002>
+			<exp type="number">0</exp>
+			<name type="string">Goblin Ambush</name>
+			<npclist>
+				<id-00001>
+					<count type="number">4</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00001</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+						<id-00003>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00003>
+						<id-00004>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00004>
+					</maplink>
+					<name type="string">Goblin</name>
+					<token type="token">tokens/Medium/g.png@Letter Tokens</token>
+				</id-00001>
+			</npclist>
+		</id-00002>
+	</battle>
+	<calendar>
+		<public />
+		<base>
+			<public />
+		</base>
+	</calendar>
+	<charsheet>
+		<id-00001>
+			<abilities>
+				<charisma>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</charisma>
+				<constitution>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</constitution>
+				<dexterity>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</dexterity>
+				<intelligence>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</intelligence>
+				<strength>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</strength>
+				<wisdom>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</wisdom>
+			</abilities>
+			<backgroundlink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</backgroundlink>
+			<classes>
+			</classes>
+			<coins>
+				<slot1>
+					<amount type="number">0</amount>
+				</slot1>
+				<slot2>
+					<amount type="number">0</amount>
+				</slot2>
+				<slot3>
+					<amount type="number">0</amount>
+				</slot3>
+				<slot4>
+					<amount type="number">0</amount>
+				</slot4>
+				<slot5>
+					<amount type="number">0</amount>
+				</slot5>
+				<slot6>
+					<amount type="number">0</amount>
+				</slot6>
+			</coins>
+			<defenses>
+				<ac>
+					<armor type="number">0</armor>
+					<misc type="number">0</misc>
+					<prof type="number">1</prof>
+					<shield type="number">0</shield>
+					<temporary type="number">0</temporary>
+					<total type="number">10</total>
+				</ac>
+			</defenses>
+			<encumbrance>
+				<encumbered type="number">50</encumbered>
+				<encumberedheavy type="number">100</encumberedheavy>
+				<liftpushdrag type="number">300</liftpushdrag>
+				<load type="number">0</load>
+				<max type="number">150</max>
+			</encumbrance>
+			<featlist>
+			</featlist>
+			<featurelist>
+			</featurelist>
+			<hp>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+				<wounds type="number">0</wounds>
+			</hp>
+			<initiative>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</initiative>
+			<inventorylist>
+			</inventorylist>
+			<languagelist>
+			</languagelist>
+			<level type="number">0</level>
+			<perception type="number">10</perception>
+			<perceptionmodifier type="number">0</perceptionmodifier>
+			<powermeta>
+				<pactmagicslots1>
+					<max type="number">0</max>
+				</pactmagicslots1>
+				<pactmagicslots2>
+					<max type="number">0</max>
+				</pactmagicslots2>
+				<pactmagicslots3>
+					<max type="number">0</max>
+				</pactmagicslots3>
+				<pactmagicslots4>
+					<max type="number">0</max>
+				</pactmagicslots4>
+				<pactmagicslots5>
+					<max type="number">0</max>
+				</pactmagicslots5>
+				<pactmagicslots6>
+					<max type="number">0</max>
+				</pactmagicslots6>
+				<pactmagicslots7>
+					<max type="number">0</max>
+				</pactmagicslots7>
+				<pactmagicslots8>
+					<max type="number">0</max>
+				</pactmagicslots8>
+				<pactmagicslots9>
+					<max type="number">0</max>
+				</pactmagicslots9>
+				<spellslots1>
+					<max type="number">0</max>
+				</spellslots1>
+				<spellslots2>
+					<max type="number">0</max>
+				</spellslots2>
+				<spellslots3>
+					<max type="number">0</max>
+				</spellslots3>
+				<spellslots4>
+					<max type="number">0</max>
+				</spellslots4>
+				<spellslots5>
+					<max type="number">0</max>
+				</spellslots5>
+				<spellslots6>
+					<max type="number">0</max>
+				</spellslots6>
+				<spellslots7>
+					<max type="number">0</max>
+				</spellslots7>
+				<spellslots8>
+					<max type="number">0</max>
+				</spellslots8>
+				<spellslots9>
+					<max type="number">0</max>
+				</spellslots9>
+			</powermeta>
+			<powermode type="string">standard</powermode>
+			<powers>
+			</powers>
+			<profbonus type="number">2</profbonus>
+			<proficiencylist>
+			</proficiencylist>
+			<racelink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</racelink>
+			<skilllist>
+				<id-00001>
+					<misc type="number">0</misc>
+					<name type="string">Perception</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00001>
+				<id-00002>
+					<misc type="number">0</misc>
+					<name type="string">Arcana</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00002>
+				<id-00003>
+					<misc type="number">0</misc>
+					<name type="string">Persuasion</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">0</total>
+				</id-00003>
+				<id-00004>
+					<misc type="number">0</misc>
+					<name type="string">Nature</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00004>
+				<id-00005>
+					<misc type="number">0</misc>
+					<name type="string">Medicine</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00005>
+				<id-00006>
+					<misc type="number">0</misc>
+					<name type="string">Survival</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00006>
+				<id-00007>
+					<misc type="number">0</misc>
+					<name type="string">Performance</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">0</total>
+				</id-00007>
+				<id-00008>
+					<misc type="number">0</misc>
+					<name type="string">Acrobatics</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">0</total>
+				</id-00008>
+				<id-00009>
+					<misc type="number">0</misc>
+					<name type="string">Religion</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00009>
+				<id-00010>
+					<misc type="number">0</misc>
+					<name type="string">Athletics</name>
+					<prof type="number">0</prof>
+					<stat type="string">strength</stat>
+					<total type="number">0</total>
+				</id-00010>
+				<id-00011>
+					<misc type="number">0</misc>
+					<name type="string">Sleight of Hand</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">0</total>
+				</id-00011>
+				<id-00012>
+					<misc type="number">0</misc>
+					<name type="string">Insight</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00012>
+				<id-00013>
+					<misc type="number">0</misc>
+					<name type="string">Intimidation</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">0</total>
+				</id-00013>
+				<id-00014>
+					<misc type="number">0</misc>
+					<name type="string">Deception</name>
+					<prof type="number">0</prof>
+					<stat type="string">charisma</stat>
+					<total type="number">0</total>
+				</id-00014>
+				<id-00015>
+					<misc type="number">0</misc>
+					<name type="string">Investigation</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00015>
+				<id-00016>
+					<misc type="number">0</misc>
+					<name type="string">Stealth</name>
+					<prof type="number">0</prof>
+					<stat type="string">dexterity</stat>
+					<total type="number">0</total>
+				</id-00016>
+				<id-00017>
+					<misc type="number">0</misc>
+					<name type="string">History</name>
+					<prof type="number">0</prof>
+					<stat type="string">intelligence</stat>
+					<total type="number">0</total>
+				</id-00017>
+				<id-00018>
+					<misc type="number">0</misc>
+					<name type="string">Animal Handling</name>
+					<prof type="number">0</prof>
+					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
+				</id-00018>
+			</skilllist>
+			<speed>
+				<armor type="number">0</armor>
+				<base type="number">0</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</speed>
+			<token type="token"></token>
+			<traitlist>
+			</traitlist>
+			<weapon>
+				<critdicebonus>
+					<melee type="number">0</melee>
+					<ranged type="number">0</ranged>
+				</critdicebonus>
+				<critrange>
+					<melee type="number">20</melee>
+					<ranged type="number">20</ranged>
+				</critrange>
+			</weapon>
+			<weaponlist>
+				<id-00001>
+					<attackbonus type="number">0</attackbonus>
+					<attackstat type="string">strength</attackstat>
+					<carried type="number">1</carried>
+					<damagelist>
+						<id-00001>
+							<bonus type="number">0</bonus>
+							<dice type="dice">d6</dice>
+							<stat type="string">strength</stat>
+						</id-00001>
+					</damagelist>
+					<maxammo type="number">0</maxammo>
+					<prof type="number">1</prof>
+					<shortcut type="windowreference">
+						<class></class>
+						<recordname></recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00001>
+				<id-00002>
+					<carried type="number">2</carried>
+					<maxammo type="number">0</maxammo>
+					<prof type="number">1</prof>
+					<shortcut type="windowreference">
+						<class></class>
+						<recordname></recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00002>
+			</weaponlist>
+		</id-00001>
+	</charsheet>
+	<combattracker>
+		<public />
+		<list>
+			<public />
+		</list>
+		<round type="number">0</round>
+	</combattracker>
+	<effects>
+		<public />
+	</effects>
+	<encounter>
+		<id-00001>
+			<locked type="number">0</locked>
+			<name type="string">The high road</name>
+			<text type="formattedtext">
+				<linklist>
+					<link class="battle" recordname="battle.id-00002" public="true">As the adventures were heading down the road they were ambushed by a </link>
+				</linklist>
+			</text>
+		</id-00001>
+	</encounter>
+	<feat>
+	</feat>
+	<forge>
+		<magicitem>
+			<baseitems>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<cost type="string">3gp</cost>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<istemplate type="number">1</istemplate>
+					<name type="string">Short Sword</name>
+					<rarity type="string">Common</rarity>
+					<subtype type="string">Sword</subtype>
+					<type type="string">Sword</type>
+					<weight type="number">2</weight>
+				</id-00001>
+			</baseitems>
+			<statusicon type="string">error</statusicon>
+			<templates>
+			</templates>
+		</magicitem>
+	</forge>
+	<image>
+		<id-00001>
+			<image type="image">
+				<drawing>drawings/drawing_1487650350.png</drawing>
+			</image>
+			<isidentified type="number">0</isidentified>
+		</id-00001>
+	</image>
+	<item>
+	</item>
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Primordial</font>
+			<name type="string">Primordial</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Aquan</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elvish</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnomish</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<name type="string">Common</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Terran</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Ignan</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<name type="string">Deep Speech</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Auran</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00016>
+		<id-00017>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00017>
+		<id-00018>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00018>
+		<id-00019>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarvish</name>
+		</id-00019>
+		<id-00020>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00020>
+	</languages>
+	<library>
+	</library>
+	<modifiers>
+		<public />
+	</modifiers>
+	<notes>
+	</notes>
+	<npc>
+		<id-00001>
+			<abilities>
+				<charisma>
+					<bonus type="number">0</bonus>
+					<score type="number">10</score>
+				</charisma>
+				<constitution>
+					<bonus type="number">0</bonus>
+					<score type="number">10</score>
+				</constitution>
+				<dexterity>
+					<bonus type="number">0</bonus>
+					<score type="number">10</score>
+				</dexterity>
+				<intelligence>
+					<bonus type="number">0</bonus>
+					<score type="number">10</score>
+				</intelligence>
+				<strength>
+					<bonus type="number">1</bonus>
+					<score type="number">12</score>
+				</strength>
+				<wisdom>
+					<bonus type="number">0</bonus>
+					<score type="number">10</score>
+				</wisdom>
+			</abilities>
+			<ac type="number">0</ac>
+			<actions>
+			</actions>
+			<hp type="number">0</hp>
+			<innatespells>
+			</innatespells>
+			<lairactions>
+			</lairactions>
+			<legendaryactions>
+			</legendaryactions>
+			<name type="string">Goblin</name>
+			<reactions>
+			</reactions>
+			<spells>
+			</spells>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+			<token type="token"></token>
+			<traits>
+			</traits>
+			<xp type="number">0</xp>
+		</id-00001>
+	</npc>
+	<options>
+		<public />
+	</options>
+	<partysheet>
+		<public />
+		<bonus type="number">0</bonus>
+		<checkdc type="number">0</checkdc>
+		<checkselected type="string">Strength</checkselected>
+		<hiderollresults type="number">0</hiderollresults>
+		<partyinformation>
+			<public />
+		</partyinformation>
+		<savedc type="number">0</savedc>
+		<saveselected type="string">Strength</saveselected>
+		<skilldc type="number">0</skilldc>
+	</partysheet>
+	<quest>
+	</quest>
+	<race>
+	</race>
+	<storytemplate>
+	</storytemplate>
+	<tables>
+		<id-00001>
+			<dice type="dice"></dice>
+			<hiderollresults type="number">0</hiderollresults>
+			<mod type="number">0</mod>
+			<notes type="formattedtext">
+				<p></p>
+			</notes>
+			<resultscols type="number">1</resultscols>
+			<table_positionoffset type="number">0</table_positionoffset>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">0</fromrange>
+					<results>
+						<id-00001>
+							<resultlink type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">0</fromrange>
+					<results>
+						<id-00001>
+							<resultlink type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00002>
+			</tablerows>
+		</id-00001>
+	</tables>
+</root>

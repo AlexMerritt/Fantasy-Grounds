@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<windowstate version="3.2">
+	<window data="" class="library" pos="708,129,1492,752" />
+	<window data="" class="moduleselection" pos="450,163,1150,693" />
+	<window data="charsheet.id-00001" class="charsheet" pos="483,2,1008,602" />
+	<window data="class" class="masterindex" pos="96,25,546,475" />
+	<window data="class.id-00001" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00002" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00003" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00004" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00005" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00006" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00007" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00008" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00009" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00010" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00011" class="reference_class" pos="321,184,671,584" />
+	<window data="class.id-00012" class="reference_class" pos="321,184,671,584" />
+	<window data="lists.table.bycategory@DD5E SRD Magic Items" class="reference_colindex" pos="575,203,1025,653" />
+	<window data="quest" class="masterindex" pos="271,159,721,609" />
+	<window data="tables.tab_bagofbeanseffect@DD5E SRD Magic Items" class="table" pos="406,1,806,401" />
+</windowstate>
