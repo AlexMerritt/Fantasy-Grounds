@@ -349,106 +349,6 @@
 				</npclist>
 			</id-00007>
 		</category>
-		<category name="Act 2: Phandalin" baseicon="0" decalicon="0">
-			<id-00008>
-				<cr type="string">2</cr>
-				<exp type="number">400</exp>
-				<name type="string">Redbrand Street</name>
-				<npclist>
-					<id-00001>
-						<count type="number">4</count>
-						<faction type="string">foe</faction>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.id-00005</recordname>
-						</link>
-						<maplink>
-							<id-00001>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-							<id-00035>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00035>
-							<id-00036>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00036>
-							<id-00037>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00037>
-						</maplink>
-						<name type="string">Redbrand Ruffian</name>
-						<token type="token">tokens/Medium/r.png@Letter Tokens</token>
-					</id-00001>
-				</npclist>
-			</id-00008>
-			<id-00009>
-				<cr type="string">2</cr>
-				<exp type="number">300</exp>
-				<name type="string">Barracks</name>
-				<npclist>
-					<id-00001>
-						<count type="number">3</count>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.id-00005</recordname>
-						</link>
-						<maplink>
-							<id-00001>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00001>
-							<id-00002>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00002>
-							<id-00003>
-								<imageref type="windowreference">
-									<class></class>
-									<recordname></recordname>
-								</imageref>
-								<imagex type="number">0</imagex>
-								<imagey type="number">0</imagey>
-							</id-00003>
-						</maplink>
-						<name type="string">Redbrand Ruffian</name>
-						<token type="token">tokens/Medium/r.png@Letter Tokens</token>
-					</id-00001>
-				</npclist>
-			</id-00009>
-			<id-00010>
-				<exp type="number">0</exp>
-				<npclist>
-				</npclist>
-			</id-00010>
-		</category>
 	</battle>
 	<calendar>
 		<public />
@@ -671,39 +571,30 @@
 			<powermeta>
 				<pactmagicslots1>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots1>
 				<pactmagicslots2>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots2>
 				<pactmagicslots3>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots3>
 				<pactmagicslots4>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots4>
 				<pactmagicslots5>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots5>
 				<pactmagicslots6>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots6>
 				<pactmagicslots7>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots7>
 				<pactmagicslots8>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots8>
 				<pactmagicslots9>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots9>
 				<spellslots1>
 					<max type="number">0</max>
@@ -1044,7 +935,7 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
 				<total type="number">11</total>
-				<wounds type="number">10</wounds>
+				<wounds type="number">14</wounds>
 			</hp>
 			<initiative>
 				<misc type="number">0</misc>
@@ -1066,35 +957,6 @@
 			<name type="string">Charco</name>
 			<perception type="number">12</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
-			<powermeta>
-				<pactmagicslots1>
-					<used type="number">0</used>
-				</pactmagicslots1>
-				<pactmagicslots2>
-					<used type="number">0</used>
-				</pactmagicslots2>
-				<pactmagicslots3>
-					<used type="number">0</used>
-				</pactmagicslots3>
-				<pactmagicslots4>
-					<used type="number">0</used>
-				</pactmagicslots4>
-				<pactmagicslots5>
-					<used type="number">0</used>
-				</pactmagicslots5>
-				<pactmagicslots6>
-					<used type="number">0</used>
-				</pactmagicslots6>
-				<pactmagicslots7>
-					<used type="number">0</used>
-				</pactmagicslots7>
-				<pactmagicslots8>
-					<used type="number">0</used>
-				</pactmagicslots8>
-				<pactmagicslots9>
-					<used type="number">0</used>
-				</pactmagicslots9>
-			</powermeta>
 			<profbonus type="number">2</profbonus>
 			<proficiencylist>
 			</proficiencylist>
@@ -1403,8 +1265,8 @@
 			<featurelist>
 			</featurelist>
 			<hp>
-				<deathsavefail type="number">1</deathsavefail>
-				<deathsavesuccess type="number">1</deathsavesuccess>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
 				<total type="number">12</total>
 				<wounds type="number">12</wounds>
@@ -1431,39 +1293,30 @@
 			<powermeta>
 				<pactmagicslots1>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots1>
 				<pactmagicslots2>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots2>
 				<pactmagicslots3>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots3>
 				<pactmagicslots4>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots4>
 				<pactmagicslots5>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots5>
 				<pactmagicslots6>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots6>
 				<pactmagicslots7>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots7>
 				<pactmagicslots8>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots8>
 				<pactmagicslots9>
 					<max type="number">0</max>
-					<used type="number">0</used>
 				</pactmagicslots9>
 				<spellslots1>
 					<max type="number">0</max>
@@ -1816,35 +1669,6 @@
 			<name type="string">Raven</name>
 			<perception type="number">14</perception>
 			<perceptionmodifier type="number">0</perceptionmodifier>
-			<powermeta>
-				<pactmagicslots1>
-					<used type="number">0</used>
-				</pactmagicslots1>
-				<pactmagicslots2>
-					<used type="number">0</used>
-				</pactmagicslots2>
-				<pactmagicslots3>
-					<used type="number">0</used>
-				</pactmagicslots3>
-				<pactmagicslots4>
-					<used type="number">0</used>
-				</pactmagicslots4>
-				<pactmagicslots5>
-					<used type="number">0</used>
-				</pactmagicslots5>
-				<pactmagicslots6>
-					<used type="number">0</used>
-				</pactmagicslots6>
-				<pactmagicslots7>
-					<used type="number">0</used>
-				</pactmagicslots7>
-				<pactmagicslots8>
-					<used type="number">0</used>
-				</pactmagicslots8>
-				<pactmagicslots9>
-					<used type="number">0</used>
-				</pactmagicslots9>
-			</powermeta>
 			<profbonus type="number">2</profbonus>
 			<race type="string">Tiefling</race>
 			<racelink type="windowreference">
@@ -1971,7 +1795,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">11</hptotal>
 				<init type="number">-1</init>
-				<initresult type="number">14</initresult>
+				<initresult type="number">12</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -2039,8 +1863,8 @@
 					<public />
 				</actions>
 				<active type="number">0</active>
-				<deathsavefail type="number">1</deathsavefail>
-				<deathsavesuccess type="number">1</deathsavesuccess>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
 				</effects>
@@ -2048,7 +1872,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">12</hptotal>
 				<init type="number">0</init>
-				<initresult type="number">13</initresult>
+				<initresult type="number">11</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -2125,7 +1949,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">11</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">8</initresult>
+				<initresult type="number">14</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -2150,14 +1974,14 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Heavy</status>
+				<status type="string">Dying</status>
 				<token type="token">portrait_id-00002_token</token>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">10</wounds>
+				<wounds type="number">14</wounds>
 			</id-00007>
 			<id-00008>
 				<public />
@@ -2192,7 +2016,7 @@
 				<actions>
 					<public />
 				</actions>
-				<active type="number">0</active>
+				<active type="number">1</active>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
@@ -2202,7 +2026,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">4</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">20</initresult>
+				<initresult type="number">4</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -2237,7 +2061,7 @@
 				<wounds type="number">0</wounds>
 			</id-00008>
 		</list>
-		<round type="number">1</round>
+		<round type="number">16</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -2470,198 +2294,11 @@
 		</category>
 		<category name="Act 2: Phandalin" baseicon="0" decalicon="0">
 			<id-00011>
-				<name type="string"> Phandalin</name>
+				<name type="string">Phandalin</name>
 				<text type="formattedtext">
-					<p>The frontier town of Phandalin is built on the ruins of a much older settlement. Hundreds of years ago, the old Phandalin was a thriving human town whose people were firmly allied with the dwarves and gnomes of the Phandelver's Pact. However, the same ore horde that sacked the mines at Wave Echo Cave laid waste to thesettle ment, and Phandalin was abandoned for centuries. </p>
-					<p>In the last three or four years, hardy settlers from the cities of Neverwinter and Waterdeep have begun the hard work of reclaiming the ruins of Phandalin. A bustling frontier settlement has grown up on the site of the old town, and is home now to farmers, woodcutters, fur traders, and prospectors drawn by stories of gold and platinum in the foothills of the Sword Mountains. Unfortunately, more than a few bandits and brigands have settled here as well, taking advantage of the fact that the area has no local lord or authority to chase them off. A gang known as the Redbrands has controlled Phandalin for the past two months, extorting and bullying everyone in town. The gang is led by a mysterious figure known to the townsfolk as Glasstaff.</p>
-					<p>When the characters first arrive in Phandalin, read:</p>
-					<frame>The rutted track emerges from a wooded hillside, and you catch your first glimpse of Phandalin. The town consists of forty or fifty simple log buildings, some built on old fieldstone foundations. More old ruins-crumbling stone walls covered in ivy and briars-surround the newer houses and shops, showing how this must have been a much larger town in centuries past. Most of the newer buildings are set on the sides of the cart track, which widens into a muddy mainstreet of sorts as it climbs toward a ruined manor house on a hillside at the east side of town. </frame>
-					<frame>As you approach, you see children playing on the town green and townsfolk tending to chores or running errands at shops. Many people look up as you approach, but all return to their business as you go by.</frame>
-					<p></p>
-					<p>Sildar's plan is to get some rest at the Stonehill Inn, then search Phandalin for signs of the missing wizard, Iarno Albrek. When his investigation hits a dead end, he setsup a meeting with Townmaster Harbin Wester (see the &#34;Town master's Hall&#34; section). </p>
-					<p>During this part of the adventure, the characters can visit the various locations in Phandalin and talk to the NPCs there. (See the &#34;Town Description&#34;section for details.) The town is small enough that it takes only a few minutes to stroll from one end to the other. However, the characters arrive late in the day and can't get to more than one or two locations before it's time to seek lodgings for the night.</p>
-					<p>Some locales the characters should visit include the following: </p>
-					<linklist>
-						<link class="encounter" recordname="encounter.id-00016"><b>Barthen's Provisions.</b></link> If the characters have the wagonloadof supplies from the &#34;Meet Me in Phandalin&#34;adventure hook, they are meant to deliver it to this shop.</linklist>
-						<link class="encounter" recordname="encounter.id-00015"><b>Lionshield Coster</b></link>. If the characters retrieved the stolen goods from the Cragmaw hideout, they might want to return them to the rightful owner. 
-						<link class="encounter" recordname="encounter.id-00014"><b>Stonehill Inn.</b></link> If the characters have Sildar Hallwinter with them, the knight suggests heading for this inn to find lodgings. If the characters are otherwise looking for a place to eat and sleep, they discover that the Stonehill appears to be the best available option.
-					<h>REDBRAND RUFFIANS</h>
-					<p>Within a day or so of the adventurers' arrival in Phandalin, a confrontation with the Redbrands becomes inevitable. This can happen in a number of different ways:</p>
-					<list>
-						<li>After speaking with a number of NPCs in town, the characters decide to confront the Redbrands at the Sleeping Giant tap house.</li>
-						<li>The characters decide to investigate Tresendar Manor. Skip the encounter and go straight to &#34;Redbrand Hideout.&#34;</li>
-						<li>If the characters show no interest in the Redbrands, a gang of the ruffians seeks them out and picks a fight in street. Run this encounter as the characters are leaving one of the locations in the town.</li>
-					</list>
-					<h>CONFRONTATION</h>
-					<p>If the characters confront the Redbrands at the<b> Sleeping Giant</b>, read:</p>
-					<frame>The Sleeping Giant is a ramshackle taproom at the east end of town. Four human ruffians linger on the covered porch, perched on empty ale barrels or leaning against the wall. They all wear grimy scarlet cloaks, their sullen stares fixed on you as you approach.</frame>
-					<frame>One of the thugs spits on the ground. &#34;Well, well,&#34; he snarls. &#34;Here's a whole pack of little puppies. What do you want, puppies? Come here to bark at us?&#34;</frame>
-					<p>If the Redbrands confront the characters in the <b>street</b>, read:</p>
-					<frame>As you head back into the street, you see four armed ruffians waiting for you. All of them are humans wearing grimy red cloaks, their hands on their weapons as they watch you.</frame>
-					<frame>One of the ruffians spits on the ground. &#34;Time for you to move on, strangers. Give us your stuff, and be on your way.&#34;</frame>
-					<p></p>
-					<p>Continue the insults and baiting as long as you like. The Redbrands attack in a round or two if the characters don't. Neither side is surprised, because it's obvious that a fight is brewing.</p>
-					<linklist>
-						<link class="battle" recordname="battle.id-00008"><b>ENCOUNTER</b></link>
-					</linklist>
-					<p>The group consists of four Redbrand ruffians. If three of them are defeated, the last one flees toward Tresendar Manor.</p>
-					<h>DEVELOPMENTS</h>
-					<p>Redbrands who are captured or charmed by the characters can impart useful information. (See the &#34;What the Redbrands Know&#34; sidebar on page 20.) Townmaster Harbin Wester won't want to keep Redbrand prisoners until he knows the whole gang has been defeated, but the characters can easily persuade or intimidate him into locking up any prisoners they capture for at least a few days.</p>
-					<p>If the characters kill the ruffians, most members of the town are grateful. One exception is the town master, who fears Redbrand retaliation. Harbin doesn't punish the characters but warns them not to cause trouble</p>
 					<p></p>
 				</text>
 			</id-00011>
-			<id-00014>
-				<name type="string">Stonehill Inn</name>
-				<text type="formattedtext">
-					<frame>In the center of town stands a large, newly built roadhouse of fieldstone and rough-hewn timbers. The common room is filled with locals nursing mugs of ale or cider, all of them eyeing you with curiosity.</frame>
-					<p>This modest inn has six rooms for rent (Sildar Hallwinter takes one). If the characters decide to stay here, see &#34;Food, Drink, and Lodging&#34; in the rulebook for pricing. (The characters' other alternative for lodging is to camp outside the town, or to persuade a farmer such as Daran Edermath or Qelline Alderleaf to let them sleep in a hayloft.) </p>
-					<p>The proprietor is a short, friendly young human male named <b>Toblen Stonehill</b>. Toblen is a native of the town of <b>Triboar</b> to the east. He came to Phandalin to prospect, but soon realized that he knew a lot more about running an inn than he did about mining. The new town offered a good opportunity to become established. Toblen is upset that the Redbrands have been allowed to terrorize the town, and that <b>Harbin Wester,</b> the townmaster, has done nothing to curtail them. However, he tries not to stir up trouble for fear that the Redbrands might retaliate against his wife and children.</p>
-					<p><b>Rumors.</b> Spending a little time in the common room and chatting up the townspeople can provide the characters with a number of good leads to explore in and around town. NPCs present in the Stonehill Inn and therumors they pass on include:</p>
-					<linklist>
-						<link class="" recordname="">Trilena, the innkeeper's wife: &#34;Thel Dendrar, a local woodcarver, stood up to the Redbrands a ten day ago when they came by his shop and leered at his wife. The ruffians murdered him. Several townsfolk saw it happen. The Redbrands grabbed his body, and now his wife, daughter, and son have gone missing too.&#34; (Unknownto Trilena and the other townsfolk, the Redbrands took Thel's wife and children to their secret hideout.)</link>
-						<link class="encounter" recordname="encounter.id-00019">Pip, Toblen's young son: &#34;Qelline Alderleaf's son Carp said he found a secret tunnel in the woods, but Redbrands almost caught him.&#34; (See the &#34;Alderleaf Farm&#34; section for more information.)</link>
-						<link class="encounter" recordname="encounter.id-00018">Freda, a weaver: &#34;The Redbrands hassle every business in town, except for the Phandalin Miner's Exchange. They don't want trouble with Halia Thornton, who runs it.&#34; (See the &#34;Phandalin Miner's Exchange&#34; section for more information.)</link>
-						<link class="encounter" recordname="encounter.id-00022">Lanar, a miner: &#34;Ore raiders have been seen on the east end of Triboar Trail. The town master is looking for someone to run them off.&#34; (See the &#34;Townrnaster's Hall&#34; section for more information.)</link>
-						<link class="encounter" recordname="encounter.id-00017">Elsa, a gossipy barmaid: &#34;Daran Edermath, the orchard keeper, is a former adventurer.&#34; (See the &#34;Ederrnath Orchard&#34; section for more information.)</link>
-						<link class="encounter" recordname="encounter.id-00020">Narth, an old farmer: &#34;Sister Garaele, who oversees the Shrine of Luck, recently left town for a few days, then returned wounded and exhausted.&#34; (See the &#34;Shrine of Luck&#34; section for more information.)</link>
-					</linklist>
-					<p>These leads should point the characters toward opportunities for adventure in and around Phandalin. In addition, any NPC at the inn can tell the characters that the Redbrands frequent the Sleeping Giant tap house at</p>
-				</text>
-			</id-00014>
-			<id-00015>
-				<name type="string">Lionshield Coster</name>
-				<text type="formattedtext">
-					<frame>Hanging above the front door of this modest trading post is a sign shaped like a wooden shield with a blue lion painted on it.</frame>
-					<p>This building is owned by the Lionshields, a merchant company based in the city of Yartar, over a hundred miles to the east. They ship finished goods to Phandalin and other small settlements throughout the region, but this outpost has been hard hit by banditry. The most recent Lionshield caravan due in Phandalin never arrived. (It was attacked and its cargo captured by the Cragmaw goblins.)</p>
-					<p>The master of the Phandalin post is a sharp-tongued human woman of thirty-five named Linene Graywind. She knows that bandits have raided Lionshield caravans, but she doesn't know who is responsible. </p>
-					<p>In a back room, Linene keeps a supply of armor and weapons, all of which are for sale to interested buyers. (For prices, see &#34;Adventuring Gear&#34; in the rulebook.) Linene has a few scruples, however, and won't sell weapons to anyone she thinks might be a threat to the town. Among those with whom she refuses to do businessare the Redbrands. She warns the characters that the ruffians are trouble and advises them to avoid the Sleeping Giant tap house.</p>
-					<p><b>Recovered Goods</b>. If the characters return the stolen goods found in area 8 of the Cragmaw hideout (or if they left the goods but reveal where they can be found), Linene gives them a reward of 50 gp and promises to help the adventurers any way she can.</p>
-				</text>
-			</id-00015>
-			<id-00016>
-				<name type="string">Barthen's Provisions</name>
-				<text type="formattedtext">
-					<p>Barthen's is the biggest trading post in Phandalin. Its shelves stock most ordinary goods and supplies, including backpacks, bedrolls, rope, and rations. The place is open from sunup to sundown. Barthen's does not stock weapons or armor, but characters can purchase other adventuring gear here, with the exception of items that cost more than 25 gp. (For prices, see &#34;Adventuring Gear&#34; in the rulebook.) Characters in need of weapons or armor are directed to the Lionshield Coster (see that section).</p>
-					<p>The proprietor is<b> Elmar Barthen</b>, a lean and balding human male shopkeeper of fifty years with a kindly manner. He employs a couple young clerks (Ander and Thistle) who help load and unload wagons, and who wait on customers when Barthen isn't around. </p>
-					<p><b>Delivering the Supplies</b>. If the characters began play with the &#34;Meet Me in Phandalin&#34; adventure hook, their orders are to deliver the wagon of supplies to Barthen's. Barthen pays the agreed amount (10 gp to each character) and takes possession of the wagon and its supplies. If the characters tell him of Gundren Rockseeker's capture, Barthen is saddened by the news and encourages the party to find and rescue the dwarf. He considers Gundren a friend and was excited by talk of discovering the lost mine of the Phandelver's Pact in the nearby hills. If the party hasn't already learned details of the mine from Sildar Hallwinter, a character who succeeds on a DC 15 Intelligence (History) check can relate the information from the first two paragraphs of the &#34;Background&#34; section at the start of the adventure.</p>
-					<p>Barthen also mentions that two more Rockseeker brothers, Nundro and Tharden, are camped somewhere outside town. Barthen hasn't seen them in a ten day and expects the brothers to return &#34;any day now&#34; to resupply. What Barthen doesn't know is that Tharden is dead and Nundro is a prisoner in the mine. See part 4, the &#34;Wave Echo Cave&#34; section, for more information. </p>
-					<p><b>Barthen's News</b>. If the characters ask Barthen how business is going, the shopkeeper tells them that the Redbrands are making it hard on everyone, shaking down local businesses and flouting the townmaster's authority. If the characters seem of a mind to do something about it, he tells them that the Redbrands frequent the Sleeping Giant tap house.</p>
-					<p></p>
-				</text>
-			</id-00016>
-			<id-00017>
-				<name type="string">Edermath Orchard</name>
-				<text type="formattedtext">
-					<p>Daran Edermath is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silverhaired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home</p>
-					<p>Daran is a member of the Order of the Gauntlet, a devout and vigilant group that seeks to protect others from the depredations of evildoers. The order is always vigilant, ready to smite evil, enforce justice, and enact retribution against any who try to subjugate or harm others. Though he is no longer active in the order, he keeps an eye on happenings around Phandalin. He is happy to trade news with fellow adventurers, especially those who appear to hold to these virtues.</p>
-					<p>Daran is concerned about the Redbrands, and he would like to see a group of adventurers teach the ruffians a lesson. He tells the characters that it's time someone took a stand against the Redbrands' leader, Glasstaff. Daran knows the Redbrands hang around the Sleeping Giant tap house, but he can also tell the characters that the main Redbrand safe house lies under Tresendar Manor, the ruin at the east edge of town. (See the &#34;Tresendar Manor&#34; section for more information.)</p>
-					<p><b>Quest</b>: Old Owl Trouble. Daran has heard stories from prospectors in the hills northeast of Phandalin that someone is digging around in the ruins known as Old Owl Wel!. More disturbingly, several prospectors have reported being chased from the area by undead. He asks the characters to visit the ruins, a couple days march northeast of Phandalin, and find out who's there and what they're up to. Daran knows that the ruins are an old watchtower of an ancient magical empire known as Netheril, and he worries that dangerous magic might be dormant there. If the party pursues this quest, see &#34;Old Owl Well&#34; (page 29).</p>
-					<h>JOINING THE ORDER OF THE GAUNTLET</h>
-					<p>If the party deals with the Redbrands and investigates Old Owl Well, Daran Edermath privately approaches certain members of the group to urge them to join the Order of the Gauntlet. He speaks with those who exemplify the virtues of the order, such as honor and vigilance. If a character agrees, Daran awards the person the title of Cheval!.</p>
-				</text>
-			</id-00017>
-			<id-00018>
-				<name type="string">Phandalin Miner's Exchange</name>
-				<text type="formattedtext">
-					<p>The Miner's Exchange is a trading post where local miners have their valuable finds weighed, measured, and paid out. In the absence of any local lord or authority, the exchange also serves as an unofficial records office, registering claims to various streams and excavations around the area. There isn't any real gold rush in Phandalin, but enough wealth is hidden in the nearby streams and valleys to support a good number of independent prospectors.</p>
-					<p>The exchange is a great place to meet people who spend a lot of time out and about in the countryside surrounding Phandalin. The guildmaster is an ambitious and calculating human woman named Halia Thornton. In her attempts to establish the Miner's Exchange as the closest thing the town has to a governing authority, she acts as more than a simple merchant. She is also an agent of the Zhentarim, a powerful organization that seeks to exert secret control over the North through wealth and influence. Halia is working slowly to bring Phandalin under her control, and can become a valuable patron to the characters if they don't cross her. </p>
-					<p>Halia doesn't know the location of Cragmaw Castle, but she has heard that the Redbrands have a goblin minion serving them. She suggests the goblin might know the location. She leverages this information to try to persuade the characters into helping her deal with the Redbrands.</p>
-					<p><b>Quest</b>: Halia'sJob Offer. If approached by characters she believes she can control, Halia explains that the Redbrands are a problem. She tells how the ruffians loiter around the Sleeping Giant tap house and have a base under Tresendar Manor, on the east edge of town. She then offers the characters 100 gp to eliminate the Redbrand leader, whom the outlaws call Glasstaff, and bring her any correspondence found in the leader's quarters. Halia doesn't reveal that she wants to take over the Redbrand operation herself. A DC 15 Wisdom (Insight) check indicates she has ulterior motives for wanting the Redbrand leader dead.</p>
-					<h>JOINING THE ZHENTARIM</h>
-					<p>If the party disposes of the Redbrand leader, Halia Thornton approaches certain members of the group to urge them to join the Zhentarim. She speaks with those who share the Zhentarim's pursuits, such as wealth and power. Even if the party wipes out the Redbrand gang, Halia might still extend the offer in an effort to gain friends (and spies) within the party. If a character agrees, Halia gives the individual the title of Fang.</p>
-					<p></p>
-				</text>
-			</id-00018>
-			<id-00019>
-				<name type="string">Alderleaf Farm</name>
-				<text type="formattedtext">
-					<p>A wise female halfling of forty-five, Qelline Alderleaf is a pragmatic farmer who seems to know everything that goes on in town. She is a kind host, and is willing to let the characters stay in her hayloft if they don't want to stay at the Stonehill Inn.</p>
-					<p><b>Carp's Story.</b> Qelline's son, Carp, is a spirited and precocious halfling lad of ten years. He is enchanted by the idea of being an adventurer and says that he was playing in the woods near Tresendar Manor when he found a secret tunnel in a thicket. A couple of &#34;big ugly bandits&#34; came out of the tunnel when he was there, and met with a pair of Redbrands. They didn't see him, but it was close. Carp thinks that the bandits have a secret lair under the old manor house. He can take the characters to the tunnel or provide them with directions to the location. The tunnel leads to area 8 in the Redbrand hideout.</p>
-					<p><b>Quest:</b> Reidoth the Druid. Qelline is a longtime friend of a druid named Reidoth. If she figures out that the characters are looking for specific sites in the area, such as Cragmaw Castle or Wave Echo Cave, she suggests that they visit Reidoth and ask for his help, &#34;since there's not an inch of the land he doesn't know.&#34; She tells the characters that Reidoth recently set out for the ruins of a town called Thundertree, just west of the Neverwinter Wood. The ruins are about fifty miles northwest of Phandalin, and she provides directions so the characters can easily find the place. If the party pursues this quest, see &#34;Ruins of Thundertree&#34; (page 30).</p>
-				</text>
-			</id-00019>
-			<id-00020>
-				<name type="string">Shrine Of Luck</name>
-				<text type="formattedtext">
-					<p>Phandalin's only temple is a small shrine made of stones taken from the nearby ruins. It is dedicated to Tymora, goddess of luck and good fortune.</p>
-					<p>The shrine is in the care of a scholarly acolyte named Sister Garaele, a zealous young elf who despairs of ever ridding Phandalin of the Redbrands. Sister Garaele is a member of the Harpers, a scattered network of adventurers and spies who advocate equality and covertly oppose the abuse of power. The Harpers gather information throughout the land to thwart tyrants and any leader, government, or group that grows too strong. They aid the weak, the poor, and the oppressed. Sister Garaele regularly reports to her superiors on events in and around Phandalin.</p>
-					<p><b>Quest</b>: The Banshee's Bargain. Recently, Garaele's superiors asked her to undertake a delicate mission. They wanted her to persuade a banshee named Agatha to answer a question about a spellbook. Garaele sought out Agatha in her lair, but the creature did not appear for her.</p>
-					<p>Garaele desires an intermediary to bring Agatha a suitable gift, a jeweled silver comb, and persuade the creature to tell what she knows about the location of a spellbook belonging to a legendary mage named Bowgentle. Sister Garaele believes that a character who flatters Agatha's vanity might be able to trade the comb for an answer. She offers the quest to the characters and offers them three potions of healing as payment for their efforts. If the party pursues this quest, see &#34;Conyberry and Agatha's Lair&#34; (page 28).</p>
-					<h>JOINING THE HARPERS</h>
-					<p>If the party helps Garaele learn the fate of Bowgentle's spell book, the elf privately approaches certain members of the group to urge them to join the Harpers. She speaks with those who exemplify the virtues of the network and possess a desire to enact positive change through information and secrecy. If a character agrees, Sister Garaele awards the individual the title of Watcher</p>
-				</text>
-			</id-00020>
-			<id-00021>
-				<name type="string">The Sleeping Giant</name>
-				<text type="formattedtext">
-					<p>This rundown tap house is a dirty, dangerous watering hole at the end of Phandalin's main street. It is frequented by Redbrand thugs and operated by a surly female dwarf named Grista. If the characters choose to visit the place, run the &#34;Redbrand Ruffians&#34; encounter.</p>
-					<p></p>
-				</text>
-			</id-00021>
-			<id-00022>
-				<name type="string">Townmaster's Hall</name>
-				<text type="formattedtext">
-					<frame>The townmaster's hall has sturdy stone walls, a pitched wooden roof, and a bell tower at the back. Posted on a board next to the front door is a notice written in Common. It reads: &#34;REWARD-Orcs near Wyvern Tor! Those of a mind to face the orc menace should inquire within.&#34; The notice bears the town's seal and an indecipherable signature.</frame>
-					<p></p>
-					<p>Phandalin has no functioning government, but the townsfolk elect someone to serve as town master each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept. The current town master is a male human banker named Harbin Wester-a fat, pompous old fool. Completely intimidated by the Redbrands, he claims that they're &#34;just a mercenary guild, and not all that much trouble, really.&#34;</p>
-					<p>The townmaster's hall has a small but serviceable jail in the cellar. The jail consists of two cells, and Harbin carries keys to the cell doors.</p>
-					<p><b>Quest:</b> Ore Trouble. Harbin is looking for someone to head east on the Triboar Trail, where travelers have reported trouble with a band of orcs near Wyvern Tor. He offers 100 gp to any group that can take care of the problem. If the party pursues this quest, see &#34;Wyvern Tor&#34; (page 35).</p>
-					<p><b>Quest:</b> Finding Cregmaw Castle. After resting at the Stonehill Inn, Sildar Hallwinter establishes himself at the townmaster's hall. As an agent of the Lords' Alliance, his goal is to bring law and order to Phandalin. As such, he wants to find the lost mine of Wave Echo Cave and help the Rockseeker brothers put it back into production, believing that bringing prosperity to the region will help civilize the town</p>
-					<p>Sildar also encourages the characters to keep up the pressure on the Cragmaw goblins. He offers the party a 500 gp reward if they can locate Cragmaw Castle and defeat or drive off the tribe's chieftain. Sildar suggests the party might find the castle by searching the lands around the Triboar Trail for more raiding parties (see &#34;Wilderness Encounters&#34; in the &#34;Triboar Trail&#34; section of part 3).</p>
-					<p><b>Quest</b>: Finding Iarno. After questioning several locals, Sildar learns that larno Albrek, a fellow member of the Lords' Alliance, disappeared while exploring the area around Tresendar Manor about two months ago, shortly after arriving in Phandalin. Sildar asks the characters to investigate the manor and the surrounding area to find and bring back larno-or what's left of him, if something killed him. Sildar describes larno as &#34;a short, darkbearded human wizard in his thirties.&#34;</p>
-					<p>Unknown to Sildar, larno created the Redbrands, installed himself as their leader, and took the alias Glasstaff to conceal his identity. (The Redbrands call him that because he carries a glass staff.) Once he learns the truth about larno, Sildar expresses a desire to have the wizard captured and transported to Neverwinter to face the judgment of a higher authority. Regardless of Iarno's fate, Sildar rewards the party with 200 gp for eliminating the Redbrand threat.</p>
-					<h>JOINING THE LORDS' ALLIANCE</h>
-					<p>If the party eliminates the goblin threat from Cragmaw Castle or uncovers larno's treachery, Sildar Hallwinter privately approaches certain members of the group to urge them to join the Lords' Alliance. He speaks with those who exemplify a desire for the security of civilization through action. If a character agrees, Sildar Hallwinter awards the individual the title of Cloak</p>
-				</text>
-			</id-00022>
-			<id-00023>
-				<name type="string">Tresendar Manor</name>
-				<text type="formattedtext">
-					<frame>More a castle than a house, Tresendar Manor stands at the east edge of town on a low hillside amid woods and thickets. The ancient manor has long been abandoned.</frame>
-					<p>The cellars have been converted into a Redbrand stronghold. If the characters investigate this place, they find the entrance to the Redbrand hideout.</p>
-				</text>
-			</id-00023>
-		</category>
-		<category name="Act 2: Redbrand Hideout" baseicon="0" decalicon="0">
-			<id-00025>
-				<name type="string">Redbrand Hideout</name>
-				<text type="formattedtext">
-					<p>The Redbrands' base in Phandalin is a dungeon complex under Tresendar Manor. Before the manor was ruined, its cellars served as safe storage for food and water in the event that the estate was attacked, while an adjoining crypt provided a resting place for the deceased members of the Tresendar family. The Redbrands have since expanded the cellars to suit their own purposes, adding slave pens, workshops, and barracks.</p>
-					<p>If the characters begin their search at Tresendar Manor, they enter the dungeon in area 1. If they instead follow Carp Alderleaf to the secret tunnel the lad found, they enter the dungeon by way of area 8.</p>
-					<h>GENERAL FEATURES</h>
-					<p>The hideout consists of well-built dungeon chambers with flagstone floors and walls of dressed stone blocks. The western end of the complex is lower than the eastern end, with stairs leading down as the characters explore</p>
-					<p><b>Ceilings</b>. Passages and chambers are 10 feet high unless otherwise indicated.</p>
-					<p><b>Doors.</b> All doors are made of wood with iron handles, hinges, and built-in locks. They are unlocked unless the text states otherwise. Iarno Albrek (area 12) and a bugbear named Mosk (area 9) each carry an iron key that can lock or unlock every door in the complex.</p>
-					<p>A locked door can be picked with thieves' tools and a successful DC 10 Dexterity check. A door can also be broken down with a successful DC 20 Strength check.</p>
-					<p><b>Secret Doors</b>. An &#34;S&#34; on the Redbrand Hideout map indicates the location of a secret door. </p>
-					<p>Secret doors are made of stone and blend in with the surrounding walls. Spotting a secret door from a distance of no more than 10 feet without actively searching for it requires a passive Wisdom (Perception) score of 15 or higher, whereas a character who takes the time to search the wall can find the secret door with a successful DC 10 Wisdom (Perception) check. Secret doors swing open on hidden iron hinges and are not locked.</p>
-					<p><b>Light.</b> Most areas are brightly lit by oil lamps in wall sconces, refilled every few hours as needed.</p>
-					<h>WHAT THE REDBRANDS KNOW</h>
-					<p>If the characters charm or successfully question any of the Redbrands, they can learn the location of their hideout under Tresendar Manor as well as the following useful information:</p>
-					<list>
-						<li>The leader of the Redbrands is a human wizard known as Glasstaff, so named because his magic staff is made of glass. (Only larno Albrek and the Black Spider know Glasstaff's real name.) Glasstaff's chambers are in the western end of the stronghold (see areas 11 and 12).</li>
-						<li>A mysterious figure called the Black Spider has hired the Redbrands to frighten off adventurers and intimidate the locals, for reasons unknown. The Black Spider has sent bugbears to reinforce the Redbrands and provide extra muscle (see area 9).</li>
-						<li>The lower part of the complex is guarded by a hideous &#34;eye monster&#34; (see area 8).</li>
-						<li>The Redbrands have a handful of captives in a holding area &#34;near the old crypts,&#34; which are guarded by skeletons (see areas 4 and 5).</li>
-					</list>
-					<h>LOCATIONS</h>
-					<linklist>
-						<link class="" recordname="">1. Cellar</link>
-						<link class="" recordname="">2. Barracks</link>
-						<link class="" recordname="">3. Trapped Hall</link>
-						<link class="" recordname="">4. Tresendar Crypts</link>
-						<link class="" recordname="">5. Slave Pens</link>
-						<link class="" recordname="">6. Armory</link>
-						<link class="" recordname="">7. Storeroom and Work Area</link>
-						<link class="" recordname="">8. Crevasse</link>
-						<link class="" recordname="">9. Guard Barracks</link>
-						<link class="" recordname="">10. Common Room</link>
-						<link class="" recordname="">11. Wizard's Workshop </link>
-						<link class="" recordname="">12. Glasstaff's Quarters</link>
-					</linklist>
-				</text>
-			</id-00025>
 		</category>
 		<category name="Lost Mine of Phandelver - Start" baseicon="0" decalicon="0">
 			<id-00013>
@@ -2726,7 +2363,6 @@
 			<image type="image">
 				<bitmap>images/cragmore-hidef.jpg</bitmap>
 			</image>
-			<isidentified type="number">0</isidentified>
 			<name type="string">cragmore-hidef</name>
 		</id-00001>
 		<id-00002>
@@ -3184,637 +2820,6 @@
 		</id-00001>
 	</notes>
 	<npc>
-		<id-00005>
-			<abilities>
-				<charisma>
-					<bonus type="number">0</bonus>
-					<score type="number">11</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">1</bonus>
-					<score type="number">12</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">2</bonus>
-					<score type="number">14</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">-1</bonus>
-					<score type="number">9</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">0</bonus>
-					<score type="number">11</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">-1</bonus>
-					<score type="number">9</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">14</ac>
-			<actext type="string">Studded leather armor</actext>
-			<actions>
-				<id-00001>
-					<desc type="string"> The ruffian makes two melee attacks</desc>
-					<name type="string">Multiattack</name>
-				</id-00001>
-				<id-00003>
-					<desc type="string">Melee Weapon: Reach 5ft., one target\nAttack: +3 to hit\nHit: 1d8+1 slashing damage</desc>
-					<name type="string">Longsword</name>
-				</id-00003>
-				<id-00004>
-					<desc type="string">Ranged Weapon: Range 100 ft/400 ft, one target\nAttack: +2 to hit\nHit: 1d10 piercing damage</desc>
-					<name type="string">Heavy Crossbow</name>
-				</id-00004>
-			</actions>
-			<alignment type="string">NE</alignment>
-			<cr type="string">1/2</cr>
-			<hd type="string">3d8+3</hd>
-			<hp type="number">16</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<languages type="string">Common</languages>
-			<legendaryactions>
-			</legendaryactions>
-			<locked type="number">1</locked>
-			<name type="string">Redbrand Ruffian</name>
-			<reactions>
-			</reactions>
-			<senses type="string">Passive Perception 9</senses>
-			<size type="string">Medium</size>
-			<skills type="string">Intimidation +2</skills>
-			<speed type="string">30 ft.</speed>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<type type="string">Huminoid</type>
-			<xp type="number">100</xp>
-		</id-00005>
-		<id-00006>
-			<abilities>
-				<charisma>
-					<bonus type="number">-3</bonus>
-					<score type="number">5</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">2</bonus>
-					<score type="number">15</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">2</bonus>
-					<score type="number">14</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">-2</bonus>
-					<score type="number">6</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">-1</bonus>
-					<score type="number">8</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">13</ac>
-			<actext type="string">Armor Scraps</actext>
-			<actions>
-				<id-00001>
-					<desc type="string">Melee Weapon:\nAttack: +4 to hit, reach 5ft, one target.\nHit: 1d6 + 2 piercing damage</desc>
-					<name type="string">Shortsword</name>
-				</id-00001>
-				<id-00002>
-					<desc type="string">Ranged Weapon:\nAttack +4 to hit, range 80ft/320ft, one target\nHit: 1d6 + 2 piercing damage</desc>
-					<name type="string">Shortbow</name>
-				</id-00002>
-			</actions>
-			<alignment type="string">LE</alignment>
-			<conditionimmunities type="string">Poisoned</conditionimmunities>
-			<cr type="string">1/4</cr>
-			<damageimmunities type="string">Poison</damageimmunities>
-			<damagevulnerabilities type="string">Bludgeoning</damagevulnerabilities>
-			<hd type="string">2d8+4</hd>
-			<hp type="number">13</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<languages type="string">None</languages>
-			<legendaryactions>
-			</legendaryactions>
-			<locked type="number">1</locked>
-			<name type="string">Skeleton</name>
-			<reactions>
-			</reactions>
-			<senses type="string">Darvistion 60ft.\nPassive Perception 9</senses>
-			<size type="string">Medium</size>
-			<speed type="string">30 ft.</speed>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<type type="string">Undead</type>
-			<xp type="number">50</xp>
-		</id-00006>
-		<id-00007>
-			<abilities>
-				<charisma>
-					<bonus type="number">-1</bonus>
-					<score type="number">8</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">3</bonus>
-					<score type="number">16</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">3</bonus>
-					<score type="number">16</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">1</bonus>
-					<score type="number">13</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">2</bonus>
-					<score type="number">14</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">15</ac>
-			<actext type="string">Natural Armor</actext>
-			<actions>
-				<id-00001>
-					<desc type="string">The nothic makes two attacks with its claws</desc>
-					<name type="string">Multiattack</name>
-				</id-00001>
-				<id-00002>
-					<desc type="string">Melee Weapon: Reach 5ft, one target\nAttack: +4 to hit\nHit: 1d6 +3 slashing damage</desc>
-					<name type="string">Claws</name>
-				</id-00002>
-				<id-00003>
-					<desc type="string">The nothic cooses one creature within 30 feet of it that it can see. The target must succeed on a DC 12 Constitution saving throw against the magic or take 3d6 necrotic damage</desc>
-					<name type="string">Rotting Gaze</name>
-				</id-00003>
-				<id-00004>
-					<desc type="string">The nothic chooses one creature within 30 feet of it that it can see. The target must contest its Charisma (Decption) check against the nothic's Wisdom (insgith) check. If the nothic wins, it magically learns one fact or secret about the creature</desc>
-					<name type="string">Weird Insight</name>
-				</id-00004>
-			</actions>
-			<alignment type="string">NE</alignment>
-			<cr type="string">2</cr>
-			<hd type="string">6d8+18</hd>
-			<hp type="number">45</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<legendaryactions>
-			</legendaryactions>
-			<locked type="number">1</locked>
-			<name type="string">Nothic</name>
-			<reactions>
-			</reactions>
-			<senses type="string">Truesight 120ft\nPassive Perception 12</senses>
-			<size type="string">Medium</size>
-			<skills type="string">Acrcana + 3\nInsight +4\nPerception +2\nStealth + 5</skills>
-			<speed type="string">30 ft</speed>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-				<id-00001>
-					<desc type="string">The nothic has advantage on Wisdom(Perception) checks that rely on sight</desc>
-					<name type="string">Keen sight</name>
-				</id-00001>
-			</traits>
-			<type type="string">Aberration</type>
-			<xp type="number">450</xp>
-		</id-00007>
-		<id-00008>
-			<abilities>
-				<charisma>
-					<bonus type="number">0</bonus>
-					<score type="number">11</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">0</bonus>
-					<score type="number">11</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">2</bonus>
-					<score type="number">14</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">3</bonus>
-					<score type="number">17</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">-1</bonus>
-					<score type="number">9</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">1</bonus>
-					<score type="number">12</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">12</ac>
-			<actions>
-				<id-00001>
-					<desc type="string">Melee Weapon: Reach 5ft, one target\nAttack: +1 to hit\nHit: 1d8 - 1 bludgeoning damage</desc>
-					<name type="string">Quarterstaff</name>
-				</id-00001>
-			</actions>
-			<alignment type="string">LE</alignment>
-			<cr type="string">1</cr>
-			<hd type="string">5d8</hd>
-			<hp type="number">22</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<languages type="string">Common\nDraconic\nDwarvish\nElvish</languages>
-			<legendaryactions>
-			</legendaryactions>
-			<locked type="number">1</locked>
-			<name type="string">Evil Mage</name>
-			<reactions>
-			</reactions>
-			<savingthrows type="string">Int +5\nWis + 3</savingthrows>
-			<senses type="string">Passive Perception 11</senses>
-			<size type="string">Medium</size>
-			<skills type="string">Arcana +5\nHistory +5</skills>
-			<speed type="string">30 ft</speed>
-			<spells>
-				<id-00001>
-					<desc type="string">Light\nMage Hand\nShocking Grip</desc>
-					<name type="string">Cantrips</name>
-				</id-00001>
-				<id-00002>
-					<desc type="string">Charm Person\nMagic Missile</desc>
-					<name type="string">1st Level (4 slots)</name>
-				</id-00002>
-				<id-00003>
-					<desc type="string">Hold Persion\nMisty Step</desc>
-					<name type="string">2nd Level(3 slots)</name>
-				</id-00003>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<type type="string">Humanoid</type>
-			<xp type="number">200</xp>
-		</id-00008>
-		<id-00009>
-			<abilities>
-				<charisma>
-					<bonus type="number">-2</bonus>
-					<score type="number">6</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">0</bonus>
-					<score type="number">11</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">3</bonus>
-					<score type="number">16</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">-4</bonus>
-					<score type="number">2</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">-3</bonus>
-					<score type="number">4</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">-1</bonus>
-					<score type="number">8</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">14</ac>
-			<actext type="string">Natural Armor</actext>
-			<actions>
-				<id-00001>
-					<desc type="string">Melee Weapon: Reach 5ft, one Target\nAttack: +5 to hit\nHit: 1d4+3 piercing damage\nEffect: On hit the Stirge attaches to the target. While attached, the stirge doesn't attack.Instead at the start of each of the stirge's turns, the target lses 1d4+3 hit points due to blood loss.\n\nThe stirge can detach itself by speding 5 feet of movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use an action to remove the stirge.</desc>
-					<name type="string">Blood Drain</name>
-				</id-00001>
-			</actions>
-			<alignment type="string">Unaligned</alignment>
-			<cr type="string">1/8</cr>
-			<hd type="string">1d4</hd>
-			<hp type="number">2</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<legendaryactions>
-			</legendaryactions>
-			<locked type="number">1</locked>
-			<name type="string">Stirge</name>
-			<reactions>
-			</reactions>
-			<senses type="string">Darkvision 60ft\nPassive Perception 9</senses>
-			<size type="string">Tiny</size>
-			<speed type="string">40 ft fly\n10ft</speed>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<type type="string">Beast</type>
-			<xp type="number">25</xp>
-		</id-00009>
-		<id-00010>
-			<abilities>
-				<charisma>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">0</ac>
-			<actions>
-			</actions>
-			<hp type="number">0</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<legendaryactions>
-			</legendaryactions>
-			<name type="string">Ghoul</name>
-			<reactions>
-			</reactions>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<xp type="number">0</xp>
-		</id-00010>
-		<id-00011>
-			<abilities>
-				<charisma>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">0</ac>
-			<actions>
-			</actions>
-			<hp type="number">0</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<legendaryactions>
-			</legendaryactions>
-			<name type="string">Ogre</name>
-			<reactions>
-			</reactions>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<xp type="number">0</xp>
-		</id-00011>
-		<id-00012>
-			<abilities>
-				<charisma>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">0</ac>
-			<actions>
-			</actions>
-			<hp type="number">0</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<legendaryactions>
-			</legendaryactions>
-			<name type="string">Hobgoblin</name>
-			<reactions>
-			</reactions>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<xp type="number">0</xp>
-		</id-00012>
-		<id-00013>
-			<abilities>
-				<charisma>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">0</bonus>
-					<score type="number">10</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">0</ac>
-			<actions>
-			</actions>
-			<hp type="number">0</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<legendaryactions>
-			</legendaryactions>
-			<name type="string">Orc</name>
-			<reactions>
-			</reactions>
-			<size type="string">Medium</size>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-			</traits>
-			<type type="string">Humo</type>
-			<xp type="number">0</xp>
-		</id-00013>
-		<id-00015>
-			<abilities>
-				<charisma>
-					<bonus type="number">-2</bonus>
-					<score type="number">7</score>
-				</charisma>
-				<constitution>
-					<bonus type="number">3</bonus>
-					<score type="number">17</score>
-				</constitution>
-				<dexterity>
-					<bonus type="number">1</bonus>
-					<score type="number">12</score>
-				</dexterity>
-				<intelligence>
-					<bonus type="number">-4</bonus>
-					<score type="number">3</score>
-				</intelligence>
-				<strength>
-					<bonus type="number">5</bonus>
-					<score type="number">20</score>
-				</strength>
-				<wisdom>
-					<bonus type="number">1</bonus>
-					<score type="number">12</score>
-				</wisdom>
-			</abilities>
-			<ac type="number">13</ac>
-			<actext type="string">Natural Armor</actext>
-			<actions>
-				<id-00001>
-					<desc type="string">The owlbear makes two attacks, one with its beak and on ewith its claws</desc>
-					<name type="string">Multiattack</name>
-				</id-00001>
-				<id-00002>
-					<desc type="string">Melee Weapon: Reach 5ft, one target\nAttack: +7 to hit\nHit: 1d10+5 piercing damage</desc>
-					<name type="string">Beak</name>
-				</id-00002>
-				<id-00003>
-					<desc type="string">Melee Weapon: Reach 5ft, one target\nAttack: +7 to hit\nHit: 2d8+5 slashing damage</desc>
-					<name type="string">Claws</name>
-				</id-00003>
-			</actions>
-			<alignment type="string">Unaligned</alignment>
-			<hd type="string">7d10+21</hd>
-			<hp type="number">59</hp>
-			<innatespells>
-			</innatespells>
-			<lairactions>
-			</lairactions>
-			<legendaryactions>
-			</legendaryactions>
-			<locked type="number">1</locked>
-			<name type="string">Owlbear</name>
-			<reactions>
-			</reactions>
-			<senses type="string">Darkvision 60ft\nPassive Perception 13</senses>
-			<size type="string">Large</size>
-			<skills type="string">Perception +3</skills>
-			<speed type="string">40 ft</speed>
-			<spells>
-			</spells>
-			<text type="formattedtext">
-			</text>
-			<token type="token"></token>
-			<traits>
-				<id-00001>
-					<desc type="string">The owlbear has advantage on Wisdom(Perception) checks that rely on sight or smell</desc>
-					<name type="string">Keen Sight and Smell</name>
-				</id-00001>
-			</traits>
-			<type type="string">Monstrosity</type>
-			<xp type="number">0</xp>
-		</id-00015>
 		<category name="Monsters" baseicon="0" decalicon="0">
 			<id-00001>
 				<abilities>

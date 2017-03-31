@@ -241,11 +241,6 @@
 	<effects>
 		<public />
 	</effects>
-	<export>
-		<file type="string">Classes</file>
-		<name type="string">Classes</name>
-		<readonly type="number">0</readonly>
-	</export>
 	<image>
 	</image>
 	<languages>

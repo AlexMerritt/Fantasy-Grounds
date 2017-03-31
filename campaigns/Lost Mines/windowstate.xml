@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.2">
-	<window data="" class="library" pos="260,69,1289,764" />
+	<window data="" class="library" pos="12,12,1041,707" />
 	<window data="" class="lightingselection" pos="717,198,882,658" />
 	<window data="" class="moduleselection" pos="192,27,892,557" />
 	<window data="" class="pointerselection" pos="675,300,925,555" />
 	<window data="" class="select_dialog" pos="625,228,975,628" />
+	<window data="" class="tokenbag" pos="590,305,990,705" />
 	<window data="background" class="masterindex" pos="575,203,1025,653" />
-	<window data="battle" class="masterindex" pos="449,131,899,581" />
+	<window data="battle" class="masterindex" pos="302,60,954,620" />
 	<window data="battle.id-00001" class="battle" pos="107,301,457,701" />
 	<window data="battle.id-00002" class="battle" pos="67,54,417,454" />
 	<window data="battle.id-00003" class="battle" pos="478,233,828,633" />
@@ -37,7 +38,7 @@
 	<window data="combattracker.list.id-00009" class="npc" pos="365,97,825,647" />
 	<window data="combattracker.list.id-00012" class="npc" pos="342,45,802,595" />
 	<window data="effects" class="effectlist" pos="540,228,1060,628" />
-	<window data="encounter" class="masterindex" pos="540,5,990,455" />
+	<window data="encounter" class="masterindex" pos="322,65,772,515" />
 	<window data="encounter.id-00001" class="encounter" pos="956,96,1356,746" />
 	<window data="encounter.id-00002" class="encounter" pos="165,27,815,751" />
 	<window data="encounter.id-00003" class="encounter" pos="12,111,412,761" />
@@ -81,20 +82,15 @@
 	<window data="notes" class="masterindex" pos="429,126,879,576" />
 	<window data="notes.id-00001" class="note" pos="584,111,1300,866" />
 	<window data="npc" class="masterindex" pos="499,52,949,502" />
-	<window data="npc.id-00001" class="npc" pos="-24,227,436,777" />
+	<window data="npc.id-00001" class="npc" pos="261,228,721,778" />
 	<window data="npc.id-00002" class="npc" pos="46,83,506,633" />
 	<window data="npc.id-00003" class="npc" pos="692,102,1152,652" />
 	<window data="npc.id-00004" class="npc" pos="206,64,666,614" />
 	<window data="partysheet" class="partysheet_host" pos="408,40,1208,540" />
 	<window data="quest" class="masterindex" pos="575,203,1025,653" />
-	<window data="race" class="masterindex" pos="274,82,724,532" />
+	<window data="race" class="masterindex" pos="274,82,778,626" />
 	<window data="race.id-00006@Races" class="reference_race" pos="625,253,975,603" />
 	<window data="race.id-00010@Races" class="reference_race" pos="337,209,687,559" />
-	<window data="reference.equipmentdata.bag@DD Basic Rules - DM" class="reference_equipment" pos="337,209,687,559" />
-	<window data="reference.equipmentlists.adventuringgeartable@DD Basic Rules - DM" class="reference_adventuringgeartable" pos="287,59,737,709" />
-	<window data="reference.equipmentlists.equipment@DD Basic Rules - DM" class="referenceindex" pos="337,159,687,609" />
-	<window data="reference.magicitemdata.bagofholding@DD Basic Rules - DM" class="reference_magicitem" pos="337,209,687,559" />
-	<window data="reference.magicitemlists.bytype@DD Basic Rules - DM" class="reference_colindex" pos="287,159,737,609" />
 	<window data="skill" class="masterindex" pos="951,182,1401,632" />
 	<window data="skill.id-00001" class="reference_skill" pos="625,328,975,628" />
 	<window data="skill.id-00002" class="reference_skill" pos="569,262,919,562" />
